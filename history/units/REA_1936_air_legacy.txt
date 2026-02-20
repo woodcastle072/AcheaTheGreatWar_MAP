@@ -1,0 +1,30 @@
+air_wings = {
+		1942 = { 								
+		CAS_equipment_0 = { owner = "REA" amount = 50 version_name = "Mapirio Mk 2" }
+tac_bomber_equipment_0 = { owner = "REA" amount = 50 version_name = "Mapirio Mk 2" }
+
+	}
+	1979 = { 								
+		nav_bomber_equipment_0 = { owner = "REA" amount = 50 version_name = "Sillintre Mk 0" }
+
+	}
+	1990 = { 								
+		CAS_equipment_0 = { owner = "REA" amount = 50 version_name = "Mapirio Mk 2" }
+
+	}
+	2000 = { 								
+		fighter_equipment_0 = { owner = "REA" amount = 50 version_name = "Sillintre Mk 1" }
+
+	}
+	1642 = { 								
+		nav_bomber_equipment_0 = { owner = "REA" amount = 50 version_name = "Sillintre Mk 0" }
+
+	}
+	1454 = { 								
+		fighter_equipment_0 = { owner = "REA" amount = 50 version_name = "Sillintre Mk 1" }
+tac_bomber_equipment_0 = { owner = "REA" amount = 50 version_name = "Mapirio Mk 2" }
+
+	}
+
+
+}

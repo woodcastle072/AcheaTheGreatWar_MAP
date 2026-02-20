@@ -1,0 +1,40 @@
+
+state={
+	id=774
+	name="STATE_774"
+	manpower = 352781
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=10
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = AGB
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			6362 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AGB
+	}
+
+	provinces={
+		6362 6363 6364 6365 6366 6367 6368 6369 
+	}
+	local_supplies=0.0 
+}

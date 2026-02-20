@@ -1,0 +1,41 @@
+
+state={
+	id=274
+	name="STATE_274"
+	manpower = 2841001
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=11
+	}
+
+	history={
+		victory_points = { 2209 8}
+		
+		owner = AGB
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			2208 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AGB
+	}
+
+	provinces={
+		2207 2208 2209 2210 2211 2212 2213 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,44 @@
+
+state={
+	id=403
+	name="STATE_403"
+	manpower = 11520762
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=1
+		oil=0
+		rubber=-2147483648
+		steel=14
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3302 11}
+		victory_points = { 3316 11}
+		victory_points = { 3318 7}
+		victory_points = { 3322 7}
+		
+		owner = HAF
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 4
+			3323 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HAF
+	}
+
+	provinces={
+		3297 3298 3299 3300 3301 3302 3303 3304 3305 3306 3307 3308 3309 3310 3311 3312 3313 3314 3315 3316 3317 3318 3319 3320 3321 3322 3323 3324 3325 3326 3327 3328 3329 3330 3331 3332 3333 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=605
+	name="STATE_605"
+	manpower = 3331538
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5058 4}
+		victory_points = { 5062 2}
+		victory_points = { 5067 1}
+		
+		owner = HIJ
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HIJ
+	}
+
+	provinces={
+		5058 5059 5060 5061 5062 5063 5064 5065 5066 5067 
+	}
+	local_supplies=0.0 
+}

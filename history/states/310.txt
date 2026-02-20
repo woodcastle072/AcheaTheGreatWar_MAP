@@ -1,0 +1,40 @@
+
+state={
+	id=310
+	name="STATE_310"
+	manpower = 6218671
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2488 4}
+		victory_points = { 2490 7}
+		victory_points = { 2503 4}
+		
+		owner = DAN
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = DAN
+	}
+
+	provinces={
+		2485 2486 2487 2488 2489 2490 2491 2492 2493 2494 2495 2496 2497 2498 2499 2500 2501 2502 2503 2504 2505 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=584
+	name="STATE_584"
+	manpower = 9652425
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=4
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=1
+	}
+
+	history={
+		victory_points = { 4822 10}
+		victory_points = { 4826 15}
+		
+		owner = HIJ
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 1
+			industrial_complex = 2
+			
+			4822 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HIJ
+	}
+
+	provinces={
+		4816 4817 4818 4819 4820 4821 4822 4823 4824 4825 4826 4827 4828 4829 4830 4831 4832 4833 4834 4835 4836 4837 4838 4839 4840 4841 4842 4843 4844 4845 4846 4847 4848 
+	}
+	local_supplies=0.0 
+}

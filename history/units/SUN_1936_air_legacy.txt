@@ -1,0 +1,14 @@
+air_wings = {
+		823 = { 								
+		CAS_equipment_0 = { owner = "SUN" amount = 6 version_name = "Kabal Mk 1" }
+tac_bomber_equipment_0 = { owner = "SUN" amount = 4 version_name = "Lamna Mk 1" }
+
+	}
+	1707 = { 								
+		fighter_equipment_0 = { owner = "SUN" amount = 9 version_name = "Benque Mk 1" }
+nav_bomber_equipment_0 = { owner = "SUN" amount = 10 version_name = "Chilanilam Mk 2" }
+
+	}
+
+
+}

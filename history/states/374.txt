@@ -1,0 +1,40 @@
+
+state={
+	id=374
+	name="STATE_374"
+	manpower = 2897204
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3069 1}
+		victory_points = { 3070 2}
+		victory_points = { 3078 2}
+		
+		owner = DAN
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = DAN
+	}
+
+	provinces={
+		3069 3070 3071 3072 3073 3074 3075 3076 3077 3078 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=389
+	name="STATE_389"
+	manpower = 2369097
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3178 4}
+		victory_points = { 3182 1}
+		
+		owner = HAF
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = HAF
+	}
+
+	provinces={
+		3178 3179 3180 3181 3182 3183 3184 
+	}
+	local_supplies=0.0 
+}

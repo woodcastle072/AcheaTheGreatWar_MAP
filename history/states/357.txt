@@ -1,0 +1,39 @@
+
+state={
+	id=357
+	name="STATE_357"
+	manpower = 2481067
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=5
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2946 3}
+		victory_points = { 2949 3}
+		
+		owner = DOH
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = DOH
+	}
+
+	provinces={
+		2946 2947 2948 2949 2950 2951 
+	}
+	local_supplies=0.0 
+}

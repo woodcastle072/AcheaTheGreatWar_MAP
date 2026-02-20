@@ -1,0 +1,38 @@
+
+state={
+	id=521
+	name="STATE_521"
+	manpower = 1285653
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=9
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4267 1}
+		
+		owner = HAF
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = HAF
+	}
+
+	provinces={
+		4267 4268 4269 4270 
+	}
+	local_supplies=0.0 
+}

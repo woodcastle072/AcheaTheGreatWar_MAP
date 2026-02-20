@@ -1,0 +1,40 @@
+
+state={
+	id=435
+	name="STATE_435"
+	manpower = 6274000
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3587 7}
+		victory_points = { 3591 5}
+		victory_points = { 3598 6}
+		
+		owner = DAN
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = DAN
+	}
+
+	provinces={
+		3582 3583 3584 3585 3586 3587 3588 3589 3590 3591 3592 3593 3594 3595 3596 3597 3598 3599 3600 
+	}
+	local_supplies=0.0 
+}

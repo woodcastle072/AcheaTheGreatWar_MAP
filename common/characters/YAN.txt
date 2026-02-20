@@ -1,0 +1,880 @@
+characters = {
+	YAN_Yilmaz_Saat={
+		name="Yilmaz Saat"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YAN_Suat_Orman={
+		name="Suat Orman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAN_Suat_Orman
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	YAN_Hakan_Yoldirlik={
+		name="Hakan Yoldirlik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAN_Hakan_Yoldirlik
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	YAN_Suatugrul_Yildirlik={
+		name="Suatugrul Yildirlik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAN_Suatugrul_Yildirlik
+				traits = {	humble 	}
+		}
+
+	}
+	YAN_Utku_Saat={
+		name="Utku Saat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAN_Utku_Saat
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	YAN_Ademaz_Toplu={
+		name="Ademaz Toplu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAN_Ademaz_Toplu
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	YAN_Farul_Sahil={
+		name="Farul Sahil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAN_Farul_Sahil
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	YAN_Ramazanerhan_Akin={
+		name="Ramazanerhan Akin"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAN_Ramazanerhan_Akin
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	YAN_Enesulent_Yildirlik={
+		name="Enesulent Yildirlik"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAN_Enesulent_Yildirlik
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	YAN_Savas_Saat={
+		name="Savas Saat"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAN_Savas_Saat
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	YAN_Adem_Akguk={
+		name="Adem Akguk"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAN_Adem_Akguk
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	YAN_Halhat_Duygukar={
+		name="Halhat Duygukar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YAN_Halhat_Duygukar
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	YAN_Ilkerha_Toplu={
+		name="Ilkerha Toplu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YAN_Ilkerha_Toplu
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	YAN_Bulent_Toplu={
+		name="Bulent Toplu"
+
+		advisor={
+			slot = air_chief
+			idea_token = YAN_Bulent_Toplu
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	YAN_Harul_Duygukar={
+		name="Harul Duygukar"
+
+		advisor={
+			slot = air_chief
+			idea_token = YAN_Harul_Duygukar
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	YAN_Ademaz_Akin={
+		name="Ademaz Akin"
+
+		advisor={
+			slot = high_command
+			idea_token = YAN_Ademaz_Akin
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	YAN_Talhan_Saat={
+		name="Talhan Saat"
+
+		advisor={
+			slot = high_command
+			idea_token = YAN_Talhan_Saat
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	YAN_Ertuha_Yoldirlik={
+		name="Ertuha Yoldirlik"
+
+		advisor={
+			slot = high_command
+			idea_token = YAN_Ertuha_Yoldirlik
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	YAN_Mustafer_Sahil={
+		name="Mustafer Sahil"
+
+		advisor={
+			slot = high_command
+			idea_token = YAN_Mustafer_Sahil
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	YAN_Murat_Sahil={
+		name="Murat Sahil"
+
+		advisor={
+			slot = high_command
+			idea_token = YAN_Murat_Sahil
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	YAN_Suat_Toplu={
+		name="Suat Toplu"
+
+		advisor={
+			slot = high_command
+			idea_token = YAN_Suat_Toplu
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	YAN_Farun_Toplu={
+		name="Farun Toplu"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { archon_basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YAN_Kerem_Akin={
+		name="Kerem Akin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAN_Kerem_Akin
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	YAN_Farunc_Yoldirlik={
+		name="Farunc Yoldirlik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAN_Farunc_Yoldirlik
+				traits = {	warmonger 	}
+		}
+
+	}
+	YAN_Ilkender_Sonbah={
+		name="Ilkender Sonbah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAN_Ilkender_Sonbah
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	YAN_Farunc_Duygukar={
+		name="Farunc Duygukar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAN_Farunc_Duygukar
+				traits = {	generallissimo 	}
+		}
+
+	}
+	YAN_Halcinan_Sahil={
+		name="Halcinan Sahil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAN_Halcinan_Sahil
+				traits = {	autokrator 	}
+		}
+
+	}
+	YAN_Utku_Orman={
+		name="Utku Orman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAN_Utku_Orman
+				traits = {	generallissimo 	}
+		}
+
+	}
+	YAN_Mura_Akguk={
+		name="Mura Akguk"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAN_Mura_Akguk
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	YAN_Savas_Toplu={
+		name="Savas Toplu"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAN_Savas_Toplu
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	YAN_Kadir_Akin={
+		name="Kadir Akin"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAN_Kadir_Akin
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	YAN_Salim_Akguk={
+		name="Salim Akguk"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAN_Salim_Akguk
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	YAN_Farunc_Akguk={
+		name="Farunc Akguk"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YAN_Farunc_Akguk
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	YAN_Talilmaz_Yildirlik={
+		name="Talilmaz Yildirlik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YAN_Talilmaz_Yildirlik
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	YAN_Ilkender_Yoldirlik={
+		name="Ilkender Yoldirlik"
+
+		advisor={
+			slot = air_chief
+			idea_token = YAN_Ilkender_Yoldirlik
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	YAN_Selim_Sonbah={
+		name="Selim Sonbah"
+
+		advisor={
+			slot = air_chief
+			idea_token = YAN_Selim_Sonbah
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	YAN_Orhan_Sahil={
+		name="Orhan Sahil"
+
+		advisor={
+			slot = high_command
+			idea_token = YAN_Orhan_Sahil
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	YAN_Salcin_Akguk={
+		name="Salcin Akguk"
+
+		advisor={
+			slot = high_command
+			idea_token = YAN_Salcin_Akguk
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	YAN_Muratugrul_Akguk={
+		name="Muratugrul Akguk"
+
+		advisor={
+			slot = high_command
+			idea_token = YAN_Muratugrul_Akguk
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	YAN_Utku_Toplu={
+		name="Utku Toplu"
+
+		advisor={
+			slot = high_command
+			idea_token = YAN_Utku_Toplu
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	YAN_Ramazanerhan_Akguk={
+		name="Ramazanerhan Akguk"
+
+		advisor={
+			slot = high_command
+			idea_token = YAN_Ramazanerhan_Akguk
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	YAN_Mustaferem_Saat={
+		name="Mustaferem Saat"
+
+		advisor={
+			slot = high_command
+			idea_token = YAN_Mustaferem_Saat
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	YAN_Selim_Saat={
+		name="Selim Saat"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YAN_Halih_Sahil={
+		name="Halih Sahil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAN_Halih_Sahil
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	YAN_Ilkerkan_Sahil={
+		name="Ilkerkan Sahil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAN_Ilkerkan_Sahil
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	YAN_Yalih_Akin={
+		name="Yalih Akin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAN_Yalih_Akin
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	YAN_Serhan_Sahil={
+		name="Serhan Sahil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAN_Serhan_Sahil
+				traits = {	polemarch 	}
+		}
+
+	}
+	YAN_Eminan_Duygukar={
+		name="Eminan Duygukar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAN_Eminan_Duygukar
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	YAN_Onuran_Sahil={
+		name="Onuran Sahil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAN_Onuran_Sahil
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	YAN_Emir_Toplu={
+		name="Emir Toplu"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAN_Emir_Toplu
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	YAN_Yalih_Sahil={
+		name="Yalih Sahil"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAN_Yalih_Sahil
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	YAN_Salim_Saat={
+		name="Salim Saat"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAN_Salim_Saat
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	YAN_Suatugrul_Yoldirlik={
+		name="Suatugrul Yoldirlik"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAN_Suatugrul_Yoldirlik
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	YAN_Barun_Sahil={
+		name="Barun Sahil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YAN_Barun_Sahil
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	YAN_Ilkerha_Duygukar={
+		name="Ilkerha Duygukar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YAN_Ilkerha_Duygukar
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	YAN_Suatugrul_Toplu={
+		name="Suatugrul Toplu"
+
+		advisor={
+			slot = air_chief
+			idea_token = YAN_Suatugrul_Toplu
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	YAN_Ertuha_Akguk={
+		name="Ertuha Akguk"
+
+		advisor={
+			slot = air_chief
+			idea_token = YAN_Ertuha_Akguk
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	YAN_Kadir_Orman={
+		name="Kadir Orman"
+
+		advisor={
+			slot = high_command
+			idea_token = YAN_Kadir_Orman
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	YAN_Barun_Yildirlik={
+		name="Barun Yildirlik"
+
+		advisor={
+			slot = high_command
+			idea_token = YAN_Barun_Yildirlik
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	YAN_Adem_Duygukar={
+		name="Adem Duygukar"
+
+		advisor={
+			slot = high_command
+			idea_token = YAN_Adem_Duygukar
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	YAN_Ertuha_Toplu={
+		name="Ertuha Toplu"
+
+		advisor={
+			slot = high_command
+			idea_token = YAN_Ertuha_Toplu
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	YAN_Halhat_Akguk={
+		name="Halhat Akguk"
+
+		advisor={
+			slot = high_command
+			idea_token = YAN_Halhat_Akguk
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	YAN_Ilkerha_Yoldirlik={
+		name="Ilkerha Yoldirlik"
+
+		advisor={
+			slot = high_command
+			idea_token = YAN_Ilkerha_Yoldirlik
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	YAN_Suat_Yoldirlik={
+		name="Suat Yoldirlik"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { the_young_magnate  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	YAN_Talilmaz_Akguk={
+		name="Talilmaz Akguk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAN_Talilmaz_Akguk
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	YAN_Mustafer_Orman={
+		name="Mustafer Orman"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAN_Mustafer_Orman
+				traits = {	the_banker 	}
+		}
+
+	}
+	YAN_Arif_Sonbah={
+		name="Arif Sonbah"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAN_Arif_Sonbah
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	YAN_Salim_Sahil={
+		name="Salim Sahil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAN_Salim_Sahil
+				traits = {	infirm 	}
+		}
+
+	}
+	YAN_Onurat_Saat={
+		name="Onurat Saat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAN_Onurat_Saat
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	YAN_Barun_Yoldirlik={
+		name="Barun Yoldirlik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = YAN_Barun_Yoldirlik
+				traits = {	the_banker 	}
+		}
+
+	}
+	YAN_Ademaz_Yildirlik={
+		name="Ademaz Yildirlik"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAN_Ademaz_Yildirlik
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	YAN_Ilkerha_Sahil={
+		name="Ilkerha Sahil"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAN_Ilkerha_Sahil
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	YAN_Orhan_Yoldirlik={
+		name="Orhan Yoldirlik"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAN_Orhan_Yoldirlik
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	YAN_Ilkerha_Sonbah={
+		name="Ilkerha Sonbah"
+
+		advisor={
+			slot = army_chief
+			idea_token = YAN_Ilkerha_Sonbah
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	YAN_Eminan_Sahil={
+		name="Eminan Sahil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YAN_Eminan_Sahil
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	YAN_Barunc_Yoldirlik={
+		name="Barunc Yoldirlik"
+
+		advisor={
+			slot = navy_chief
+			idea_token = YAN_Barunc_Yoldirlik
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	YAN_Harul_Sonbah={
+		name="Harul Sonbah"
+
+		advisor={
+			slot = air_chief
+			idea_token = YAN_Harul_Sonbah
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	YAN_Ramalha_Orman={
+		name="Ramalha Orman"
+
+		advisor={
+			slot = air_chief
+			idea_token = YAN_Ramalha_Orman
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	YAN_Onuran_Yoldirlik={
+		name="Onuran Yoldirlik"
+
+		advisor={
+			slot = high_command
+			idea_token = YAN_Onuran_Yoldirlik
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	YAN_Ertuhan_Sonbah={
+		name="Ertuhan Sonbah"
+
+		advisor={
+			slot = high_command
+			idea_token = YAN_Ertuhan_Sonbah
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	YAN_Zafe_Akin={
+		name="Zafe Akin"
+
+		advisor={
+			slot = high_command
+			idea_token = YAN_Zafe_Akin
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	YAN_Ertuhan_Yildirlik={
+		name="Ertuhan Yildirlik"
+
+		advisor={
+			slot = high_command
+			idea_token = YAN_Ertuhan_Yildirlik
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	YAN_Talilmaz_Yoldirlik={
+		name="Talilmaz Yoldirlik"
+
+		advisor={
+			slot = high_command
+			idea_token = YAN_Talilmaz_Yoldirlik
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	YAN_Zaferem_Duygukar={
+		name="Zaferem Duygukar"
+
+		advisor={
+			slot = high_command
+			idea_token = YAN_Zaferem_Duygukar
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	YAN_Ahmet_Duygukar={
+		name="Ahmet Duygukar"
+
+		advisor={
+			slot = theorist
+			idea_token = YAN_Ahmet_Duygukar
+				traits = {	military_theorist 	}
+		}
+
+	}
+	YAN_Barun_Akguk={
+		name="Barun Akguk"
+
+		advisor={
+			slot = theorist
+			idea_token = YAN_Barun_Akguk
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	YAN_Muratugrul_Sonbah={
+		name="Muratugrul Sonbah"
+
+		advisor={
+			slot = theorist
+			idea_token = YAN_Muratugrul_Sonbah
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

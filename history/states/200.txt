@@ -1,0 +1,39 @@
+
+state={
+	id=200
+	name="STATE_200"
+	manpower = 2344520
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1689 2}
+		victory_points = { 1690 4}
+		
+		owner = AGB
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AGB
+	}
+
+	provinces={
+		1688 1689 1690 1691 1692 
+	}
+	local_supplies=0.0 
+}

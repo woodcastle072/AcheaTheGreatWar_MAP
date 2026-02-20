@@ -1,0 +1,71 @@
+air_wings = {
+		407 = { 								
+		nav_bomber_equipment_0 = { owner = "DAN" amount = 50 version_name = "Hunarfaq Mk 0" }
+
+	}
+	405 = { 								
+		fighter_equipment_0 = { owner = "DAN" amount = 50 version_name = "Dand Mk 0" }
+
+	}
+	420 = { 								
+		fighter_equipment_0 = { owner = "DAN" amount = 50 version_name = "Dand Mk 0" }
+
+	}
+	434 = { 								
+		fighter_equipment_0 = { owner = "DAN" amount = 50 version_name = "Dand Mk 0" }
+
+	}
+	437 = { 								
+		fighter_equipment_0 = { owner = "DAN" amount = 50 version_name = "Dand Mk 0" }
+fighter_equipment_0 = { owner = "DAN" amount = 50 version_name = "Dand Mk 0" }
+fighter_equipment_0 = { owner = "DAN" amount = 50 version_name = "Dand Mk 0" }
+
+	}
+	289 = { 								
+		nav_bomber_equipment_0 = { owner = "DAN" amount = 50 version_name = "Hunarfaq Mk 0" }
+nav_bomber_equipment_0 = { owner = "DAN" amount = 50 version_name = "Hunarfaq Mk 0" }
+
+	}
+	299 = { 								
+		fighter_equipment_0 = { owner = "DAN" amount = 50 version_name = "Dand Mk 0" }
+
+	}
+	302 = { 								
+		fighter_equipment_0 = { owner = "DAN" amount = 50 version_name = "Dand Mk 0" }
+
+	}
+	304 = { 								
+		nav_bomber_equipment_0 = { owner = "DAN" amount = 50 version_name = "Hunarfaq Mk 0" }
+
+	}
+	340 = { 								
+		nav_bomber_equipment_0 = { owner = "DAN" amount = 50 version_name = "Hunarfaq Mk 0" }
+
+	}
+	781 = { 								
+		fighter_equipment_0 = { owner = "DAN" amount = 50 version_name = "Dand Mk 0" }
+
+	}
+	801 = { 								
+		nav_bomber_equipment_0 = { owner = "DAN" amount = 50 version_name = "Hunarfaq Mk 0" }
+
+	}
+	494 = { 								
+		fighter_equipment_0 = { owner = "DAN" amount = 50 version_name = "Dand Mk 0" }
+
+	}
+	503 = { 								
+		nav_bomber_equipment_0 = { owner = "DAN" amount = 50 version_name = "Hunarfaq Mk 0" }
+
+	}
+	1544 = { 								
+		nav_bomber_equipment_0 = { owner = "DAN" amount = 50 version_name = "Hunarfaq Mk 0" }
+
+	}
+	1712 = { 								
+		nav_bomber_equipment_0 = { owner = "DAN" amount = 50 version_name = "Hunarfaq Mk 0" }
+
+	}
+
+
+}

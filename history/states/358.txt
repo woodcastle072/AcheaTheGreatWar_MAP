@@ -1,0 +1,40 @@
+
+state={
+	id=358
+	name="STATE_358"
+	manpower = 4495627
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2952 7}
+		victory_points = { 2954 2}
+		victory_points = { 2962 6}
+		
+		owner = DAN
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = DAN
+	}
+
+	provinces={
+		2952 2953 2954 2955 2956 2957 2958 2959 2960 2961 2962 
+	}
+	local_supplies=0.0 
+}

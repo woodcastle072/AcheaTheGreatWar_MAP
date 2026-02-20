@@ -1,0 +1,40 @@
+
+state={
+	id=67
+	name="STATE_67"
+	manpower = 6136622
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 533 6}
+		victory_points = { 543 7}
+		victory_points = { 548 6}
+		
+		owner = AGB
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 1
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = AGB
+	}
+
+	provinces={
+		533 534 535 536 537 538 539 540 541 542 543 544 545 546 547 548 549 550 551 
+	}
+	local_supplies=0.0 
+}

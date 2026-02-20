@@ -1,0 +1,38 @@
+
+state={
+	id=1078
+	name="STATE_1078"
+	manpower = 2327911
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9771 5}
+		
+		owner = HIJ
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HIJ
+	}
+
+	provinces={
+		9765 9766 9767 9768 9769 9770 9771 9772 9773 
+	}
+	local_supplies=0.0 
+}

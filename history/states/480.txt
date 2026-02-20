@@ -1,0 +1,40 @@
+
+state={
+	id=480
+	name="STATE_480"
+	manpower = 670910
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = HAF
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			3969 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HAF
+	}
+
+	provinces={
+		3968 3969 
+	}
+	local_supplies=0.0 
+}

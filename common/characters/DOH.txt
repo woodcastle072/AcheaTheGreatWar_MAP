@@ -1,0 +1,880 @@
+characters = {
+	DOH_Mohammed_Noum={
+		name="Mohammed Noum"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { headstrong  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DOH_Imrahim_Sahalis={
+		name="Imrahim Sahalis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOH_Imrahim_Sahalis
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	DOH_Rami_Asat={
+		name="Rami Asat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOH_Rami_Asat
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	DOH_Rami_Noum={
+		name="Rami Noum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOH_Rami_Noum
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	DOH_Anwarim_Noum={
+		name="Anwarim Noum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOH_Anwarim_Noum
+				traits = {	headstrong 	}
+		}
+
+	}
+	DOH_Omar_Rabat={
+		name="Omar Rabat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOH_Omar_Rabat
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	DOH_Karim_Hijr={
+		name="Karim Hijr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOH_Karim_Hijr
+				traits = {	humble 	}
+		}
+
+	}
+	DOH_Nabilal_Hijr={
+		name="Nabilal Hijr"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOH_Nabilal_Hijr
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	DOH_Faid_Rabalim={
+		name="Faid Rabalim"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOH_Faid_Rabalim
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	DOH_Karim_Sahalis={
+		name="Karim Sahalis"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOH_Karim_Sahalis
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	DOH_Mahim_Matasjidda={
+		name="Mahim Matasjidda"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOH_Mahim_Matasjidda
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	DOH_Abdullali_Qahr={
+		name="Abdullali Qahr"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DOH_Abdullali_Qahr
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	DOH_Mohammed_Asat={
+		name="Mohammed Asat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DOH_Mohammed_Asat
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	DOH_Mahim_Rabat={
+		name="Mahim Rabat"
+
+		advisor={
+			slot = air_chief
+			idea_token = DOH_Mahim_Rabat
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	DOH_Omar_Sahalis={
+		name="Omar Sahalis"
+
+		advisor={
+			slot = air_chief
+			idea_token = DOH_Omar_Sahalis
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	DOH_Zaid_Noum={
+		name="Zaid Noum"
+
+		advisor={
+			slot = high_command
+			idea_token = DOH_Zaid_Noum
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	DOH_Farid_Matasjidda={
+		name="Farid Matasjidda"
+
+		advisor={
+			slot = high_command
+			idea_token = DOH_Farid_Matasjidda
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	DOH_Tariq_Sahalis={
+		name="Tariq Sahalis"
+
+		advisor={
+			slot = high_command
+			idea_token = DOH_Tariq_Sahalis
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	DOH_Abdullali_Noum={
+		name="Abdullali Noum"
+
+		advisor={
+			slot = high_command
+			idea_token = DOH_Abdullali_Noum
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	DOH_Samali_Hijr={
+		name="Samali Hijr"
+
+		advisor={
+			slot = high_command
+			idea_token = DOH_Samali_Hijr
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	DOH_Imrahmal_Hijr={
+		name="Imrahmal Hijr"
+
+		advisor={
+			slot = high_command
+			idea_token = DOH_Imrahmal_Hijr
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	DOH_Alid_Rabat={
+		name="Alid Rabat"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DOH_Fariq_Asat={
+		name="Fariq Asat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOH_Fariq_Asat
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	DOH_Jamir_Rabalim={
+		name="Jamir Rabalim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOH_Jamir_Rabalim
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	DOH_Jamir_Rabat={
+		name="Jamir Rabat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOH_Jamir_Rabat
+				traits = {	warmonger 	}
+		}
+
+	}
+	DOH_Hassan_Rabat={
+		name="Hassan Rabat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOH_Hassan_Rabat
+				traits = {	generallissimo 	}
+		}
+
+	}
+	DOH_Omar_Hijr={
+		name="Omar Hijr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOH_Omar_Hijr
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	DOH_Mohamir_Qahr={
+		name="Mohamir Qahr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOH_Mohamir_Qahr
+				traits = {	generallissimo 	}
+		}
+
+	}
+	DOH_Ramad_Sahalis={
+		name="Ramad Sahalis"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOH_Ramad_Sahalis
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	DOH_Jamad_Asat={
+		name="Jamad Asat"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOH_Jamad_Asat
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	DOH_Faisali_Rabalim={
+		name="Faisali Rabalim"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOH_Faisali_Rabalim
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	DOH_Faid_Asat={
+		name="Faid Asat"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOH_Faid_Asat
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	DOH_Bilahmad_Asat={
+		name="Bilahmad Asat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DOH_Bilahmad_Asat
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	DOH_Imrah_Khayr={
+		name="Imrah Khayr"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DOH_Imrah_Khayr
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	DOH_Samad_Qahr={
+		name="Samad Qahr"
+
+		advisor={
+			slot = air_chief
+			idea_token = DOH_Samad_Qahr
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	DOH_Omarid_Rabat={
+		name="Omarid Rabat"
+
+		advisor={
+			slot = air_chief
+			idea_token = DOH_Omarid_Rabat
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	DOH_Samad_Rabalim={
+		name="Samad Rabalim"
+
+		advisor={
+			slot = high_command
+			idea_token = DOH_Samad_Rabalim
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	DOH_Anwar_Matasjidda={
+		name="Anwar Matasjidda"
+
+		advisor={
+			slot = high_command
+			idea_token = DOH_Anwar_Matasjidda
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	DOH_Anwarim_Sahalis={
+		name="Anwarim Sahalis"
+
+		advisor={
+			slot = high_command
+			idea_token = DOH_Anwarim_Sahalis
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	DOH_Ramad_Khayr={
+		name="Ramad Khayr"
+
+		advisor={
+			slot = high_command
+			idea_token = DOH_Ramad_Khayr
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	DOH_Adnan_Matasjidda={
+		name="Adnan Matasjidda"
+
+		advisor={
+			slot = high_command
+			idea_token = DOH_Adnan_Matasjidda
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	DOH_Ahmad_Hijr={
+		name="Ahmad Hijr"
+
+		advisor={
+			slot = high_command
+			idea_token = DOH_Ahmad_Hijr
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	DOH_Abdullali_Muniyah={
+		name="Abdullali Muniyah"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DOH_Nabil_Khayr={
+		name="Nabil Khayr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOH_Nabil_Khayr
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	DOH_Nabilal_Rabat={
+		name="Nabilal Rabat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOH_Nabilal_Rabat
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	DOH_Faid_Noum={
+		name="Faid Noum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOH_Faid_Noum
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	DOH_Majid_Sahalis={
+		name="Majid Sahalis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOH_Majid_Sahalis
+				traits = {	political_dancer 	}
+		}
+
+	}
+	DOH_Ibrah_Khayr={
+		name="Ibrah Khayr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOH_Ibrah_Khayr
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	DOH_Hassan_Rabalim={
+		name="Hassan Rabalim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOH_Hassan_Rabalim
+				traits = {	political_dancer 	}
+		}
+
+	}
+	DOH_Sami_Matasjidda={
+		name="Sami Matasjidda"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOH_Sami_Matasjidda
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	DOH_Sami_Muniyah={
+		name="Sami Muniyah"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOH_Sami_Muniyah
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	DOH_Karim_Rabalim={
+		name="Karim Rabalim"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOH_Karim_Rabalim
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	DOH_Karid_Rabalim={
+		name="Karid Rabalim"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOH_Karid_Rabalim
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	DOH_Jamir_Muniyah={
+		name="Jamir Muniyah"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DOH_Jamir_Muniyah
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	DOH_Ibrahim_Rabalim={
+		name="Ibrahim Rabalim"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DOH_Ibrahim_Rabalim
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	DOH_Jamir_Noum={
+		name="Jamir Noum"
+
+		advisor={
+			slot = air_chief
+			idea_token = DOH_Jamir_Noum
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	DOH_Jamir_Matasjidda={
+		name="Jamir Matasjidda"
+
+		advisor={
+			slot = air_chief
+			idea_token = DOH_Jamir_Matasjidda
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	DOH_Karid_Muniyah={
+		name="Karid Muniyah"
+
+		advisor={
+			slot = high_command
+			idea_token = DOH_Karid_Muniyah
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	DOH_Mahya_Matasjidda={
+		name="Mahya Matasjidda"
+
+		advisor={
+			slot = high_command
+			idea_token = DOH_Mahya_Matasjidda
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	DOH_Imrah_Sahalis={
+		name="Imrah Sahalis"
+
+		advisor={
+			slot = high_command
+			idea_token = DOH_Imrah_Sahalis
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	DOH_Khal_Sahalis={
+		name="Khal Sahalis"
+
+		advisor={
+			slot = high_command
+			idea_token = DOH_Khal_Sahalis
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	DOH_Bilahmad_Rabalim={
+		name="Bilahmad Rabalim"
+
+		advisor={
+			slot = high_command
+			idea_token = DOH_Bilahmad_Rabalim
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	DOH_Ibran_Hijr={
+		name="Ibran Hijr"
+
+		advisor={
+			slot = high_command
+			idea_token = DOH_Ibran_Hijr
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	DOH_Ahmoud_Rabat={
+		name="Ahmoud Rabat"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DOH_Hamal_Rabat={
+		name="Hamal Rabat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOH_Hamal_Rabat
+				traits = {	the_banker 	}
+		}
+
+	}
+	DOH_Nabilal_Rabalim={
+		name="Nabilal Rabalim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOH_Nabilal_Rabalim
+				traits = {	rearmer 	}
+		}
+
+	}
+	DOH_Ahmad_Sahalis={
+		name="Ahmad Sahalis"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOH_Ahmad_Sahalis
+				traits = {	the_banker 	}
+		}
+
+	}
+	DOH_Mohammed_Matasjidda={
+		name="Mohammed Matasjidda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOH_Mohammed_Matasjidda
+				traits = {	infirm 	}
+		}
+
+	}
+	DOH_Samad_Asat={
+		name="Samad Asat"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOH_Samad_Asat
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	DOH_Samir_Hijr={
+		name="Samir Hijr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DOH_Samir_Hijr
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	DOH_Imrahya_Asat={
+		name="Imrahya Asat"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOH_Imrahya_Asat
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	DOH_Mahya_Rabalim={
+		name="Mahya Rabalim"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOH_Mahya_Rabalim
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	DOH_Omarid_Hijr={
+		name="Omarid Hijr"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOH_Omarid_Hijr
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	DOH_Alid_Asat={
+		name="Alid Asat"
+
+		advisor={
+			slot = army_chief
+			idea_token = DOH_Alid_Asat
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	DOH_Hamad_Rabalim={
+		name="Hamad Rabalim"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DOH_Hamad_Rabalim
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	DOH_Farid_Rabat={
+		name="Farid Rabat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DOH_Farid_Rabat
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	DOH_Nabil_Rabalim={
+		name="Nabil Rabalim"
+
+		advisor={
+			slot = air_chief
+			idea_token = DOH_Nabil_Rabalim
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	DOH_Nabilal_Qahr={
+		name="Nabilal Qahr"
+
+		advisor={
+			slot = air_chief
+			idea_token = DOH_Nabilal_Qahr
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	DOH_Samza_Hijr={
+		name="Samza Hijr"
+
+		advisor={
+			slot = high_command
+			idea_token = DOH_Samza_Hijr
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	DOH_Khal_Khayr={
+		name="Khal Khayr"
+
+		advisor={
+			slot = high_command
+			idea_token = DOH_Khal_Khayr
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	DOH_Omarid_Qahr={
+		name="Omarid Qahr"
+
+		advisor={
+			slot = high_command
+			idea_token = DOH_Omarid_Qahr
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	DOH_Sami_Asat={
+		name="Sami Asat"
+
+		advisor={
+			slot = high_command
+			idea_token = DOH_Sami_Asat
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	DOH_Jamarid_Asat={
+		name="Jamarid Asat"
+
+		advisor={
+			slot = high_command
+			idea_token = DOH_Jamarid_Asat
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	DOH_Saad_Sahalis={
+		name="Saad Sahalis"
+
+		advisor={
+			slot = high_command
+			idea_token = DOH_Saad_Sahalis
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	DOH_Khal_Noum={
+		name="Khal Noum"
+
+		advisor={
+			slot = theorist
+			idea_token = DOH_Khal_Noum
+				traits = {	military_theorist 	}
+		}
+
+	}
+	DOH_Nabil_Qahr={
+		name="Nabil Qahr"
+
+		advisor={
+			slot = theorist
+			idea_token = DOH_Nabil_Qahr
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	DOH_Mahim_Asat={
+		name="Mahim Asat"
+
+		advisor={
+			slot = theorist
+			idea_token = DOH_Mahim_Asat
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

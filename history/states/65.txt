@@ -1,0 +1,39 @@
+
+state={
+	id=65
+	name="STATE_65"
+	manpower = 2410011
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 518 1}
+		victory_points = { 520 1}
+		
+		owner = AGB
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AGB
+	}
+
+	provinces={
+		514 515 516 517 518 519 520 521 522 523 524 525 
+	}
+	local_supplies=0.0 
+}

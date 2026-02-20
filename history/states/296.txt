@@ -1,0 +1,43 @@
+
+state={
+	id=296
+	name="STATE_296"
+	manpower = 3176995
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2336 2}
+		victory_points = { 2342 1}
+		victory_points = { 2348 2}
+		
+		owner = HAF
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			2338 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HAF
+	}
+
+	provinces={
+		2335 2336 2337 2338 2339 2340 2341 2342 2343 2344 2345 2346 2347 2348 2349 2350 2351 2352 2353 2354 2355 2356 2357 2358 2359 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,880 @@
+characters = {
+	REA_Anto_Sanza={
+		name="Anto Sanza"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	REA_Felien_Incubo={
+		name="Felien Incubo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REA_Felien_Incubo
+				traits = {	headstrong 	}
+		}
+
+	}
+	REA_Luca_Incubo={
+		name="Luca Incubo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REA_Luca_Incubo
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	REA_Jean_Vene={
+		name="Jean Vene"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REA_Jean_Vene
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	REA_Andro_Mano={
+		name="Andro Mano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REA_Andro_Mano
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	REA_Leonardo_Vene={
+		name="Leonardo Vene"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REA_Leonardo_Vene
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	REA_Steonario_Lano={
+		name="Steonario Lano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REA_Steonario_Lano
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	REA_Mario_Colliera={
+		name="Mario Colliera"
+
+		advisor={
+			slot = army_chief
+			idea_token = REA_Mario_Colliera
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	REA_Roberto_Mano={
+		name="Roberto Mano"
+
+		advisor={
+			slot = army_chief
+			idea_token = REA_Roberto_Mano
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	REA_Giaco_Reanieste={
+		name="Giaco Reanieste"
+
+		advisor={
+			slot = army_chief
+			idea_token = REA_Giaco_Reanieste
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	REA_Mario_Vene={
+		name="Mario Vene"
+
+		advisor={
+			slot = army_chief
+			idea_token = REA_Mario_Vene
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	REA_Leon_Sanza={
+		name="Leon Sanza"
+
+		advisor={
+			slot = navy_chief
+			idea_token = REA_Leon_Sanza
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	REA_Lucardo_Colliera={
+		name="Lucardo Colliera"
+
+		advisor={
+			slot = navy_chief
+			idea_token = REA_Lucardo_Colliera
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	REA_Cardo_Colliera={
+		name="Cardo Colliera"
+
+		advisor={
+			slot = air_chief
+			idea_token = REA_Cardo_Colliera
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	REA_Enzo_Colliera={
+		name="Enzo Colliera"
+
+		advisor={
+			slot = air_chief
+			idea_token = REA_Enzo_Colliera
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	REA_Paolas_Sillintre={
+		name="Paolas Sillintre"
+
+		advisor={
+			slot = high_command
+			idea_token = REA_Paolas_Sillintre
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	REA_Giacomo_Reanieste={
+		name="Giacomo Reanieste"
+
+		advisor={
+			slot = high_command
+			idea_token = REA_Giacomo_Reanieste
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	REA_Julien_Sanza={
+		name="Julien Sanza"
+
+		advisor={
+			slot = high_command
+			idea_token = REA_Julien_Sanza
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	REA_Marlo_Mapirio={
+		name="Marlo Mapirio"
+
+		advisor={
+			slot = high_command
+			idea_token = REA_Marlo_Mapirio
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	REA_Alexancesco_Sanza={
+		name="Alexancesco Sanza"
+
+		advisor={
+			slot = high_command
+			idea_token = REA_Alexancesco_Sanza
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	REA_Vico_Mapirio={
+		name="Vico Mapirio"
+
+		advisor={
+			slot = high_command
+			idea_token = REA_Vico_Mapirio
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	REA_Giaco_Lano={
+		name="Giaco Lano"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { archon_basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	REA_Julien_Lano={
+		name="Julien Lano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REA_Julien_Lano
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	REA_Antor_Reanieste={
+		name="Antor Reanieste"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REA_Antor_Reanieste
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	REA_Antor_Lano={
+		name="Antor Lano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REA_Antor_Lano
+				traits = {	autokrator 	}
+		}
+
+	}
+	REA_Steonarlose_Sillintre={
+		name="Steonarlose Sillintre"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REA_Steonarlose_Sillintre
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	REA_Leon_Mapirio={
+		name="Leon Mapirio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REA_Leon_Mapirio
+				traits = {	generallissimo 	}
+		}
+
+	}
+	REA_Nico_Mano={
+		name="Nico Mano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REA_Nico_Mano
+				traits = {	autokrator 	}
+		}
+
+	}
+	REA_Nico_Reanieste={
+		name="Nico Reanieste"
+
+		advisor={
+			slot = army_chief
+			idea_token = REA_Nico_Reanieste
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	REA_Rictonio_Mano={
+		name="Rictonio Mano"
+
+		advisor={
+			slot = army_chief
+			idea_token = REA_Rictonio_Mano
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	REA_Leonardo_Mano={
+		name="Leonardo Mano"
+
+		advisor={
+			slot = army_chief
+			idea_token = REA_Leonardo_Mano
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	REA_Jeano_Colliera={
+		name="Jeano Colliera"
+
+		advisor={
+			slot = army_chief
+			idea_token = REA_Jeano_Colliera
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	REA_Anton_Incubo={
+		name="Anton Incubo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = REA_Anton_Incubo
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	REA_Jean_Incubo={
+		name="Jean Incubo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = REA_Jean_Incubo
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	REA_Leonario_Colliera={
+		name="Leonario Colliera"
+
+		advisor={
+			slot = air_chief
+			idea_token = REA_Leonario_Colliera
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	REA_Julipe_Mapirio={
+		name="Julipe Mapirio"
+
+		advisor={
+			slot = air_chief
+			idea_token = REA_Julipe_Mapirio
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	REA_Thien_Mapirio={
+		name="Thien Mapirio"
+
+		advisor={
+			slot = high_command
+			idea_token = REA_Thien_Mapirio
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	REA_Thierto_Incubo={
+		name="Thierto Incubo"
+
+		advisor={
+			slot = high_command
+			idea_token = REA_Thierto_Incubo
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	REA_Jean_Reanieste={
+		name="Jean Reanieste"
+
+		advisor={
+			slot = high_command
+			idea_token = REA_Jean_Reanieste
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	REA_Leonio_Sanza={
+		name="Leonio Sanza"
+
+		advisor={
+			slot = high_command
+			idea_token = REA_Leonio_Sanza
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	REA_Giacolas_Reanieste={
+		name="Giacolas Reanieste"
+
+		advisor={
+			slot = high_command
+			idea_token = REA_Giacolas_Reanieste
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	REA_Felierto_Incubo={
+		name="Felierto Incubo"
+
+		advisor={
+			slot = high_command
+			idea_token = REA_Felierto_Incubo
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	REA_Thiertor_Sillintre={
+		name="Thiertor Sillintre"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	REA_Nico_Sillintre={
+		name="Nico Sillintre"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REA_Nico_Sillintre
+				traits = {	polemarch 	}
+		}
+
+	}
+	REA_Leonardo_Incubo={
+		name="Leonardo Incubo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REA_Leonardo_Incubo
+				traits = {	political_dancer 	}
+		}
+
+	}
+	REA_Luis_Lano={
+		name="Luis Lano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REA_Luis_Lano
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	REA_Leonardo_Mapirio={
+		name="Leonardo Mapirio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REA_Leonardo_Mapirio
+				traits = {	polemarch 	}
+		}
+
+	}
+	REA_Thien_Sanza={
+		name="Thien Sanza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REA_Thien_Sanza
+				traits = {	political_dancer 	}
+		}
+
+	}
+	REA_Roberry_Sanza={
+		name="Roberry Sanza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REA_Roberry_Sanza
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	REA_Marlo_Sillintre={
+		name="Marlo Sillintre"
+
+		advisor={
+			slot = army_chief
+			idea_token = REA_Marlo_Sillintre
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	REA_Thierto_Mano={
+		name="Thierto Mano"
+
+		advisor={
+			slot = army_chief
+			idea_token = REA_Thierto_Mano
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	REA_Luis_Mapirio={
+		name="Luis Mapirio"
+
+		advisor={
+			slot = army_chief
+			idea_token = REA_Luis_Mapirio
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	REA_Alexan_Lano={
+		name="Alexan Lano"
+
+		advisor={
+			slot = army_chief
+			idea_token = REA_Alexan_Lano
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	REA_Rictonio_Vene={
+		name="Rictonio Vene"
+
+		advisor={
+			slot = navy_chief
+			idea_token = REA_Rictonio_Vene
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	REA_Luis_Reanieste={
+		name="Luis Reanieste"
+
+		advisor={
+			slot = navy_chief
+			idea_token = REA_Luis_Reanieste
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	REA_Anto_Mapirio={
+		name="Anto Mapirio"
+
+		advisor={
+			slot = air_chief
+			idea_token = REA_Anto_Mapirio
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	REA_Felierto_Sillintre={
+		name="Felierto Sillintre"
+
+		advisor={
+			slot = air_chief
+			idea_token = REA_Felierto_Sillintre
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	REA_Vico_Colliera={
+		name="Vico Colliera"
+
+		advisor={
+			slot = high_command
+			idea_token = REA_Vico_Colliera
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	REA_Enzo_Sanza={
+		name="Enzo Sanza"
+
+		advisor={
+			slot = high_command
+			idea_token = REA_Enzo_Sanza
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	REA_Leonario_Mapirio={
+		name="Leonario Mapirio"
+
+		advisor={
+			slot = high_command
+			idea_token = REA_Leonario_Mapirio
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	REA_Luis_Mano={
+		name="Luis Mano"
+
+		advisor={
+			slot = high_command
+			idea_token = REA_Luis_Mano
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	REA_Nico_Colliera={
+		name="Nico Colliera"
+
+		advisor={
+			slot = high_command
+			idea_token = REA_Nico_Colliera
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	REA_Paolas_Lano={
+		name="Paolas Lano"
+
+		advisor={
+			slot = high_command
+			idea_token = REA_Paolas_Lano
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	REA_Giacomo_Vene={
+		name="Giacomo Vene"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { first_lady  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	REA_Ricton_Colliera={
+		name="Ricton Colliera"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REA_Ricton_Colliera
+				traits = {	the_banker 	}
+		}
+
+	}
+	REA_Antor_Mano={
+		name="Antor Mano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REA_Antor_Mano
+				traits = {	infirm 	}
+		}
+
+	}
+	REA_Nico_Lano={
+		name="Nico Lano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REA_Nico_Lano
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	REA_Thien_Sillintre={
+		name="Thien Sillintre"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REA_Thien_Sillintre
+				traits = {	the_banker 	}
+		}
+
+	}
+	REA_Steonarlose_Mapirio={
+		name="Steonarlose Mapirio"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REA_Steonarlose_Mapirio
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	REA_Steonario_Colliera={
+		name="Steonario Colliera"
+
+		advisor={
+			slot = political_advisor
+			idea_token = REA_Steonario_Colliera
+				traits = {	first_lady 	}
+		}
+
+	}
+	REA_Thiertor_Mano={
+		name="Thiertor Mano"
+
+		advisor={
+			slot = army_chief
+			idea_token = REA_Thiertor_Mano
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	REA_Felipe_Lano={
+		name="Felipe Lano"
+
+		advisor={
+			slot = army_chief
+			idea_token = REA_Felipe_Lano
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	REA_Anton_Reanieste={
+		name="Anton Reanieste"
+
+		advisor={
+			slot = army_chief
+			idea_token = REA_Anton_Reanieste
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	REA_Thien_Reanieste={
+		name="Thien Reanieste"
+
+		advisor={
+			slot = army_chief
+			idea_token = REA_Thien_Reanieste
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	REA_Pablos_Incubo={
+		name="Pablos Incubo"
+
+		advisor={
+			slot = navy_chief
+			idea_token = REA_Pablos_Incubo
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	REA_Felierto_Vene={
+		name="Felierto Vene"
+
+		advisor={
+			slot = navy_chief
+			idea_token = REA_Felierto_Vene
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	REA_Leon_Lano={
+		name="Leon Lano"
+
+		advisor={
+			slot = air_chief
+			idea_token = REA_Leon_Lano
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	REA_Felipe_Mapirio={
+		name="Felipe Mapirio"
+
+		advisor={
+			slot = air_chief
+			idea_token = REA_Felipe_Mapirio
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	REA_Mattefano_Lano={
+		name="Mattefano Lano"
+
+		advisor={
+			slot = high_command
+			idea_token = REA_Mattefano_Lano
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	REA_Alexan_Mapirio={
+		name="Alexan Mapirio"
+
+		advisor={
+			slot = high_command
+			idea_token = REA_Alexan_Mapirio
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	REA_Paolas_Vene={
+		name="Paolas Vene"
+
+		advisor={
+			slot = high_command
+			idea_token = REA_Paolas_Vene
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	REA_Rictonio_Incubo={
+		name="Rictonio Incubo"
+
+		advisor={
+			slot = high_command
+			idea_token = REA_Rictonio_Incubo
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	REA_Leonario_Vene={
+		name="Leonario Vene"
+
+		advisor={
+			slot = high_command
+			idea_token = REA_Leonario_Vene
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	REA_Leonio_Lano={
+		name="Leonio Lano"
+
+		advisor={
+			slot = high_command
+			idea_token = REA_Leonio_Lano
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	REA_Roberto_Colliera={
+		name="Roberto Colliera"
+
+		advisor={
+			slot = theorist
+			idea_token = REA_Roberto_Colliera
+				traits = {	military_theorist 	}
+		}
+
+	}
+	REA_Alberto_Sillintre={
+		name="Alberto Sillintre"
+
+		advisor={
+			slot = theorist
+			idea_token = REA_Alberto_Sillintre
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	REA_Julien_Mano={
+		name="Julien Mano"
+
+		advisor={
+			slot = theorist
+			idea_token = REA_Julien_Mano
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

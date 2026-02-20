@@ -1,0 +1,880 @@
+characters = {
+	HIJ_Juntso_Sheng={
+		name="Juntso Sheng"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { cabinet_crisis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HIJ_Phubten_Sheng={
+		name="Phubten Sheng"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIJ_Phubten_Sheng
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	HIJ_Jigme_Sheng={
+		name="Jigme Sheng"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIJ_Jigme_Sheng
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	HIJ_Sonam_Guan={
+		name="Sonam Guan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIJ_Sonam_Guan
+				traits = {	humble 	}
+		}
+
+	}
+	HIJ_Thun_Dong={
+		name="Thun Dong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIJ_Thun_Dong
+				traits = {	headstrong 	}
+		}
+
+	}
+	HIJ_Qian_Jinxi={
+		name="Qian Jinxi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIJ_Qian_Jinxi
+				traits = {	headstrong 	}
+		}
+
+	}
+	HIJ_Yuntsok_Nang={
+		name="Yuntsok Nang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIJ_Yuntsok_Nang
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	HIJ_Nima_Shou={
+		name="Nima Shou"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIJ_Nima_Shou
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	HIJ_Thubteng_Jinxi={
+		name="Thubteng Jinxi"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIJ_Thubteng_Jinxi
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	HIJ_Dawang_Dong={
+		name="Dawang Dong"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIJ_Dawang_Dong
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	HIJ_Phuntso_Guan={
+		name="Phuntso Guan"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIJ_Phuntso_Guan
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	HIJ_Sonam_Jinxi={
+		name="Sonam Jinxi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HIJ_Sonam_Jinxi
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	HIJ_Sonam_Shou={
+		name="Sonam Shou"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HIJ_Sonam_Shou
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	HIJ_Chenzing_Huan={
+		name="Chenzing Huan"
+
+		advisor={
+			slot = air_chief
+			idea_token = HIJ_Chenzing_Huan
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	HIJ_Phubten_Jinxi={
+		name="Phubten Jinxi"
+
+		advisor={
+			slot = air_chief
+			idea_token = HIJ_Phubten_Jinxi
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	HIJ_Phubtenzin_Huan={
+		name="Phubtenzin Huan"
+
+		advisor={
+			slot = high_command
+			idea_token = HIJ_Phubtenzin_Huan
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	HIJ_Ngawan_Sheng={
+		name="Ngawan Sheng"
+
+		advisor={
+			slot = high_command
+			idea_token = HIJ_Ngawan_Sheng
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	HIJ_Jigme_Nang={
+		name="Jigme Nang"
+
+		advisor={
+			slot = high_command
+			idea_token = HIJ_Jigme_Nang
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	HIJ_Jiangdu_Nang={
+		name="Jiangdu Nang"
+
+		advisor={
+			slot = high_command
+			idea_token = HIJ_Jiangdu_Nang
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	HIJ_Heng_Sheng={
+		name="Heng Sheng"
+
+		advisor={
+			slot = high_command
+			idea_token = HIJ_Heng_Sheng
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	HIJ_Lobsan_Dong={
+		name="Lobsan Dong"
+
+		advisor={
+			slot = high_command
+			idea_token = HIJ_Lobsan_Dong
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	HIJ_Song_Shou={
+		name="Song Shou"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { generallissimo  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HIJ_Phubtenzing_Dong={
+		name="Phubtenzing Dong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIJ_Phubtenzing_Dong
+				traits = {	infirm 	}
+		}
+
+	}
+	HIJ_Henzingdu_Huan={
+		name="Henzingdu Huan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIJ_Henzingdu_Huan
+				traits = {	autokrator 	}
+		}
+
+	}
+	HIJ_Wang_Huan={
+		name="Wang Huan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIJ_Wang_Huan
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	HIJ_Ming_Sheng={
+		name="Ming Sheng"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIJ_Ming_Sheng
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	HIJ_Juntso_Guan={
+		name="Juntso Guan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIJ_Juntso_Guan
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	HIJ_Phubtenzin_Jinxi={
+		name="Phubtenzin Jinxi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIJ_Phubtenzin_Jinxi
+				traits = {	autokrator 	}
+		}
+
+	}
+	HIJ_Ngawang_Shou={
+		name="Ngawang Shou"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIJ_Ngawang_Shou
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	HIJ_Qiang_Sheng={
+		name="Qiang Sheng"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIJ_Qiang_Sheng
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	HIJ_Thubteng_Nang={
+		name="Thubteng Nang"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIJ_Thubteng_Nang
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	HIJ_Long_Guan={
+		name="Long Guan"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIJ_Long_Guan
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	HIJ_Yangdu_Nang={
+		name="Yangdu Nang"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HIJ_Yangdu_Nang
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	HIJ_Yangdu_Dong={
+		name="Yangdu Dong"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HIJ_Yangdu_Dong
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	HIJ_Henzingdu_Guan={
+		name="Henzingdu Guan"
+
+		advisor={
+			slot = air_chief
+			idea_token = HIJ_Henzingdu_Guan
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	HIJ_Lobsang_Dong={
+		name="Lobsang Dong"
+
+		advisor={
+			slot = air_chief
+			idea_token = HIJ_Lobsang_Dong
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	HIJ_Phuntsok_Guan={
+		name="Phuntsok Guan"
+
+		advisor={
+			slot = high_command
+			idea_token = HIJ_Phuntsok_Guan
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	HIJ_Thubten_Jinxi={
+		name="Thubten Jinxi"
+
+		advisor={
+			slot = high_command
+			idea_token = HIJ_Thubten_Jinxi
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	HIJ_Gyatsok_Guan={
+		name="Gyatsok Guan"
+
+		advisor={
+			slot = high_command
+			idea_token = HIJ_Gyatsok_Guan
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	HIJ_Ngawa_Guan={
+		name="Ngawa Guan"
+
+		advisor={
+			slot = high_command
+			idea_token = HIJ_Ngawa_Guan
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	HIJ_Tenzing_Huan={
+		name="Tenzing Huan"
+
+		advisor={
+			slot = high_command
+			idea_token = HIJ_Tenzing_Huan
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	HIJ_Yuntsok_Shou={
+		name="Yuntsok Shou"
+
+		advisor={
+			slot = high_command
+			idea_token = HIJ_Yuntsok_Shou
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	HIJ_Lonam_Huan={
+		name="Lonam Huan"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HIJ_Thubteng_Shou={
+		name="Thubteng Shou"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIJ_Thubteng_Shou
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	HIJ_Qian_Dong={
+		name="Qian Dong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIJ_Qian_Dong
+				traits = {	polemarch 	}
+		}
+
+	}
+	HIJ_Yuntsok_Dong={
+		name="Yuntsok Dong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIJ_Yuntsok_Dong
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	HIJ_Long_Dong={
+		name="Long Dong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIJ_Long_Dong
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	HIJ_Henzing_Jinxi={
+		name="Henzing Jinxi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIJ_Henzing_Jinxi
+				traits = {	infirm 	}
+		}
+
+	}
+	HIJ_Nima_Dong={
+		name="Nima Dong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIJ_Nima_Dong
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	HIJ_Thubteng_Sheng={
+		name="Thubteng Sheng"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIJ_Thubteng_Sheng
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	HIJ_Qiang_Nang={
+		name="Qiang Nang"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIJ_Qiang_Nang
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	HIJ_Thubten_Dong={
+		name="Thubten Dong"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIJ_Thubten_Dong
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	HIJ_Phubten_Huan={
+		name="Phubten Huan"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIJ_Phubten_Huan
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	HIJ_Gyatsok_Dong={
+		name="Gyatsok Dong"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HIJ_Gyatsok_Dong
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	HIJ_Thun_Shou={
+		name="Thun Shou"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HIJ_Thun_Shou
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	HIJ_Qian_Huan={
+		name="Qian Huan"
+
+		advisor={
+			slot = air_chief
+			idea_token = HIJ_Qian_Huan
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	HIJ_Ngawang_Dong={
+		name="Ngawang Dong"
+
+		advisor={
+			slot = air_chief
+			idea_token = HIJ_Ngawang_Dong
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	HIJ_Heng_Nang={
+		name="Heng Nang"
+
+		advisor={
+			slot = high_command
+			idea_token = HIJ_Heng_Nang
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	HIJ_Jiangdu_Sheng={
+		name="Jiangdu Sheng"
+
+		advisor={
+			slot = high_command
+			idea_token = HIJ_Jiangdu_Sheng
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	HIJ_Fang_Shou={
+		name="Fang Shou"
+
+		advisor={
+			slot = high_command
+			idea_token = HIJ_Fang_Shou
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	HIJ_Thuntso_Jinxi={
+		name="Thuntso Jinxi"
+
+		advisor={
+			slot = high_command
+			idea_token = HIJ_Thuntso_Jinxi
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	HIJ_Phuntsok_Sheng={
+		name="Phuntsok Sheng"
+
+		advisor={
+			slot = high_command
+			idea_token = HIJ_Phuntsok_Sheng
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	HIJ_Juntsok_Sheng={
+		name="Juntsok Sheng"
+
+		advisor={
+			slot = high_command
+			idea_token = HIJ_Juntsok_Sheng
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	HIJ_Gyatso_Jinxi={
+		name="Gyatso Jinxi"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HIJ_Henzingdu_Dong={
+		name="Henzingdu Dong"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIJ_Henzingdu_Dong
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	HIJ_Yuntso_Huan={
+		name="Yuntso Huan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIJ_Yuntso_Huan
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	HIJ_Juntso_Shou={
+		name="Juntso Shou"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIJ_Juntso_Shou
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	HIJ_Heng_Huan={
+		name="Heng Huan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIJ_Heng_Huan
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	HIJ_Long_Nang={
+		name="Long Nang"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIJ_Long_Nang
+				traits = {	first_lady 	}
+		}
+
+	}
+	HIJ_Gyatso_Guan={
+		name="Gyatso Guan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HIJ_Gyatso_Guan
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	HIJ_Yang_Sheng={
+		name="Yang Sheng"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIJ_Yang_Sheng
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	HIJ_Phubtenzin_Sheng={
+		name="Phubtenzin Sheng"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIJ_Phubtenzin_Sheng
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	HIJ_Yang_Dong={
+		name="Yang Dong"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIJ_Yang_Dong
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	HIJ_Ngawan_Guan={
+		name="Ngawan Guan"
+
+		advisor={
+			slot = army_chief
+			idea_token = HIJ_Ngawan_Guan
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	HIJ_Jiang_Sheng={
+		name="Jiang Sheng"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HIJ_Jiang_Sheng
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	HIJ_Karma_Shou={
+		name="Karma Shou"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HIJ_Karma_Shou
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	HIJ_Phubten_Shou={
+		name="Phubten Shou"
+
+		advisor={
+			slot = air_chief
+			idea_token = HIJ_Phubten_Shou
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	HIJ_Song_Dong={
+		name="Song Dong"
+
+		advisor={
+			slot = air_chief
+			idea_token = HIJ_Song_Dong
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	HIJ_Phubtenzing_Jinxi={
+		name="Phubtenzing Jinxi"
+
+		advisor={
+			slot = high_command
+			idea_token = HIJ_Phubtenzing_Jinxi
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	HIJ_Ming_Shou={
+		name="Ming Shou"
+
+		advisor={
+			slot = high_command
+			idea_token = HIJ_Ming_Shou
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	HIJ_Phubtenzin_Shou={
+		name="Phubtenzin Shou"
+
+		advisor={
+			slot = high_command
+			idea_token = HIJ_Phubtenzin_Shou
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	HIJ_Jigme_Guan={
+		name="Jigme Guan"
+
+		advisor={
+			slot = high_command
+			idea_token = HIJ_Jigme_Guan
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	HIJ_Yuntso_Guan={
+		name="Yuntso Guan"
+
+		advisor={
+			slot = high_command
+			idea_token = HIJ_Yuntso_Guan
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	HIJ_Ngawa_Huan={
+		name="Ngawa Huan"
+
+		advisor={
+			slot = high_command
+			idea_token = HIJ_Ngawa_Huan
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	HIJ_Thubten_Nang={
+		name="Thubten Nang"
+
+		advisor={
+			slot = theorist
+			idea_token = HIJ_Thubten_Nang
+				traits = {	military_theorist 	}
+		}
+
+	}
+	HIJ_Thubten_Guan={
+		name="Thubten Guan"
+
+		advisor={
+			slot = theorist
+			idea_token = HIJ_Thubten_Guan
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	HIJ_Thubten_Shou={
+		name="Thubten Shou"
+
+		advisor={
+			slot = theorist
+			idea_token = HIJ_Thubten_Shou
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

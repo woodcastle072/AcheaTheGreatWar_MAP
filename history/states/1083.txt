@@ -1,0 +1,41 @@
+
+state={
+	id=1083
+	name="STATE_1083"
+	manpower = 1047379
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=8
+		chromium=0
+		oil=3
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9825 1}
+		
+		owner = KOE
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			9825 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = KOE
+	}
+
+	provinces={
+		9817 9818 9819 9820 9821 9822 9823 9824 9825 9826 9827 9828 9829 9830 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=288
+	name="STATE_288"
+	manpower = 5371083
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=3
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2293 4}
+		victory_points = { 2295 1}
+		victory_points = { 2297 4}
+		victory_points = { 2307 1}
+		
+		owner = DAN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = DAN
+	}
+
+	provinces={
+		2283 2284 2285 2286 2287 2288 2289 2290 2291 2292 2293 2294 2295 2296 2297 2298 2299 2300 2301 2302 2303 2304 2305 2306 2307 
+	}
+	local_supplies=0.0 
+}

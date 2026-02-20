@@ -1,0 +1,39 @@
+
+state={
+	id=307
+	name="STATE_307"
+	manpower = 4573728
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2459 1}
+		victory_points = { 2460 12}
+		
+		owner = DAN
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = DAN
+	}
+
+	provinces={
+		2452 2453 2454 2455 2456 2457 2458 2459 2460 2461 2462 2463 2464 2465 
+	}
+	local_supplies=0.0 
+}

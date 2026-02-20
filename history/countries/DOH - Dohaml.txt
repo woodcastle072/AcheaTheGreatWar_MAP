@@ -1,0 +1,597 @@
+capital = 390
+
+oob = "DOH_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "DOH_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "DOH_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		basic_heavy_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "DOH_1936_air_bba"
+		set_technology = {
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			iw_large_airframe = 1
+			bba_early_transport_plane = 1
+			armor_piercing_bombs = 1
+			aa_lmg = 1
+			early_bombs = 1
+			
+		}
+		create_equipment_variant = {
+			name = "Khayr Mk 1"
+			type = small_plane_cas_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Khayr Mk 0"
+			type = small_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Hijr Mk 2"
+			type = large_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_4x
+			fixed_main_weapon_slot = large_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+		create_equipment_variant = {
+			name = "Asat Mk 2"
+			type = medium_plane_airframe_0
+			modules = {
+							engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+
+			}
+		}
+
+	else = {
+		set_air_oob = "DOH_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			early_bomber = 1
+			strategic_bomber1 = 1
+			early_transport_plane = 1
+			CAS1 = 1
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	basic_destroyer = 1
+	basic_heavy_cruiser = 1
+	basic_light_cruiser = 1
+	basic_submarine = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	early_carrier = 1
+	early_destroyer = 1
+	early_heavy_cruiser = 1
+	early_light_cruiser = 1
+	early_submarine = 1
+	
+	}
+	set_naval_oob = "DOH_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Rabalim Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Hijr Class"
+			type = destroyer_2
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Rabalim Class"
+			type = light_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_anti_air_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Matasjidda Class"
+			type = light_cruiser_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_anti_air_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Rabalim Class"
+			type = heavy_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Hijr Class"
+			type = heavy_cruiser_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Khayr Class"
+			type = battle_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Matasjidda Class"
+			type = battleship_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Asat Class"
+			type = carrier_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_engine_upgrade = 1
+				ship_deckspace_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Khayr Class"
+			type = submarine_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Matasjidda Class"
+			type = submarine_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	basic_cruiser_armor_scheme = 1
+	basic_heavy_battery = 1
+	basic_naval_mines = 1
+	basic_ship_hull_cruiser = 1
+	basic_ship_hull_light = 1
+	basic_ship_hull_submarine = 1
+	basic_torpedo = 1
+	early_ship_hull_carrier = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	early_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	improved_sonar = 1
+	smoke_generator = 1
+	sonar = 1
+	submarine_mine_laying = 1
+	
+	}
+	set_naval_oob = "DOH_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Rabalim Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = ship_torpedo_1
+				mid_1_custom_slot = ship_mine_layer_1
+				rear_1_custom_slot = ship_torpedo_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Hijr Class"
+			type = ship_hull_light_2
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_2
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = ship_torpedo_1
+				mid_1_custom_slot = ship_mine_layer_1
+				rear_1_custom_slot = ship_torpedo_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Rabalim Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = ship_torpedo_1
+				rear_1_custom_slot = ship_medium_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Matasjidda Class"
+			type = ship_hull_cruiser_2
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_2
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_medium_battery_1
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Rabalim Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = ship_torpedo_1
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Hijr Class"
+			type = ship_hull_cruiser_2
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_2
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_secondaries_1
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_mine_layer_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Khayr Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_bc_1
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_heavy_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Matasjidda Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_bb_1
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = ship_heavy_battery_1
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Asat Class"
+			type = ship_hull_carrier_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_engine_slot = carrier_ship_engine_1
+				fixed_ship_radar_slot = empty
+				fixed_ship_secondaries_slot = ship_secondaries_1
+				front_1_custom_slot = ship_armor_carrier_deck
+				mid_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Khayr Class"
+			type = ship_hull_submarine_1
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_1
+				fixed_ship_torpedo_slot = ship_torpedo_sub_1
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Matasjidda Class"
+			type = ship_hull_submarine_2
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_2
+				fixed_ship_torpedo_slot = ship_torpedo_sub_2
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = DOH_Mohammed_Noum
+recruit_character = DOH_Imrahim_Sahalis
+recruit_character = DOH_Rami_Asat
+recruit_character = DOH_Rami_Noum
+recruit_character = DOH_Anwarim_Noum
+recruit_character = DOH_Omar_Rabat
+recruit_character = DOH_Karim_Hijr
+recruit_character = DOH_Nabilal_Hijr
+recruit_character = DOH_Faid_Rabalim
+recruit_character = DOH_Karim_Sahalis
+recruit_character = DOH_Mahim_Matasjidda
+recruit_character = DOH_Abdullali_Qahr
+recruit_character = DOH_Mohammed_Asat
+recruit_character = DOH_Mahim_Rabat
+recruit_character = DOH_Omar_Sahalis
+recruit_character = DOH_Zaid_Noum
+recruit_character = DOH_Farid_Matasjidda
+recruit_character = DOH_Tariq_Sahalis
+recruit_character = DOH_Abdullali_Noum
+recruit_character = DOH_Samali_Hijr
+recruit_character = DOH_Imrahmal_Hijr
+recruit_character = DOH_Alid_Rabat
+recruit_character = DOH_Fariq_Asat
+recruit_character = DOH_Jamir_Rabalim
+recruit_character = DOH_Jamir_Rabat
+recruit_character = DOH_Hassan_Rabat
+recruit_character = DOH_Omar_Hijr
+recruit_character = DOH_Mohamir_Qahr
+recruit_character = DOH_Ramad_Sahalis
+recruit_character = DOH_Jamad_Asat
+recruit_character = DOH_Faisali_Rabalim
+recruit_character = DOH_Faid_Asat
+recruit_character = DOH_Bilahmad_Asat
+recruit_character = DOH_Imrah_Khayr
+recruit_character = DOH_Samad_Qahr
+recruit_character = DOH_Omarid_Rabat
+recruit_character = DOH_Samad_Rabalim
+recruit_character = DOH_Anwar_Matasjidda
+recruit_character = DOH_Anwarim_Sahalis
+recruit_character = DOH_Ramad_Khayr
+recruit_character = DOH_Adnan_Matasjidda
+recruit_character = DOH_Ahmad_Hijr
+recruit_character = DOH_Abdullali_Muniyah
+recruit_character = DOH_Nabil_Khayr
+recruit_character = DOH_Nabilal_Rabat
+recruit_character = DOH_Faid_Noum
+recruit_character = DOH_Majid_Sahalis
+recruit_character = DOH_Ibrah_Khayr
+recruit_character = DOH_Hassan_Rabalim
+recruit_character = DOH_Sami_Matasjidda
+recruit_character = DOH_Sami_Muniyah
+recruit_character = DOH_Karim_Rabalim
+recruit_character = DOH_Karid_Rabalim
+recruit_character = DOH_Jamir_Muniyah
+recruit_character = DOH_Ibrahim_Rabalim
+recruit_character = DOH_Jamir_Noum
+recruit_character = DOH_Jamir_Matasjidda
+recruit_character = DOH_Karid_Muniyah
+recruit_character = DOH_Mahya_Matasjidda
+recruit_character = DOH_Imrah_Sahalis
+recruit_character = DOH_Khal_Sahalis
+recruit_character = DOH_Bilahmad_Rabalim
+recruit_character = DOH_Ibran_Hijr
+recruit_character = DOH_Ahmoud_Rabat
+recruit_character = DOH_Hamal_Rabat
+recruit_character = DOH_Nabilal_Rabalim
+recruit_character = DOH_Ahmad_Sahalis
+recruit_character = DOH_Mohammed_Matasjidda
+recruit_character = DOH_Samad_Asat
+recruit_character = DOH_Samir_Hijr
+recruit_character = DOH_Imrahya_Asat
+recruit_character = DOH_Mahya_Rabalim
+recruit_character = DOH_Omarid_Hijr
+recruit_character = DOH_Alid_Asat
+recruit_character = DOH_Hamad_Rabalim
+recruit_character = DOH_Farid_Rabat
+recruit_character = DOH_Nabil_Rabalim
+recruit_character = DOH_Nabilal_Qahr
+recruit_character = DOH_Samza_Hijr
+recruit_character = DOH_Khal_Khayr
+recruit_character = DOH_Omarid_Qahr
+recruit_character = DOH_Sami_Asat
+recruit_character = DOH_Jamarid_Asat
+recruit_character = DOH_Saad_Sahalis
+recruit_character = DOH_Khal_Noum
+recruit_character = DOH_Nabil_Qahr
+recruit_character = DOH_Mahim_Asat
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 640
+set_stability = 19
+set_war_support = 20
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1934.2.13"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 45
+	fascism = 19
+	communism = 17
+	neutrality = 19
+}
+
+
+
+
+

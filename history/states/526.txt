@@ -1,0 +1,38 @@
+
+state={
+	id=526
+	name="STATE_526"
+	manpower = 1227641
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4293 3}
+		
+		owner = DOH
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = DOH
+	}
+
+	provinces={
+		4293 4294 
+	}
+	local_supplies=0.0 
+}

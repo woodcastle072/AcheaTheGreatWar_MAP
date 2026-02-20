@@ -1,0 +1,39 @@
+
+state={
+	id=146
+	name="STATE_146"
+	manpower = 3292389
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1267 9}
+		victory_points = { 1273 2}
+		
+		owner = AGB
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AGB
+	}
+
+	provinces={
+		1267 1268 1269 1270 1271 1272 1273 1274 
+	}
+	local_supplies=0.0 
+}

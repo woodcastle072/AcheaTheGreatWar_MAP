@@ -1,0 +1,44 @@
+
+state={
+	id=702
+	name="STATE_702"
+	manpower = 3231766
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5782 1}
+		victory_points = { 5783 1}
+		victory_points = { 5786 2}
+		victory_points = { 5790 2}
+		
+		owner = HIJ
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			5785 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HIJ
+	}
+
+	provinces={
+		5781 5782 5783 5784 5785 5786 5787 5788 5789 5790 
+	}
+	local_supplies=0.0 
+}

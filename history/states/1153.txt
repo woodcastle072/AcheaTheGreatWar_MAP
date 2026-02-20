@@ -1,0 +1,42 @@
+
+state={
+	id=1153
+	name="STATE_1153"
+	manpower = 1850855
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10261 3}
+		victory_points = { 10265 1}
+		
+		owner = REA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			10265 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = REA
+	}
+
+	provinces={
+		10261 10262 10263 10264 10265 
+	}
+	local_supplies=0.0 
+}

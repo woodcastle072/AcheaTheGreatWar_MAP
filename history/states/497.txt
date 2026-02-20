@@ -1,0 +1,40 @@
+
+state={
+	id=497
+	name="STATE_497"
+	manpower = 2019007
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=2
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4095 1}
+		victory_points = { 4096 1}
+		victory_points = { 4097 1}
+		
+		owner = DOH
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = DOH
+	}
+
+	provinces={
+		4094 4095 4096 4097 4098 
+	}
+	local_supplies=0.0 
+}

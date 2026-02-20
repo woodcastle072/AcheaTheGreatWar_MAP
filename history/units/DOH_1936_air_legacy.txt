@@ -1,0 +1,40 @@
+air_wings = {
+		410 = { 								
+		fighter_equipment_0 = { owner = "DOH" amount = 50 version_name = "Khayr Mk 0" }
+
+	}
+	1160 = { 								
+		strat_bomber_equipment_0 = { owner = "DOH" amount = 50 version_name = "Hijr Mk 2" }
+
+	}
+	1812 = { 								
+		fighter_equipment_0 = { owner = "DOH" amount = 50 version_name = "Khayr Mk 0" }
+
+	}
+	522 = { 								
+		tac_bomber_equipment_0 = { owner = "DOH" amount = 50 version_name = "Asat Mk 2" }
+
+	}
+	1238 = { 								
+		tac_bomber_equipment_0 = { owner = "DOH" amount = 50 version_name = "Asat Mk 2" }
+
+	}
+	1250 = { 								
+		strat_bomber_equipment_0 = { owner = "DOH" amount = 50 version_name = "Hijr Mk 2" }
+
+	}
+	1361 = { 								
+		CAS_equipment_0 = { owner = "DOH" amount = 50 version_name = "Khayr Mk 1" }
+
+	}
+	1405 = { 								
+		CAS_equipment_0 = { owner = "DOH" amount = 50 version_name = "Khayr Mk 1" }
+
+	}
+	1464 = { 								
+		CAS_equipment_0 = { owner = "DOH" amount = 50 version_name = "Khayr Mk 1" }
+
+	}
+
+
+}

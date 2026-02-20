@@ -1,0 +1,41 @@
+
+state={
+	id=1246
+	name="STATE_1246"
+	manpower = 246392
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10464 1}
+		
+		owner = AGB
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			10464 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AGB
+	}
+
+	provinces={
+		10464 
+	}
+	local_supplies=0.0 
+}

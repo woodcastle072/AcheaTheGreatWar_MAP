@@ -1,0 +1,40 @@
+
+state={
+	id=750
+	name="STATE_750"
+	manpower = 3015766
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=0
+		oil=2
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6104 1}
+		victory_points = { 6108 4}
+		victory_points = { 6109 2}
+		
+		owner = HIJ
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HIJ
+	}
+
+	provinces={
+		6102 6103 6104 6105 6106 6107 6108 6109 
+	}
+	local_supplies=0.0 
+}

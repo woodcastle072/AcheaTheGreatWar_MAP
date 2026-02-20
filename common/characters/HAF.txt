@@ -1,0 +1,880 @@
+characters = {
+	HAF_Sami_Khamaadi={
+		name="Sami Khamaadi"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { humble  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HAF_Omad_Mustabr={
+		name="Omad Mustabr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAF_Omad_Mustabr
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	HAF_Yahim_Shab={
+		name="Yahim Shab"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAF_Yahim_Shab
+				traits = {	headstrong 	}
+		}
+
+	}
+	HAF_Omar_Khamaadi={
+		name="Omar Khamaadi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAF_Omar_Khamaadi
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	HAF_Nabilah_Durub={
+		name="Nabilah Durub"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAF_Nabilah_Durub
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	HAF_Saad_Mustabr={
+		name="Saad Mustabr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAF_Saad_Mustabr
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	HAF_Samir_Shab={
+		name="Samir Shab"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAF_Samir_Shab
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	HAF_Omad_Khaja={
+		name="Omad Khaja"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAF_Omad_Khaja
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	HAF_Hassan_Dohayat={
+		name="Hassan Dohayat"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAF_Hassan_Dohayat
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	HAF_Anwariq_Khamaadi={
+		name="Anwariq Khamaadi"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAF_Anwariq_Khamaadi
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	HAF_Abdullahmoud_Usran={
+		name="Abdullahmoud Usran"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAF_Abdullahmoud_Usran
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	HAF_Ibrah_Haykh={
+		name="Ibrah Haykh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HAF_Ibrah_Haykh
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	HAF_Anwariq_Usran={
+		name="Anwariq Usran"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HAF_Anwariq_Usran
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	HAF_Abdullahya_Khamaadi={
+		name="Abdullahya Khamaadi"
+
+		advisor={
+			slot = air_chief
+			idea_token = HAF_Abdullahya_Khamaadi
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	HAF_Karid_Mustabr={
+		name="Karid Mustabr"
+
+		advisor={
+			slot = air_chief
+			idea_token = HAF_Karid_Mustabr
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	HAF_Abdullahya_Khaja={
+		name="Abdullahya Khaja"
+
+		advisor={
+			slot = high_command
+			idea_token = HAF_Abdullahya_Khaja
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	HAF_Samir_Dura={
+		name="Samir Dura"
+
+		advisor={
+			slot = high_command
+			idea_token = HAF_Samir_Dura
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	HAF_Karid_Usran={
+		name="Karid Usran"
+
+		advisor={
+			slot = high_command
+			idea_token = HAF_Karid_Usran
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	HAF_Mahya_Usran={
+		name="Mahya Usran"
+
+		advisor={
+			slot = high_command
+			idea_token = HAF_Mahya_Usran
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	HAF_Omad_Dohayat={
+		name="Omad Dohayat"
+
+		advisor={
+			slot = high_command
+			idea_token = HAF_Omad_Dohayat
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	HAF_Nabilahmoud_Mustabr={
+		name="Nabilahmoud Mustabr"
+
+		advisor={
+			slot = high_command
+			idea_token = HAF_Nabilahmoud_Mustabr
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	HAF_Majid_Shab={
+		name="Majid Shab"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { spirit_of_genghis  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HAF_Zaisal_Usran={
+		name="Zaisal Usran"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAF_Zaisal_Usran
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	HAF_Bilal_Mustabr={
+		name="Bilal Mustabr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAF_Bilal_Mustabr
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	HAF_Adnan_Khaja={
+		name="Adnan Khaja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAF_Adnan_Khaja
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	HAF_Saad_Fajd={
+		name="Saad Fajd"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAF_Saad_Fajd
+				traits = {	basileus 	}
+		}
+
+	}
+	HAF_Faisan_Durub={
+		name="Faisan Durub"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAF_Faisan_Durub
+				traits = {	polemarch 	}
+		}
+
+	}
+	HAF_Hammed_Durub={
+		name="Hammed Durub"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAF_Hammed_Durub
+				traits = {	infirm 	}
+		}
+
+	}
+	HAF_Mohalid_Khamaadi={
+		name="Mohalid Khamaadi"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAF_Mohalid_Khamaadi
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	HAF_Abdullalid_Dohayat={
+		name="Abdullalid Dohayat"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAF_Abdullalid_Dohayat
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	HAF_Mohami_Khamaadi={
+		name="Mohami Khamaadi"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAF_Mohami_Khamaadi
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	HAF_Ahmoud_Khamaadi={
+		name="Ahmoud Khamaadi"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAF_Ahmoud_Khamaadi
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	HAF_Hassan_Usran={
+		name="Hassan Usran"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HAF_Hassan_Usran
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	HAF_Omal_Dohayat={
+		name="Omal Dohayat"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HAF_Omal_Dohayat
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	HAF_Ibrahya_Durub={
+		name="Ibrahya Durub"
+
+		advisor={
+			slot = air_chief
+			idea_token = HAF_Ibrahya_Durub
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	HAF_Mohalid_Haykh={
+		name="Mohalid Haykh"
+
+		advisor={
+			slot = air_chief
+			idea_token = HAF_Mohalid_Haykh
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	HAF_Abdullah_Khaja={
+		name="Abdullah Khaja"
+
+		advisor={
+			slot = high_command
+			idea_token = HAF_Abdullah_Khaja
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	HAF_Khamza_Dura={
+		name="Khamza Dura"
+
+		advisor={
+			slot = high_command
+			idea_token = HAF_Khamza_Dura
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	HAF_Anwarid_Haykh={
+		name="Anwarid Haykh"
+
+		advisor={
+			slot = high_command
+			idea_token = HAF_Anwarid_Haykh
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	HAF_Jami_Haykh={
+		name="Jami Haykh"
+
+		advisor={
+			slot = high_command
+			idea_token = HAF_Jami_Haykh
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	HAF_Faid_Dura={
+		name="Faid Dura"
+
+		advisor={
+			slot = high_command
+			idea_token = HAF_Faid_Dura
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	HAF_Bilal_Fajd={
+		name="Bilal Fajd"
+
+		advisor={
+			slot = high_command
+			idea_token = HAF_Bilal_Fajd
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	HAF_Khamza_Usran={
+		name="Khamza Usran"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HAF_Samad_Haykh={
+		name="Samad Haykh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAF_Samad_Haykh
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	HAF_Karim_Mustabr={
+		name="Karim Mustabr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAF_Karim_Mustabr
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	HAF_Imrahim_Shab={
+		name="Imrahim Shab"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAF_Imrahim_Shab
+				traits = {	infirm 	}
+		}
+
+	}
+	HAF_Abdullah_Durub={
+		name="Abdullah Durub"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAF_Abdullah_Durub
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	HAF_Anwarid_Shab={
+		name="Anwarid Shab"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAF_Anwarid_Shab
+				traits = {	political_dancer 	}
+		}
+
+	}
+	HAF_Hassal_Haykh={
+		name="Hassal Haykh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAF_Hassal_Haykh
+				traits = {	infirm 	}
+		}
+
+	}
+	HAF_Rami_Khaja={
+		name="Rami Khaja"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAF_Rami_Khaja
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	HAF_Ahmoud_Dohayat={
+		name="Ahmoud Dohayat"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAF_Ahmoud_Dohayat
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	HAF_Nabilah_Haykh={
+		name="Nabilah Haykh"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAF_Nabilah_Haykh
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	HAF_Faisal_Khamaadi={
+		name="Faisal Khamaadi"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAF_Faisal_Khamaadi
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	HAF_Saad_Khamaadi={
+		name="Saad Khamaadi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HAF_Saad_Khamaadi
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	HAF_Ibrahya_Khamaadi={
+		name="Ibrahya Khamaadi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HAF_Ibrahya_Khamaadi
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	HAF_Abdullah_Dura={
+		name="Abdullah Dura"
+
+		advisor={
+			slot = air_chief
+			idea_token = HAF_Abdullah_Dura
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	HAF_Anwar_Shab={
+		name="Anwar Shab"
+
+		advisor={
+			slot = air_chief
+			idea_token = HAF_Anwar_Shab
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	HAF_Ibrahya_Shab={
+		name="Ibrahya Shab"
+
+		advisor={
+			slot = high_command
+			idea_token = HAF_Ibrahya_Shab
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	HAF_Jami_Khaja={
+		name="Jami Khaja"
+
+		advisor={
+			slot = high_command
+			idea_token = HAF_Jami_Khaja
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	HAF_Samir_Fajd={
+		name="Samir Fajd"
+
+		advisor={
+			slot = high_command
+			idea_token = HAF_Samir_Fajd
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	HAF_Faid_Shab={
+		name="Faid Shab"
+
+		advisor={
+			slot = high_command
+			idea_token = HAF_Faid_Shab
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	HAF_Ibrahim_Haykh={
+		name="Ibrahim Haykh"
+
+		advisor={
+			slot = high_command
+			idea_token = HAF_Ibrahim_Haykh
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	HAF_Abdullah_Khamaadi={
+		name="Abdullah Khamaadi"
+
+		advisor={
+			slot = high_command
+			idea_token = HAF_Abdullah_Khamaadi
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	HAF_Hassal_Khaja={
+		name="Hassal Khaja"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HAF_Farid_Mustabr={
+		name="Farid Mustabr"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAF_Farid_Mustabr
+				traits = {	the_banker 	}
+		}
+
+	}
+	HAF_Khami_Fajd={
+		name="Khami Fajd"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAF_Khami_Fajd
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	HAF_Anwar_Khaja={
+		name="Anwar Khaja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAF_Anwar_Khaja
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	HAF_Yahim_Khaja={
+		name="Yahim Khaja"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAF_Yahim_Khaja
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	HAF_Omal_Haykh={
+		name="Omal Haykh"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAF_Omal_Haykh
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	HAF_Nabilahmoud_Khamaadi={
+		name="Nabilahmoud Khamaadi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HAF_Nabilahmoud_Khamaadi
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	HAF_Faisan_Mustabr={
+		name="Faisan Mustabr"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAF_Faisan_Mustabr
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	HAF_Jamad_Khaja={
+		name="Jamad Khaja"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAF_Jamad_Khaja
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	HAF_Jamad_Durub={
+		name="Jamad Durub"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAF_Jamad_Durub
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	HAF_Ramir_Dura={
+		name="Ramir Dura"
+
+		advisor={
+			slot = army_chief
+			idea_token = HAF_Ramir_Dura
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	HAF_Abdullalid_Dura={
+		name="Abdullalid Dura"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HAF_Abdullalid_Dura
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	HAF_Zaisal_Haykh={
+		name="Zaisal Haykh"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HAF_Zaisal_Haykh
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	HAF_Omad_Haykh={
+		name="Omad Haykh"
+
+		advisor={
+			slot = air_chief
+			idea_token = HAF_Omad_Haykh
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	HAF_Sammed_Durub={
+		name="Sammed Durub"
+
+		advisor={
+			slot = air_chief
+			idea_token = HAF_Sammed_Durub
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	HAF_Hami_Usran={
+		name="Hami Usran"
+
+		advisor={
+			slot = high_command
+			idea_token = HAF_Hami_Usran
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	HAF_Kariq_Durub={
+		name="Kariq Durub"
+
+		advisor={
+			slot = high_command
+			idea_token = HAF_Kariq_Durub
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	HAF_Imran_Dohayat={
+		name="Imran Dohayat"
+
+		advisor={
+			slot = high_command
+			idea_token = HAF_Imran_Dohayat
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	HAF_Abdullalid_Durub={
+		name="Abdullalid Durub"
+
+		advisor={
+			slot = high_command
+			idea_token = HAF_Abdullalid_Durub
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	HAF_Kariq_Mustabr={
+		name="Kariq Mustabr"
+
+		advisor={
+			slot = high_command
+			idea_token = HAF_Kariq_Mustabr
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	HAF_Omar_Mustabr={
+		name="Omar Mustabr"
+
+		advisor={
+			slot = high_command
+			idea_token = HAF_Omar_Mustabr
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	HAF_Omal_Durub={
+		name="Omal Durub"
+
+		advisor={
+			slot = theorist
+			idea_token = HAF_Omal_Durub
+				traits = {	military_theorist 	}
+		}
+
+	}
+	HAF_Hami_Haykh={
+		name="Hami Haykh"
+
+		advisor={
+			slot = theorist
+			idea_token = HAF_Hami_Haykh
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	HAF_Omar_Haykh={
+		name="Omar Haykh"
+
+		advisor={
+			slot = theorist
+			idea_token = HAF_Omar_Haykh
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

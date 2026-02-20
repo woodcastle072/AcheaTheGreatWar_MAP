@@ -1,0 +1,42 @@
+
+state={
+	id=703
+	name="STATE_703"
+	manpower = 2830804
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=5
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5798 2}
+		victory_points = { 5801 2}
+		
+		owner = HIJ
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			5800 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HIJ
+	}
+
+	provinces={
+		5791 5792 5793 5794 5795 5796 5797 5798 5799 5800 5801 5802 5803 5804 5805 5806 5807 5808 
+	}
+	local_supplies=0.0 
+}

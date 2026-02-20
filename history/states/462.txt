@@ -1,0 +1,41 @@
+
+state={
+	id=462
+	name="STATE_462"
+	manpower = 1156046
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3856 2}
+		
+		owner = DAN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			3855 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = DAN
+	}
+
+	provinces={
+		3855 3856 
+	}
+	local_supplies=0.0 
+}

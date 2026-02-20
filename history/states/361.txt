@@ -1,0 +1,41 @@
+
+state={
+	id=361
+	name="STATE_361"
+	manpower = 1559887
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2985 1}
+		
+		owner = DOH
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			2985 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = DOH
+	}
+
+	provinces={
+		2985 2986 2987 2988 2989 
+	}
+	local_supplies=0.0 
+}

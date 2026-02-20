@@ -1,0 +1,39 @@
+
+state={
+	id=948
+	name="STATE_948"
+	manpower = 6336547
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=2
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8911 14}
+		victory_points = { 8916 10}
+		
+		owner = TUA
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 1
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = TUA
+	}
+
+	provinces={
+		8910 8911 8912 8913 8914 8915 8916 8917 8918 8919 8920 8921 8922 8923 8924 8925 
+	}
+	local_supplies=0.0 
+}

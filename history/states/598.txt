@@ -1,0 +1,39 @@
+
+state={
+	id=598
+	name="STATE_598"
+	manpower = 1884023
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4999 1}
+		victory_points = { 5002 1}
+		
+		owner = HIJ
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HIJ
+	}
+
+	provinces={
+		4998 4999 5000 5001 5002 5003 5004 
+	}
+	local_supplies=0.0 
+}

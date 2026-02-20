@@ -1,0 +1,122 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Koen Fleet"			
+		naval_base = 11212
+		task_force = {
+			name = "Koen Fleet"
+			location = 11212
+			
+						ship = { name = "Prind" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Koen" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+			ship = { name = "Kuesandt" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Kuesandt 2" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Treus" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Kuesandt 3" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Prind 2" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Koen 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Geit" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Geit 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+			ship = { name = "Prind 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Koen 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Geit 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Kuesandt 4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Geit 4" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+			ship = { name = "Treus 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+			ship = { name = "Treus 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+			ship = { name = "Geit 5" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Kuesandt 5" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Brucht" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Treus 4" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+			ship = { name = "Brucht 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Kuesandt 6" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Geit 6" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Koen 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Treus 5" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+			ship = { name = "Treus 6" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Geit 7" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Koen 5" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Kuesandt 7" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+			ship = { name = "Koen 6" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+			ship = { name = "Koen 7" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+			ship = { name = "Prind 4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Prind 5" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Geit 8" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Kuesandt 8" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Prind 6" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Geit 9" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Brucht 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Brucht 4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Koen 8" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Prind 7" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+			ship = { name = "Prind 8" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Geit 10" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Geit 11" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Prind 9" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Brucht 5" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+			ship = { name = "Kuesandt 9" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Geit 12" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Brucht 6" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+			ship = { name = "Treus 7" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Treus 8" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Treus 9" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+			ship = { name = "Geit 13" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Koen 9" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+			ship = { name = "Geit 14" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Koen 10" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Brucht 7" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+			ship = { name = "Geit 15" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+			ship = { name = "Kuesandt 10" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Treus 10" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Brucht 8" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Prind 10" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Brucht 9" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Treus 11" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+			ship = { name = "Brucht 10" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Treus 12" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Koen 11" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+			ship = { name = "Geit 16" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Treus 13" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+			ship = { name = "Prind 11" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Kuesandt 11" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Koen 12" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Treus 14" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Geit 17" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+			ship = { name = "Koen 13" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+			ship = { name = "Brucht 11" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Prind 12" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Brucht 12" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Prind 13" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Geit 18" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+			ship = { name = "Kuesandt 12" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+			ship = { name = "Geit 19" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Kuesandt 13" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Prind 14" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+			ship = { name = "Prind 15" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Geit 20" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Geit 21" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Geit 22" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Geit 23" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Geit 24" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Treus 15" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Kuesandt 14" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Kuesandt 15" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOE version_name = "Prind Class" } }	}
+			ship = { name = "Prind 16" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = KOE version_name = "Treus Class" } }	}
+			ship = { name = "Prind 17" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = KOE version_name = "Brucht Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

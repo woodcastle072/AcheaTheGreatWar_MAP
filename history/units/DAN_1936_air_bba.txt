@@ -1,0 +1,71 @@
+air_wings = {
+		407 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "DAN" amount = 50 version_name = "Hunarfaq Mk 0" }
+
+	}
+	405 = { 								
+		small_plane_airframe_0 = { owner = "DAN" amount = 50 version_name = "Dand Mk 0" }
+
+	}
+	420 = { 								
+		small_plane_airframe_0 = { owner = "DAN" amount = 50 version_name = "Dand Mk 0" }
+
+	}
+	434 = { 								
+		small_plane_airframe_0 = { owner = "DAN" amount = 50 version_name = "Dand Mk 0" }
+
+	}
+	437 = { 								
+		small_plane_airframe_0 = { owner = "DAN" amount = 50 version_name = "Dand Mk 0" }
+small_plane_airframe_0 = { owner = "DAN" amount = 50 version_name = "Dand Mk 0" }
+small_plane_airframe_0 = { owner = "DAN" amount = 50 version_name = "Dand Mk 0" }
+
+	}
+	289 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "DAN" amount = 50 version_name = "Hunarfaq Mk 0" }
+small_plane_naval_bomber_airframe_0 = { owner = "DAN" amount = 50 version_name = "Hunarfaq Mk 0" }
+
+	}
+	299 = { 								
+		small_plane_airframe_0 = { owner = "DAN" amount = 50 version_name = "Dand Mk 0" }
+
+	}
+	302 = { 								
+		small_plane_airframe_0 = { owner = "DAN" amount = 50 version_name = "Dand Mk 0" }
+
+	}
+	304 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "DAN" amount = 50 version_name = "Hunarfaq Mk 0" }
+
+	}
+	340 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "DAN" amount = 50 version_name = "Hunarfaq Mk 0" }
+
+	}
+	781 = { 								
+		small_plane_airframe_0 = { owner = "DAN" amount = 50 version_name = "Dand Mk 0" }
+
+	}
+	801 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "DAN" amount = 50 version_name = "Hunarfaq Mk 0" }
+
+	}
+	494 = { 								
+		small_plane_airframe_0 = { owner = "DAN" amount = 50 version_name = "Dand Mk 0" }
+
+	}
+	503 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "DAN" amount = 50 version_name = "Hunarfaq Mk 0" }
+
+	}
+	1544 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "DAN" amount = 50 version_name = "Hunarfaq Mk 0" }
+
+	}
+	1712 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "DAN" amount = 50 version_name = "Hunarfaq Mk 0" }
+
+	}
+
+
+}

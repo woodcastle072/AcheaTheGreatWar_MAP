@@ -1,0 +1,39 @@
+
+state={
+	id=289
+	name="STATE_289"
+	manpower = 3581237
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2308 7}
+		victory_points = { 2312 4}
+		
+		owner = DAN
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = DAN
+	}
+
+	provinces={
+		2308 2309 2310 2311 2312 2313 2314 2315 2316 
+	}
+	local_supplies=0.0 
+}

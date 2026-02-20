@@ -1,0 +1,43 @@
+
+state={
+	id=346
+	name="STATE_346"
+	manpower = 3324715
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2837 3}
+		victory_points = { 2838 4}
+		victory_points = { 2843 2}
+		
+		owner = DOH
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			2837 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = DOH
+	}
+
+	provinces={
+		2836 2837 2838 2839 2840 2841 2842 2843 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=646
+	name="STATE_646"
+	manpower = 3597999
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5381 1}
+		victory_points = { 5382 3}
+		victory_points = { 5388 1}
+		victory_points = { 5389 1}
+		
+		owner = HIJ
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = HIJ
+	}
+
+	provinces={
+		5379 5380 5381 5382 5383 5384 5385 5386 5387 5388 5389 
+	}
+	local_supplies=0.0 
+}

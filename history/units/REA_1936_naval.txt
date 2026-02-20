@@ -1,0 +1,69 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Reanieste Fleet"			
+		naval_base = 11218
+		task_force = {
+			name = "Reanieste Fleet"
+			location = 11218
+			
+						ship = { name = "Vene" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = REA version_name = "Cardo Class" } }	}
+			ship = { name = "Mano" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REA version_name = "Cardo Class" } }	}
+			ship = { name = "Mapirio" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REA version_name = "Mano Class" } }	}
+			ship = { name = "Mapirio 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REA version_name = "Cardo Class" } }	}
+			ship = { name = "Mano 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REA version_name = "Mano Class" } }	}
+			ship = { name = "Reanieste" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REA version_name = "Cardo Class" } }	}
+			ship = { name = "Mapirio 3" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REA version_name = "Mano Class" } }	}
+			ship = { name = "Vene 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REA version_name = "Cardo Class" } }	}
+			ship = { name = "Mapirio 4" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REA version_name = "Mano Class" } }	}
+			ship = { name = "Reanieste 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REA version_name = "Cardo Class" } }	}
+			ship = { name = "Vene 3" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REA version_name = "Mano Class" } }	}
+			ship = { name = "Vene 4" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REA version_name = "Mano Class" } }	}
+			ship = { name = "Mapirio 5" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REA version_name = "Mano Class" } }	}
+			ship = { name = "Vene 5" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REA version_name = "Mano Class" } }	}
+			ship = { name = "Mano 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REA version_name = "Cardo Class" } }	}
+			ship = { name = "Mapirio 6" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REA version_name = "Mano Class" } }	}
+			ship = { name = "Reanieste 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REA version_name = "Mano Class" } }	}
+			ship = { name = "Mapirio 7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REA version_name = "Cardo Class" } }	}
+			ship = { name = "Mapirio 8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REA version_name = "Cardo Class" } }	}
+			ship = { name = "Vene 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REA version_name = "Cardo Class" } }	}
+			ship = { name = "Cardo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REA version_name = "Cardo Class" } }	}
+			ship = { name = "Mapirio 9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REA version_name = "Cardo Class" } }	}
+			ship = { name = "Mano 4" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REA version_name = "Mano Class" } }	}
+			ship = { name = "Mapirio 10" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REA version_name = "Mano Class" } }	}
+			ship = { name = "Mano 5" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REA version_name = "Mano Class" } }	}
+			ship = { name = "Reanieste 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REA version_name = "Cardo Class" } }	}
+			ship = { name = "Reanieste 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REA version_name = "Cardo Class" } }	}
+			ship = { name = "Reanieste 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REA version_name = "Cardo Class" } }	}
+			ship = { name = "Mano 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REA version_name = "Cardo Class" } }	}
+			ship = { name = "Reanieste 7" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REA version_name = "Mano Class" } }	}
+			ship = { name = "Mano 7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REA version_name = "Cardo Class" } }	}
+			ship = { name = "Reanieste 8" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REA version_name = "Mano Class" } }	}
+			ship = { name = "Mapirio 11" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REA version_name = "Mano Class" } }	}
+			ship = { name = "Vene 7" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REA version_name = "Mano Class" } }	}
+			ship = { name = "Cardo 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REA version_name = "Cardo Class" } }	}
+			ship = { name = "Reanieste 9" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REA version_name = "Mano Class" } }	}
+			ship = { name = "Mapirio 12" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REA version_name = "Cardo Class" } }	}
+			ship = { name = "Vene 8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REA version_name = "Cardo Class" } }	}
+			ship = { name = "Mano 8" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REA version_name = "Mano Class" } }	}
+			ship = { name = "Mano 9" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REA version_name = "Mano Class" } }	}
+			ship = { name = "Reanieste 10" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = REA version_name = "Mano Class" } }	}
+			ship = { name = "Cardo 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = REA version_name = "Cardo Class" } }	}
+			ship = { name = "Cardo 4" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = REA version_name = "Mano Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

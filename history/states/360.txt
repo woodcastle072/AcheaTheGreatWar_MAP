@@ -1,0 +1,44 @@
+
+state={
+	id=360
+	name="STATE_360"
+	manpower = 3596855
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2977 2}
+		victory_points = { 2979 2}
+		victory_points = { 2982 2}
+		victory_points = { 2983 3}
+		
+		owner = HAF
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			2981 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HAF
+	}
+
+	provinces={
+		2975 2976 2977 2978 2979 2980 2981 2982 2983 2984 
+	}
+	local_supplies=0.0 
+}

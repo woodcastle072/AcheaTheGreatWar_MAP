@@ -1,0 +1,41 @@
+
+state={
+	id=1753
+	name="STATE_1753"
+	manpower = 30689
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10971 1}
+		
+		owner = YAN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			10971 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = YAN
+	}
+
+	provinces={
+		10971 
+	}
+	local_supplies=0.0 
+}

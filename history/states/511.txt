@@ -1,0 +1,41 @@
+
+state={
+	id=511
+	name="STATE_511"
+	manpower = 6133247
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=8
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4185 2}
+		victory_points = { 4193 4}
+		victory_points = { 4198 4}
+		victory_points = { 4200 2}
+		
+		owner = DAN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = DAN
+	}
+
+	provinces={
+		4178 4179 4180 4181 4182 4183 4184 4185 4186 4187 4188 4189 4190 4191 4192 4193 4194 4195 4196 4197 4198 4199 4200 4201 4202 4203 4204 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,42 @@
+
+state={
+	id=455
+	name="STATE_455"
+	manpower = 3923746
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=7
+		coal=0
+	}
+
+	history={
+		victory_points = { 3747 4}
+		victory_points = { 3750 1}
+		
+		owner = KOE
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			3728 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = KOE
+	}
+
+	provinces={
+		3728 3729 3730 3731 3732 3733 3734 3735 3736 3737 3738 3739 3740 3741 3742 3743 3744 3745 3746 3747 3748 3749 3750 3751 3752 3753 3754 3755 3756 
+	}
+	local_supplies=0.0 
+}

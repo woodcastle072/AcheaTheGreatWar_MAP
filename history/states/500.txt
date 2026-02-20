@@ -1,0 +1,40 @@
+
+state={
+	id=500
+	name="STATE_500"
+	manpower = 2191971
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4125 1}
+		victory_points = { 4127 1}
+		victory_points = { 4129 2}
+		
+		owner = HAF
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = HAF
+	}
+
+	provinces={
+		4124 4125 4126 4127 4128 4129 
+	}
+	local_supplies=0.0 
+}

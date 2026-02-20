@@ -1,0 +1,42 @@
+
+state={
+	id=1094
+	name="STATE_1094"
+	manpower = 3986619
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9889 4}
+		victory_points = { 9890 7}
+		
+		owner = KOE
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			9892 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = KOE
+	}
+
+	provinces={
+		9883 9884 9885 9886 9887 9888 9889 9890 9891 9892 9893 9894 
+	}
+	local_supplies=0.0 
+}

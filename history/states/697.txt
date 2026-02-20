@@ -1,0 +1,38 @@
+
+state={
+	id=697
+	name="STATE_697"
+	manpower = 1834222
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5755 3}
+		
+		owner = HAF
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HAF
+	}
+
+	provinces={
+		5749 5750 5751 5752 5753 5754 5755 
+	}
+	local_supplies=0.0 
+}

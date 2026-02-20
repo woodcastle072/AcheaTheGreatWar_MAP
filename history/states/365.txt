@@ -1,0 +1,39 @@
+
+state={
+	id=365
+	name="STATE_365"
+	manpower = 1230662
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3001 1}
+		victory_points = { 3002 1}
+		
+		owner = HAF
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = HAF
+	}
+
+	provinces={
+		3001 3002 3003 
+	}
+	local_supplies=0.0 
+}

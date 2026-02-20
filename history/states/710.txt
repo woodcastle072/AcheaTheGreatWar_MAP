@@ -1,0 +1,41 @@
+
+state={
+	id=710
+	name="STATE_710"
+	manpower = 4079242
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5843 2}
+		victory_points = { 5845 2}
+		victory_points = { 5846 2}
+		victory_points = { 5848 3}
+		
+		owner = HAF
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = HAF
+	}
+
+	provinces={
+		5842 5843 5844 5845 5846 5847 5848 5849 5850 5851 5852 5853 
+	}
+	local_supplies=0.0 
+}

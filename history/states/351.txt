@@ -1,0 +1,39 @@
+
+state={
+	id=351
+	name="STATE_351"
+	manpower = 3825715
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2890 6}
+		victory_points = { 2893 5}
+		
+		owner = HAF
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HAF
+	}
+
+	provinces={
+		2886 2887 2888 2889 2890 2891 2892 2893 2894 2895 2896 
+	}
+	local_supplies=0.0 
+}

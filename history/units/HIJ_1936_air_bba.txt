@@ -1,0 +1,176 @@
+air_wings = {
+		630 = { 								
+		cv_small_plane_cas_airframe_1 = { owner = "HIJ" amount = 50 version_name = "Jing Mk 2" }
+
+	}
+	631 = { 								
+		cv_small_plane_cas_airframe_1 = { owner = "HIJ" amount = 50 version_name = "Jing Mk 2" }
+
+	}
+	652 = { 								
+		cv_small_plane_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Yang Mk 2" }
+
+	}
+	665 = { 								
+		small_plane_airframe_1 = { owner = "HIJ" amount = 50 version_name = "Dong Mk 0" }
+
+	}
+	663 = { 								
+		cv_small_plane_airframe_1 = { owner = "HIJ" amount = 50 version_name = "Ling Mk 1" }
+
+	}
+	680 = { 								
+		cv_small_plane_airframe_1 = { owner = "HIJ" amount = 50 version_name = "Ling Mk 1" }
+
+	}
+	678 = { 								
+		small_plane_cas_airframe_1 = { owner = "HIJ" amount = 50 version_name = "Jinxi Mk 2" }
+
+	}
+	695 = { 								
+		cv_small_plane_cas_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Sheng Mk 1" }
+medium_plane_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Shou Mk 0" }
+
+	}
+	689 = { 								
+		cv_small_plane_airframe_1 = { owner = "HIJ" amount = 50 version_name = "Ling Mk 1" }
+
+	}
+	698 = { 								
+		medium_plane_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Shou Mk 0" }
+
+	}
+	723 = { 								
+		medium_plane_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Shou Mk 0" }
+
+	}
+	715 = { 								
+		small_plane_airframe_1 = { owner = "HIJ" amount = 50 version_name = "Dong Mk 0" }
+
+	}
+	708 = { 								
+		cv_small_plane_airframe_1 = { owner = "HIJ" amount = 50 version_name = "Ling Mk 1" }
+cv_small_plane_cas_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Sheng Mk 1" }
+
+	}
+	732 = { 								
+		large_plane_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Yang Mk 2" }
+
+	}
+	741 = { 								
+		cv_small_plane_airframe_1 = { owner = "HIJ" amount = 50 version_name = "Ling Mk 1" }
+
+	}
+	742 = { 								
+		cv_small_plane_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Yang Mk 2" }
+
+	}
+	616 = { 								
+		small_plane_cas_airframe_1 = { owner = "HIJ" amount = 50 version_name = "Jinxi Mk 2" }
+small_plane_cas_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Nang Mk 1" }
+
+	}
+	607 = { 								
+		small_plane_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Sheng Mk 2" }
+
+	}
+	531 = { 								
+		cv_small_plane_cas_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Sheng Mk 1" }
+
+	}
+	536 = { 								
+		cv_small_plane_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Yang Mk 2" }
+
+	}
+	559 = { 								
+		cv_small_plane_cas_airframe_1 = { owner = "HIJ" amount = 50 version_name = "Jing Mk 2" }
+
+	}
+	549 = { 								
+		small_plane_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Sheng Mk 2" }
+
+	}
+	556 = { 								
+		cv_small_plane_cas_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Sheng Mk 1" }
+
+	}
+	571 = { 								
+		large_plane_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Yang Mk 2" }
+
+	}
+	588 = { 								
+		small_plane_cas_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Nang Mk 1" }
+small_plane_cas_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Nang Mk 1" }
+
+	}
+	1121 = { 								
+		small_plane_airframe_1 = { owner = "HIJ" amount = 50 version_name = "Dong Mk 0" }
+
+	}
+	1126 = { 								
+		small_plane_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Sheng Mk 2" }
+
+	}
+	1142 = { 								
+		cv_small_plane_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Yang Mk 2" }
+large_plane_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Yang Mk 2" }
+
+	}
+	1082 = { 								
+		small_plane_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Sheng Mk 2" }
+
+	}
+	1821 = { 								
+		cv_small_plane_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Yang Mk 2" }
+
+	}
+	1899 = { 								
+		medium_plane_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Shou Mk 0" }
+
+	}
+	1959 = { 								
+		cv_small_plane_cas_airframe_1 = { owner = "HIJ" amount = 50 version_name = "Jing Mk 2" }
+small_plane_cas_airframe_1 = { owner = "HIJ" amount = 50 version_name = "Jinxi Mk 2" }
+small_plane_cas_airframe_1 = { owner = "HIJ" amount = 50 version_name = "Jinxi Mk 2" }
+
+	}
+	1528 = { 								
+		cv_small_plane_cas_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Sheng Mk 1" }
+
+	}
+	1632 = { 								
+		small_plane_cas_airframe_1 = { owner = "HIJ" amount = 50 version_name = "Jinxi Mk 2" }
+small_plane_cas_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Nang Mk 1" }
+
+	}
+	1631 = { 								
+		small_plane_airframe_1 = { owner = "HIJ" amount = 50 version_name = "Dong Mk 0" }
+
+	}
+	1215 = { 								
+		medium_plane_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Shou Mk 0" }
+
+	}
+	1273 = { 								
+		small_plane_airframe_1 = { owner = "HIJ" amount = 50 version_name = "Dong Mk 0" }
+
+	}
+	1306 = { 								
+		large_plane_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Yang Mk 2" }
+
+	}
+	1347 = { 								
+		small_plane_cas_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Nang Mk 1" }
+
+	}
+	1367 = { 								
+		cv_small_plane_cas_airframe_1 = { owner = "HIJ" amount = 50 version_name = "Jing Mk 2" }
+
+	}
+	1430 = { 								
+		small_plane_airframe_0 = { owner = "HIJ" amount = 50 version_name = "Sheng Mk 2" }
+
+	}
+
+
+}

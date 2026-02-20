@@ -1,0 +1,43 @@
+
+state={
+	id=300
+	name="STATE_300"
+	manpower = 2445739
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=6
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2395 1}
+		victory_points = { 2396 1}
+		victory_points = { 2402 1}
+		
+		owner = HAF
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			2405 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HAF
+	}
+
+	provinces={
+		2392 2393 2394 2395 2396 2397 2398 2399 2400 2401 2402 2403 2404 2405 2406 
+	}
+	local_supplies=0.0 
+}

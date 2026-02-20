@@ -1,0 +1,45 @@
+
+state={
+	id=390
+	name="STATE_390"
+	manpower = 7409227
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=4
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3187 1}
+		victory_points = { 3194 6}
+		victory_points = { 3196 6}
+		victory_points = { 3198 5}
+		victory_points = { 3205 5}
+		
+		owner = DOH
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 1
+			industrial_complex = 3
+			
+			3198 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = DOH
+	}
+
+	provinces={
+		3185 3186 3187 3188 3189 3190 3191 3192 3193 3194 3195 3196 3197 3198 3199 3200 3201 3202 3203 3204 3205 
+	}
+	local_supplies=0.0 
+}

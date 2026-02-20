@@ -1,0 +1,39 @@
+
+state={
+	id=304
+	name="STATE_304"
+	manpower = 2249674
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2421 2}
+		victory_points = { 2426 2}
+		
+		owner = DAN
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = DAN
+	}
+
+	provinces={
+		2421 2422 2423 2424 2425 2426 2427 2428 2429 2430 
+	}
+	local_supplies=0.0 
+}

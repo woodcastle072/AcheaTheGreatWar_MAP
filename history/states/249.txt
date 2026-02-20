@@ -1,0 +1,40 @@
+
+state={
+	id=249
+	name="STATE_249"
+	manpower = 8830882
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2013 11}
+		victory_points = { 2015 9}
+		victory_points = { 2020 11}
+		
+		owner = AGB
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 1
+			industrial_complex = 4
+			
+			
+		}
+		add_core_of = AGB
+	}
+
+	provinces={
+		2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,136 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Dand Fleet"			
+		naval_base = 11140
+		task_force = {
+			name = "Dand Fleet"
+			location = 11140
+			
+						ship = { name = "Ranin" definition = battle_cruiser equipment = { ship_hull_heavy_2 = { amount = 1 owner = DAN version_name = "Hunarfaq Class" } }	}
+			ship = { name = "Sarha" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Ranin 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Rahvehrand" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Dand" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Rahvehrand 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Hunarfaq" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Namzaas" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Hunarfaq 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Rahvehrand 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Ranin 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Ranin 4" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Namzaas 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Rahvehrand 4" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Sarha 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Namzaas 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Dand 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Namzaas 4" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Rahvehrand 5" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Hunarfaq 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Hunarfaq 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Hunarfaq 5" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Dand 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Dand 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Rahvehrand 6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Rahvehrand 7" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Hunarfaq 6" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Ranin 5" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Rahvehrand 8" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Dand 5" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Rahvehrand 9" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Hunarfaq 7" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Ranin 6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Ranin 7" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Dand 6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Ranin 8" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Ranin 9" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Dand 7" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Dand 8" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Namzaas 5" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Ranin 10" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Rahvehrand 10" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Rahvehrand 11" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Dand 9" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Dand 10" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Namzaas 6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Dand 11" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Namzaas 7" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Hunarfaq 8" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Rahvehrand 12" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Rahvehrand 13" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Sarha 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Ranin 11" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Sarha 4" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Rahvehrand 14" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Ranin 12" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Dand 12" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Hunarfaq 9" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Hunarfaq 10" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Rahvehrand 15" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Hunarfaq 11" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Ranin 13" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Hunarfaq 12" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Rahvehrand 16" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Dand 13" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Dand 14" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Rahvehrand 17" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Ranin 14" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Dand 15" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Rahvehrand 18" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Sarha 5" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Ranin 15" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Namzaas 8" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Namzaas 9" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Dand 16" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Ranin 16" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Rahvehrand 19" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Hunarfaq 13" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Namzaas 10" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Namzaas 11" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Ranin 17" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Sarha 6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Ranin 18" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Sarha 7" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Dand 17" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Ranin 19" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Dand 18" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Hunarfaq 14" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Hunarfaq 15" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Dand 19" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Sarha 8" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Namzaas 12" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Hunarfaq 16" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Dand 20" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Ranin 20" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Dand 21" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Hunarfaq 17" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Dand 22" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Dand 23" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Sarha 9" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Ranin 21" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Namzaas 13" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Dand 24" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Namzaas 14" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Sarha 10" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Ranin 22" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Rahvehrand 20" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Namzaas 15" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Sarha 11" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+			ship = { name = "Dand 25" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DAN version_name = "Rahvehrand Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

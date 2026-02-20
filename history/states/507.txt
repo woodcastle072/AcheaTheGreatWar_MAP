@@ -1,0 +1,38 @@
+
+state={
+	id=507
+	name="STATE_507"
+	manpower = 2267382
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4154 5}
+		
+		owner = DOH
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = DOH
+	}
+
+	provinces={
+		4149 4150 4151 4152 4153 4154 
+	}
+	local_supplies=0.0 
+}

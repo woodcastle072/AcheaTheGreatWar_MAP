@@ -1,0 +1,42 @@
+
+state={
+	id=809
+	name="STATE_809"
+	manpower = 10563052
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=10
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=11
+	}
+
+	history={
+		victory_points = { 7121 1}
+		victory_points = { 7138 30}
+		
+		owner = DAN
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			7120 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = DAN
+	}
+
+	provinces={
+		7108 7109 7110 7111 7112 7113 7114 7115 7116 7117 7118 7119 7120 7121 7122 7123 7124 7125 7126 7127 7128 7129 7130 7131 7132 7133 7134 7135 7136 7137 7138 7139 7140 7141 7142 7143 7144 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=999
+	name="STATE_999"
+	manpower = 416540
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9188 1}
+		
+		owner = TUA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TUA
+	}
+
+	provinces={
+		9188 
+	}
+	local_supplies=0.0 
+}

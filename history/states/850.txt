@@ -1,0 +1,41 @@
+
+state={
+	id=850
+	name="STATE_850"
+	manpower = 3453637
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8177 3}
+		victory_points = { 8180 3}
+		victory_points = { 8183 1}
+		victory_points = { 8185 3}
+		
+		owner = AGB
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AGB
+	}
+
+	provinces={
+		8177 8178 8179 8180 8181 8182 8183 8184 8185 
+	}
+	local_supplies=0.0 
+}

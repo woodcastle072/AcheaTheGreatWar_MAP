@@ -1,0 +1,880 @@
+characters = {
+	SUN_Ekchak_Bonai={
+		name="Ekchak Bonai"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SUN_Pakal_Benque={
+		name="Pakal Benque"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUN_Pakal_Benque
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	SUN_Chakalam_Benque={
+		name="Chakalam Benque"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUN_Chakalam_Benque
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	SUN_Nacab_Chilanilam={
+		name="Nacab Chilanilam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUN_Nacab_Chilanilam
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	SUN_Acatl_Yaxchen={
+		name="Acatl Yaxchen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUN_Acatl_Yaxchen
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	SUN_Kukulkan_Kabal={
+		name="Kukulkan Kabal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUN_Kukulkan_Kabal
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	SUN_Nacab_Yaxchen={
+		name="Nacab Yaxchen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUN_Nacab_Yaxchen
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SUN_Pakal_Bonai={
+		name="Pakal Bonai"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUN_Pakal_Bonai
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	SUN_Ekchakanek_Benque={
+		name="Ekchakanek Benque"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUN_Ekchakanek_Benque
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	SUN_Tohil_Nohil={
+		name="Tohil Nohil"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUN_Tohil_Nohil
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	SUN_Yaxkin_Kabal={
+		name="Yaxkin Kabal"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUN_Yaxkin_Kabal
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	SUN_Acatl_Lamna={
+		name="Acatl Lamna"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SUN_Acatl_Lamna
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	SUN_Bacatl_Nohil={
+		name="Bacatl Nohil"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SUN_Bacatl_Nohil
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	SUN_Tecun_Chunikabahun={
+		name="Tecun Chunikabahun"
+
+		advisor={
+			slot = air_chief
+			idea_token = SUN_Tecun_Chunikabahun
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	SUN_Kukulkan_Nohil={
+		name="Kukulkan Nohil"
+
+		advisor={
+			slot = air_chief
+			idea_token = SUN_Kukulkan_Nohil
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	SUN_Chua_Yaxchen={
+		name="Chua Yaxchen"
+
+		advisor={
+			slot = high_command
+			idea_token = SUN_Chua_Yaxchen
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	SUN_Balam_Naab={
+		name="Balam Naab"
+
+		advisor={
+			slot = high_command
+			idea_token = SUN_Balam_Naab
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	SUN_Kukulkanek_Nohil={
+		name="Kukulkanek Nohil"
+
+		advisor={
+			slot = high_command
+			idea_token = SUN_Kukulkanek_Nohil
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	SUN_Chichen_Chilanilam={
+		name="Chichen Chilanilam"
+
+		advisor={
+			slot = high_command
+			idea_token = SUN_Chichen_Chilanilam
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	SUN_Oxib_Benque={
+		name="Oxib Benque"
+
+		advisor={
+			slot = high_command
+			idea_token = SUN_Oxib_Benque
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	SUN_Chak_Lamna={
+		name="Chak Lamna"
+
+		advisor={
+			slot = high_command
+			idea_token = SUN_Chak_Lamna
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	SUN_Ekchua_Chilanilam={
+		name="Ekchua Chilanilam"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { autocratic_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SUN_Acab_Yaxchen={
+		name="Acab Yaxchen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUN_Acab_Yaxchen
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	SUN_Ekchichen_Nohil={
+		name="Ekchichen Nohil"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUN_Ekchichen_Nohil
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	SUN_Ekchakanek_Bonai={
+		name="Ekchakanek Bonai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUN_Ekchakanek_Bonai
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	SUN_Ahkin_Chilanilam={
+		name="Ahkin Chilanilam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUN_Ahkin_Chilanilam
+				traits = {	warmonger 	}
+		}
+
+	}
+	SUN_Tecun_Chilanilam={
+		name="Tecun Chilanilam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUN_Tecun_Chilanilam
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	SUN_Chil_Kabal={
+		name="Chil Kabal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUN_Chil_Kabal
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	SUN_Itzam_Chunikabahun={
+		name="Itzam Chunikabahun"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUN_Itzam_Chunikabahun
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	SUN_Acatl_Nohil={
+		name="Acatl Nohil"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUN_Acatl_Nohil
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	SUN_Pakal_Chilanilam={
+		name="Pakal Chilanilam"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUN_Pakal_Chilanilam
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	SUN_Ekchua_Nohil={
+		name="Ekchua Nohil"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUN_Ekchua_Nohil
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	SUN_Kanek_Benque={
+		name="Kanek Benque"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SUN_Kanek_Benque
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	SUN_Tecun_Bonai={
+		name="Tecun Bonai"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SUN_Tecun_Bonai
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	SUN_Moctez_Bonai={
+		name="Moctez Bonai"
+
+		advisor={
+			slot = air_chief
+			idea_token = SUN_Moctez_Bonai
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	SUN_Kukulkan_Chunikabahun={
+		name="Kukulkan Chunikabahun"
+
+		advisor={
+			slot = air_chief
+			idea_token = SUN_Kukulkan_Chunikabahun
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	SUN_Ekchak_Kabal={
+		name="Ekchak Kabal"
+
+		advisor={
+			slot = high_command
+			idea_token = SUN_Ekchak_Kabal
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	SUN_Acatl_Benque={
+		name="Acatl Benque"
+
+		advisor={
+			slot = high_command
+			idea_token = SUN_Acatl_Benque
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	SUN_Chakalam_Chilanilam={
+		name="Chakalam Chilanilam"
+
+		advisor={
+			slot = high_command
+			idea_token = SUN_Chakalam_Chilanilam
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	SUN_Kukulkan_Benque={
+		name="Kukulkan Benque"
+
+		advisor={
+			slot = high_command
+			idea_token = SUN_Kukulkan_Benque
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	SUN_Tohichen_Chunikabahun={
+		name="Tohichen Chunikabahun"
+
+		advisor={
+			slot = high_command
+			idea_token = SUN_Tohichen_Chunikabahun
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	SUN_Pakanek_Chilanilam={
+		name="Pakanek Chilanilam"
+
+		advisor={
+			slot = high_command
+			idea_token = SUN_Pakanek_Chilanilam
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	SUN_Ekchakanek_Lamna={
+		name="Ekchakanek Lamna"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SUN_Ekchak_Yaxchen={
+		name="Ekchak Yaxchen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUN_Ekchak_Yaxchen
+				traits = {	political_dancer 	}
+		}
+
+	}
+	SUN_Bacatl_Benque={
+		name="Bacatl Benque"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUN_Bacatl_Benque
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	SUN_Kukulkanek_Bonai={
+		name="Kukulkanek Bonai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUN_Kukulkanek_Bonai
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	SUN_Pakanek_Chunikabahun={
+		name="Pakanek Chunikabahun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUN_Pakanek_Chunikabahun
+				traits = {	political_dancer 	}
+		}
+
+	}
+	SUN_Ekchua_Chunikabahun={
+		name="Ekchua Chunikabahun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUN_Ekchua_Chunikabahun
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	SUN_Pakanek_Yaxchen={
+		name="Pakanek Yaxchen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUN_Pakanek_Yaxchen
+				traits = {	polemarch 	}
+		}
+
+	}
+	SUN_Nacom_Chilanilam={
+		name="Nacom Chilanilam"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUN_Nacom_Chilanilam
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	SUN_Oxib_Naab={
+		name="Oxib Naab"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUN_Oxib_Naab
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	SUN_Kukulkalam_Yaxchen={
+		name="Kukulkalam Yaxchen"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUN_Kukulkalam_Yaxchen
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	SUN_Ekchakanek_Naab={
+		name="Ekchakanek Naab"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUN_Ekchakanek_Naab
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	SUN_Popo_Chunikabahun={
+		name="Popo Chunikabahun"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SUN_Popo_Chunikabahun
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	SUN_Ekchakanek_Kabal={
+		name="Ekchakanek Kabal"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SUN_Ekchakanek_Kabal
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	SUN_Chichen_Naab={
+		name="Chichen Naab"
+
+		advisor={
+			slot = air_chief
+			idea_token = SUN_Chichen_Naab
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	SUN_Chil_Chunikabahun={
+		name="Chil Chunikabahun"
+
+		advisor={
+			slot = air_chief
+			idea_token = SUN_Chil_Chunikabahun
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	SUN_Oxib_Kabal={
+		name="Oxib Kabal"
+
+		advisor={
+			slot = high_command
+			idea_token = SUN_Oxib_Kabal
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	SUN_Itzam_Chilanilam={
+		name="Itzam Chilanilam"
+
+		advisor={
+			slot = high_command
+			idea_token = SUN_Itzam_Chilanilam
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	SUN_Acab_Chilanilam={
+		name="Acab Chilanilam"
+
+		advisor={
+			slot = high_command
+			idea_token = SUN_Acab_Chilanilam
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	SUN_Chua_Chunikabahun={
+		name="Chua Chunikabahun"
+
+		advisor={
+			slot = high_command
+			idea_token = SUN_Chua_Chunikabahun
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	SUN_Popo_Benque={
+		name="Popo Benque"
+
+		advisor={
+			slot = high_command
+			idea_token = SUN_Popo_Benque
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	SUN_Tohil_Kabal={
+		name="Tohil Kabal"
+
+		advisor={
+			slot = high_command
+			idea_token = SUN_Tohil_Kabal
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	SUN_Tohichen_Chilanilam={
+		name="Tohichen Chilanilam"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SUN_Pakanek_Bonai={
+		name="Pakanek Bonai"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUN_Pakanek_Bonai
+				traits = {	infirm 	}
+		}
+
+	}
+	SUN_Kanek_Kabal={
+		name="Kanek Kabal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUN_Kanek_Kabal
+				traits = {	infirm 	}
+		}
+
+	}
+	SUN_Kanek_Chilanilam={
+		name="Kanek Chilanilam"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUN_Kanek_Chilanilam
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	SUN_Chua_Benque={
+		name="Chua Benque"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUN_Chua_Benque
+				traits = {	the_banker 	}
+		}
+
+	}
+	SUN_Kanek_Chunikabahun={
+		name="Kanek Chunikabahun"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUN_Kanek_Chunikabahun
+				traits = {	the_banker 	}
+		}
+
+	}
+	SUN_Ekchak_Naab={
+		name="Ekchak Naab"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SUN_Ekchak_Naab
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	SUN_Chil_Nohil={
+		name="Chil Nohil"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUN_Chil_Nohil
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	SUN_Chakalam_Naab={
+		name="Chakalam Naab"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUN_Chakalam_Naab
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	SUN_Kukulkalam_Lamna={
+		name="Kukulkalam Lamna"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUN_Kukulkalam_Lamna
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	SUN_Chua_Nohil={
+		name="Chua Nohil"
+
+		advisor={
+			slot = army_chief
+			idea_token = SUN_Chua_Nohil
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	SUN_Ahkin_Chunikabahun={
+		name="Ahkin Chunikabahun"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SUN_Ahkin_Chunikabahun
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	SUN_Yaxkin_Yaxchen={
+		name="Yaxkin Yaxchen"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SUN_Yaxkin_Yaxchen
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	SUN_Tohichen_Kabal={
+		name="Tohichen Kabal"
+
+		advisor={
+			slot = air_chief
+			idea_token = SUN_Tohichen_Kabal
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	SUN_Bacatl_Chunikabahun={
+		name="Bacatl Chunikabahun"
+
+		advisor={
+			slot = air_chief
+			idea_token = SUN_Bacatl_Chunikabahun
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	SUN_Ekchakanek_Chunikabahun={
+		name="Ekchakanek Chunikabahun"
+
+		advisor={
+			slot = high_command
+			idea_token = SUN_Ekchakanek_Chunikabahun
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	SUN_Ekchil_Nohil={
+		name="Ekchil Nohil"
+
+		advisor={
+			slot = high_command
+			idea_token = SUN_Ekchil_Nohil
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	SUN_Itzam_Lamna={
+		name="Itzam Lamna"
+
+		advisor={
+			slot = high_command
+			idea_token = SUN_Itzam_Lamna
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	SUN_Ekchichen_Benque={
+		name="Ekchichen Benque"
+
+		advisor={
+			slot = high_command
+			idea_token = SUN_Ekchichen_Benque
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	SUN_Ekchak_Nohil={
+		name="Ekchak Nohil"
+
+		advisor={
+			slot = high_command
+			idea_token = SUN_Ekchak_Nohil
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	SUN_Kukulkanek_Lamna={
+		name="Kukulkanek Lamna"
+
+		advisor={
+			slot = high_command
+			idea_token = SUN_Kukulkanek_Lamna
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	SUN_Kukulkanek_Chilanilam={
+		name="Kukulkanek Chilanilam"
+
+		advisor={
+			slot = theorist
+			idea_token = SUN_Kukulkanek_Chilanilam
+				traits = {	military_theorist 	}
+		}
+
+	}
+	SUN_Kukulkan_Lamna={
+		name="Kukulkan Lamna"
+
+		advisor={
+			slot = theorist
+			idea_token = SUN_Kukulkan_Lamna
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	SUN_Chua_Chilanilam={
+		name="Chua Chilanilam"
+
+		advisor={
+			slot = theorist
+			idea_token = SUN_Chua_Chilanilam
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

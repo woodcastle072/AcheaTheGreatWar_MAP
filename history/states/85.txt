@@ -1,0 +1,42 @@
+
+state={
+	id=85
+	name="STATE_85"
+	manpower = 1398577
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 721 2}
+		victory_points = { 722 1}
+		
+		owner = YAN
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			723 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = YAN
+	}
+
+	provinces={
+		721 722 723 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=944
+	name="STATE_944"
+	manpower = 2017246
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8879 2}
+		victory_points = { 8880 2}
+		
+		owner = TUA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = TUA
+	}
+
+	provinces={
+		8876 8877 8878 8879 8880 8881 
+	}
+	local_supplies=0.0 
+}

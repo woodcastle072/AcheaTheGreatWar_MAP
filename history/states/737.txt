@@ -1,0 +1,39 @@
+
+state={
+	id=737
+	name="STATE_737"
+	manpower = 1968681
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=2
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6036 1}
+		victory_points = { 6040 2}
+		
+		owner = HIJ
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HIJ
+	}
+
+	provinces={
+		6036 6037 6038 6039 6040 
+	}
+	local_supplies=0.0 
+}

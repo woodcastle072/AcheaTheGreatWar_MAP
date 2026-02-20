@@ -1,0 +1,43 @@
+
+state={
+	id=524
+	name="STATE_524"
+	manpower = 2541362
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4286 2}
+		victory_points = { 4287 4}
+		victory_points = { 4290 2}
+		
+		owner = DOH
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			4289 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = DOH
+	}
+
+	provinces={
+		4286 4287 4288 4289 4290 4291 
+	}
+	local_supplies=0.0 
+}

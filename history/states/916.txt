@@ -1,0 +1,40 @@
+
+state={
+	id=916
+	name="STATE_916"
+	manpower = 5365427
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=22
+	}
+
+	history={
+		victory_points = { 8707 4}
+		victory_points = { 8712 7}
+		victory_points = { 8713 5}
+		
+		owner = AGB
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = AGB
+	}
+
+	provinces={
+		8702 8703 8704 8705 8706 8707 8708 8709 8710 8711 8712 8713 8714 8715 8716 8717 
+	}
+	local_supplies=0.0 
+}

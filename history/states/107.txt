@@ -1,0 +1,43 @@
+
+state={
+	id=107
+	name="STATE_107"
+	manpower = 9145517
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=7
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=1
+		coal=0
+	}
+
+	history={
+		victory_points = { 935 3}
+		victory_points = { 949 12}
+		victory_points = { 959 14}
+		
+		owner = AGB
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 2
+			948 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AGB
+	}
+
+	provinces={
+		935 936 937 938 939 940 941 942 943 944 945 946 947 948 949 950 951 952 953 954 955 956 957 958 959 960 961 962 
+	}
+	local_supplies=0.0 
+}

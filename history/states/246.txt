@@ -1,0 +1,43 @@
+
+state={
+	id=246
+	name="STATE_246"
+	manpower = 2249871
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1990 1}
+		victory_points = { 1993 1}
+		victory_points = { 1994 1}
+		
+		owner = AGB
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			1996 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AGB
+	}
+
+	provinces={
+		1990 1991 1992 1993 1994 1995 1996 
+	}
+	local_supplies=0.0 
+}

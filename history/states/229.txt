@@ -1,0 +1,41 @@
+
+state={
+	id=229
+	name="STATE_229"
+	manpower = 7373516
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1866 6}
+		victory_points = { 1868 8}
+		victory_points = { 1871 8}
+		victory_points = { 1875 1}
+		
+		owner = AGB
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 3
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AGB
+	}
+
+	provinces={
+		1865 1866 1867 1868 1869 1870 1871 1872 1873 1874 1875 1876 1877 1878 1879 1880 1881 1882 1883 1884 1885 
+	}
+	local_supplies=0.0 
+}

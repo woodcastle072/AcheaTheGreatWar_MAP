@@ -1,0 +1,85 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Tuachair Fleet"			
+		naval_base = 11213
+		task_force = {
+			name = "Tuachair Fleet"
+			location = 11213
+			
+						ship = { name = "Izvo" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = TUA version_name = "Gravdar Class" } }	}
+			ship = { name = "Bogina" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = TUA version_name = "Gravdar Class" } }	}
+			ship = { name = "Hrad" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TUA version_name = "Bogina Class" } }	}
+			ship = { name = "Gravdar" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = TUA version_name = "Gravdar Class" } }	}
+			ship = { name = "Muzik" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = TUA version_name = "Gravdar Class" } }	}
+			ship = { name = "Galj" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TUA version_name = "Bogina Class" } }	}
+			ship = { name = "Izvo 2" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TUA version_name = "Bogina Class" } }	}
+			ship = { name = "Izvo 3" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TUA version_name = "Bogina Class" } }	}
+			ship = { name = "Bogina 2" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TUA version_name = "Bogina Class" } }	}
+			ship = { name = "Vecnostvo" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUA version_name = "Gravdar Class" } }	}
+			ship = { name = "Gravdar 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUA version_name = "Hrad Class" } }	}
+			ship = { name = "Izvo 4" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUA version_name = "Galj Class" } }	}
+			ship = { name = "Vecnostvo 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUA version_name = "Hrad Class" } }	}
+			ship = { name = "Izvo 5" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUA version_name = "Galj Class" } }	}
+			ship = { name = "Muzik 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUA version_name = "Hrad Class" } }	}
+			ship = { name = "Hrad 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUA version_name = "Gravdar Class" } }	}
+			ship = { name = "Galj 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUA version_name = "Hrad Class" } }	}
+			ship = { name = "Bogina 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUA version_name = "Hrad Class" } }	}
+			ship = { name = "Vecnostvo 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUA version_name = "Hrad Class" } }	}
+			ship = { name = "Vecnostvo 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUA version_name = "Hrad Class" } }	}
+			ship = { name = "Gravdar 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUA version_name = "Hrad Class" } }	}
+			ship = { name = "Vecnostvo 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUA version_name = "Hrad Class" } }	}
+			ship = { name = "Galj 3" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUA version_name = "Gravdar Class" } }	}
+			ship = { name = "Izvo 6" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUA version_name = "Gravdar Class" } }	}
+			ship = { name = "Izvo 7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUA version_name = "Hrad Class" } }	}
+			ship = { name = "Izvo 8" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUA version_name = "Gravdar Class" } }	}
+			ship = { name = "Vecnostvo 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUA version_name = "Hrad Class" } }	}
+			ship = { name = "Galj 4" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUA version_name = "Galj Class" } }	}
+			ship = { name = "Muzik 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUA version_name = "Hrad Class" } }	}
+			ship = { name = "Hrad 3" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUA version_name = "Gravdar Class" } }	}
+			ship = { name = "Hrad 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUA version_name = "Hrad Class" } }	}
+			ship = { name = "Hrad 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUA version_name = "Hrad Class" } }	}
+			ship = { name = "Hrad 6" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUA version_name = "Gravdar Class" } }	}
+			ship = { name = "Hrad 7" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUA version_name = "Galj Class" } }	}
+			ship = { name = "Izvo 9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUA version_name = "Hrad Class" } }	}
+			ship = { name = "Muzik 4" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUA version_name = "Gravdar Class" } }	}
+			ship = { name = "Vecnostvo 7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUA version_name = "Hrad Class" } }	}
+			ship = { name = "Galj 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUA version_name = "Hrad Class" } }	}
+			ship = { name = "Izvo 10" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUA version_name = "Gravdar Class" } }	}
+			ship = { name = "Galj 6" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUA version_name = "Galj Class" } }	}
+			ship = { name = "Bogina 4" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUA version_name = "Gravdar Class" } }	}
+			ship = { name = "Hrad 8" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUA version_name = "Gravdar Class" } }	}
+			ship = { name = "Hrad 9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUA version_name = "Hrad Class" } }	}
+			ship = { name = "Vecnostvo 8" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUA version_name = "Gravdar Class" } }	}
+			ship = { name = "Izvo 11" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUA version_name = "Hrad Class" } }	}
+			ship = { name = "Izvo 12" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUA version_name = "Galj Class" } }	}
+			ship = { name = "Muzik 5" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUA version_name = "Gravdar Class" } }	}
+			ship = { name = "Gravdar 4" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUA version_name = "Galj Class" } }	}
+			ship = { name = "Vecnostvo 9" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUA version_name = "Gravdar Class" } }	}
+			ship = { name = "Izvo 13" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUA version_name = "Galj Class" } }	}
+			ship = { name = "Gravdar 5" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUA version_name = "Galj Class" } }	}
+			ship = { name = "Hrad 10" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUA version_name = "Hrad Class" } }	}
+			ship = { name = "Gravdar 6" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUA version_name = "Galj Class" } }	}
+			ship = { name = "Vecnostvo 10" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUA version_name = "Galj Class" } }	}
+			ship = { name = "Hrad 11" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUA version_name = "Gravdar Class" } }	}
+			ship = { name = "Vecnostvo 11" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUA version_name = "Galj Class" } }	}
+			ship = { name = "Gravdar 7" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUA version_name = "Gravdar Class" } }	}
+			ship = { name = "Muzik 6" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TUA version_name = "Gravdar Class" } }	}
+			ship = { name = "Izvo 14" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUA version_name = "Galj Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

@@ -1,0 +1,43 @@
+
+state={
+	id=142
+	name="STATE_142"
+	manpower = 5917637
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=4
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1226 12}
+		victory_points = { 1229 2}
+		victory_points = { 1240 6}
+		
+		owner = AGB
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 1
+			industrial_complex = 2
+			
+			1238 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AGB
+	}
+
+	provinces={
+		1226 1227 1228 1229 1230 1231 1232 1233 1234 1235 1236 1237 1238 1239 1240 
+	}
+	local_supplies=0.0 
+}

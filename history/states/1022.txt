@@ -1,0 +1,43 @@
+
+state={
+	id=1022
+	name="STATE_1022"
+	manpower = 3966468
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9318 4}
+		victory_points = { 9323 3}
+		victory_points = { 9325 4}
+		
+		owner = HIJ
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 2
+			
+			9326 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HIJ
+	}
+
+	provinces={
+		9318 9319 9320 9321 9322 9323 9324 9325 9326 9327 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,44 @@
+
+state={
+	id=865
+	name="STATE_865"
+	manpower = 7424061
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8309 7}
+		victory_points = { 8312 5}
+		victory_points = { 8313 8}
+		victory_points = { 8318 8}
+		
+		owner = AGB
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 0
+			industrial_complex = 2
+			dockyard = 3
+			8304 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AGB
+	}
+
+	provinces={
+		8300 8301 8302 8303 8304 8305 8306 8307 8308 8309 8310 8311 8312 8313 8314 8315 8316 8317 8318 
+	}
+	local_supplies=0.0 
+}

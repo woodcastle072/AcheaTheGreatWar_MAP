@@ -1,0 +1,43 @@
+
+state={
+	id=51
+	name="STATE_51"
+	manpower = 3310753
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 428 3}
+		victory_points = { 430 4}
+		victory_points = { 431 3}
+		
+		owner = YAN
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			429 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = YAN
+	}
+
+	provinces={
+		426 427 428 429 430 431 432 433 
+	}
+	local_supplies=0.0 
+}

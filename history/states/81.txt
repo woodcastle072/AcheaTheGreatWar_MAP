@@ -1,0 +1,45 @@
+
+state={
+	id=81
+	name="STATE_81"
+	manpower = 5381811
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 657 1}
+		victory_points = { 658 3}
+		victory_points = { 671 2}
+		victory_points = { 674 3}
+		victory_points = { 680 1}
+		
+		owner = AGB
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			671 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AGB
+	}
+
+	provinces={
+		655 656 657 658 659 660 661 662 663 664 665 666 667 668 669 670 671 672 673 674 675 676 677 678 679 680 681 682 683 684 685 686 
+	}
+	local_supplies=0.0 
+}

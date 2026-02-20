@@ -1,0 +1,42 @@
+
+state={
+	id=439
+	name="STATE_439"
+	manpower = 2299753
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3643 2}
+		victory_points = { 3646 2}
+		
+		owner = DOH
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			3641 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = DOH
+	}
+
+	provinces={
+		3641 3642 3643 3644 3645 3646 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=871
+	name="STATE_871"
+	manpower = 293254
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=11
+	}
+
+	history={
+		victory_points = { 8372 1}
+		
+		owner = AGB
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			8372 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AGB
+	}
+
+	provinces={
+		8372 8373 
+	}
+	local_supplies=0.0 
+}

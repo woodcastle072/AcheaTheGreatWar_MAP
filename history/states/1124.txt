@@ -1,0 +1,41 @@
+
+state={
+	id=1124
+	name="STATE_1124"
+	manpower = 945007
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10087 1}
+		
+		owner = HIJ
+		buildings = {
+			infrastructure = 1
+			air_base = 5
+			arms_factory = 0
+			industrial_complex = 0
+			
+			10087 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HIJ
+	}
+
+	provinces={
+		10087 10088 10089 10090 
+	}
+	local_supplies=0.0 
+}

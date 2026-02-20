@@ -1,0 +1,39 @@
+
+state={
+	id=498
+	name="STATE_498"
+	manpower = 3258834
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4099 1}
+		victory_points = { 4100 7}
+		
+		owner = DAN
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = DAN
+	}
+
+	provinces={
+		4099 4100 4101 4102 4103 4104 4105 4106 4107 4108 
+	}
+	local_supplies=0.0 
+}

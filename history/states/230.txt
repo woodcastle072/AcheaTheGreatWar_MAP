@@ -1,0 +1,38 @@
+
+state={
+	id=230
+	name="STATE_230"
+	manpower = 2577196
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1892 4}
+		
+		owner = AGB
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AGB
+	}
+
+	provinces={
+		1886 1887 1888 1889 1890 1891 1892 1893 
+	}
+	local_supplies=0.0 
+}

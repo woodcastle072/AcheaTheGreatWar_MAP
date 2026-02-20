@@ -1,0 +1,44 @@
+
+state={
+	id=136
+	name="STATE_136"
+	manpower = 8768256
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1149 8}
+		victory_points = { 1154 8}
+		victory_points = { 1155 8}
+		victory_points = { 1165 7}
+		
+		owner = YAN
+		buildings = {
+			infrastructure = 5
+			
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 1
+			1162 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = YAN
+	}
+
+	provinces={
+		1148 1149 1150 1151 1152 1153 1154 1155 1156 1157 1158 1159 1160 1161 1162 1163 1164 1165 1166 1167 1168 1169 1170 1171 
+	}
+	local_supplies=0.0 
+}

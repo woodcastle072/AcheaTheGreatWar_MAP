@@ -1,0 +1,41 @@
+
+state={
+	id=819
+	name="STATE_819"
+	manpower = 1336448
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=6
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=21
+	}
+
+	history={
+		victory_points = { 7354 1}
+		
+		owner = AGB
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			7357 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = AGB
+	}
+
+	provinces={
+		7354 7355 7356 7357 7358 
+	}
+	local_supplies=0.0 
+}

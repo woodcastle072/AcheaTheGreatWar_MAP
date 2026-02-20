@@ -1,0 +1,44 @@
+
+state={
+	id=641
+	name="STATE_641"
+	manpower = 4983054
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5339 5}
+		victory_points = { 5342 2}
+		victory_points = { 5343 1}
+		victory_points = { 5344 5}
+		
+		owner = HIJ
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 1
+			5337 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HIJ
+	}
+
+	provinces={
+		5336 5337 5338 5339 5340 5341 5342 5343 5344 5345 5346 5347 5348 5349 5350 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,101 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Dohaml Fleet"			
+		naval_base = 11182
+		task_force = {
+			name = "Dohaml Fleet"
+			location = 11182
+			
+						ship = { name = "Hijr" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = DOH version_name = "Khayr Class" } }	}
+			ship = { name = "Muniyah" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = DOH version_name = "Matasjidda Class" } }	}
+			ship = { name = "Rabalim" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Muniyah 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Hijr 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Matasjidda" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DOH version_name = "Matasjidda Class" } }	}
+			ship = { name = "Rabalim 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DOH version_name = "Matasjidda Class" } }	}
+			ship = { name = "Hijr 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Matasjidda 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Khayr" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DOH version_name = "Matasjidda Class" } }	}
+			ship = { name = "Asat" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DOH version_name = "Hijr Class" } }	}
+			ship = { name = "Khayr 2" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DOH version_name = "Matasjidda Class" } }	}
+			ship = { name = "Muniyah 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DOH version_name = "Hijr Class" } }	}
+			ship = { name = "Khayr 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Rabalim 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Muniyah 4" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DOH version_name = "Matasjidda Class" } }	}
+			ship = { name = "Muniyah 5" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DOH version_name = "Hijr Class" } }	}
+			ship = { name = "Hijr 4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Hijr 5" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Muniyah 6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Rabalim 4" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DOH version_name = "Hijr Class" } }	}
+			ship = { name = "Hijr 6" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DOH version_name = "Hijr Class" } }	}
+			ship = { name = "Hijr 7" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DOH version_name = "Hijr Class" } }	}
+			ship = { name = "Muniyah 7" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DOH version_name = "Hijr Class" } }	}
+			ship = { name = "Rabalim 5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Matasjidda 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Muniyah 8" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Rabalim 6" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Matasjidda 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Rabalim 7" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DOH version_name = "Hijr Class" } }	}
+			ship = { name = "Muniyah 9" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DOH version_name = "Matasjidda Class" } }	}
+			ship = { name = "Hijr 8" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Rabalim 8" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DOH version_name = "Matasjidda Class" } }	}
+			ship = { name = "Khayr 4" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DOH version_name = "Matasjidda Class" } }	}
+			ship = { name = "Matasjidda 5" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DOH version_name = "Matasjidda Class" } }	}
+			ship = { name = "Hijr 9" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Rabalim 9" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Rabalim 10" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Hijr 10" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Khayr 5" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DOH version_name = "Hijr Class" } }	}
+			ship = { name = "Matasjidda 6" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Matasjidda 7" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Rabalim 11" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Asat 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Rabalim 12" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Rabalim 13" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Khayr 6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Muniyah 10" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DOH version_name = "Matasjidda Class" } }	}
+			ship = { name = "Asat 3" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DOH version_name = "Matasjidda Class" } }	}
+			ship = { name = "Rabalim 14" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DOH version_name = "Matasjidda Class" } }	}
+			ship = { name = "Matasjidda 8" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DOH version_name = "Hijr Class" } }	}
+			ship = { name = "Hijr 11" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Matasjidda 9" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Rabalim 15" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DOH version_name = "Hijr Class" } }	}
+			ship = { name = "Hijr 12" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Hijr 13" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DOH version_name = "Matasjidda Class" } }	}
+			ship = { name = "Muniyah 11" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Matasjidda 10" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Asat 4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Hijr 14" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DOH version_name = "Hijr Class" } }	}
+			ship = { name = "Rabalim 16" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Asat 5" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Asat 6" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Muniyah 12" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DOH version_name = "Hijr Class" } }	}
+			ship = { name = "Muniyah 13" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DOH version_name = "Matasjidda Class" } }	}
+			ship = { name = "Matasjidda 11" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DOH version_name = "Hijr Class" } }	}
+			ship = { name = "Rabalim 17" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Hijr 15" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+			ship = { name = "Hijr 16" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DOH version_name = "Hijr Class" } }	}
+			ship = { name = "Matasjidda 12" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DOH version_name = "Matasjidda Class" } }	}
+			ship = { name = "Muniyah 14" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DOH version_name = "Matasjidda Class" } }	}
+			ship = { name = "Muniyah 15" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DOH version_name = "Hijr Class" } }	}
+			ship = { name = "Hijr 17" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DOH version_name = "Matasjidda Class" } }	}
+			ship = { name = "Matasjidda 13" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = DOH version_name = "Hijr Class" } }	}
+			ship = { name = "Matasjidda 14" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = DOH version_name = "Rabalim Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

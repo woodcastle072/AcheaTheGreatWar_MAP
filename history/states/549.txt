@@ -1,0 +1,39 @@
+
+state={
+	id=549
+	name="STATE_549"
+	manpower = 5734466
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=9
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=42
+	}
+
+	history={
+		victory_points = { 4518 4}
+		victory_points = { 4535 4}
+		
+		owner = HIJ
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HIJ
+	}
+
+	provinces={
+		4507 4508 4509 4510 4511 4512 4513 4514 4515 4516 4517 4518 4519 4520 4521 4522 4523 4524 4525 4526 4527 4528 4529 4530 4531 4532 4533 4534 4535 4536 4537 4538 4539 4540 4541 4542 
+	}
+	local_supplies=0.0 
+}

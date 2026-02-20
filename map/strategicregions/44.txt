@@ -1,0 +1,167 @@
+strategic_region={
+	id=44
+	name="STRATEGICREGION_44"
+	provinces={
+		199 200 201 202 203 204 396 397 398 417 418 419 420 421 422 423 424 425 570 571 572 858 859 860 861 862 863 864 865 866 867 868 869 870 871 872 873 874 875 876 1048 1049 1050 1051 1052 1053 1054 1204 1205 1332 1333 1334 1335 1336 1337 1338 1407 1408 1409 1517 1518 1519 1520 1521 1522 1523 1524 1525 1526 1527 1528 1529 1530 1531 1532 1729 1730 1731 1732 1733 1734 1758 1759 1760 1761 1762 1763 1764 1765 1766 1767 1768 1769 1770 1771 1772 1773 1774 1775 1776 1815 1816 1817 1818 1819 1820 1837 1838 1839 1840 1841 1842 1843 1844 1845 1864 1940 1941 1942 1943 1944 1945 1946 1947 1948 1949 1950 1951 1952 1953 1954 1955 1956 1957 2098 2099 2100 2101 2180 2218 2219 2220 
+	}
+	
+	weather={
+		period={
+			between={ 0.0 30.0 }
+			temperature={ 18.00 31.00 }
+			no_phenomenon=0.632086
+			rain_light=0.165586
+			rain_heavy=0.202329
+			snow=0.000000
+			blizzard=0.000000
+			arctic_water=0.000
+			mud=0.057024
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.1 27.1 }
+			temperature={ 19.00 31.00 }
+			no_phenomenon=0.632086
+			rain_light=0.162516
+			rain_heavy=0.205399
+			snow=0.000000
+			blizzard=0.000000
+			arctic_water=0.000
+			mud=0.057331
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.2 30.2 }
+			temperature={ 20.00 32.00 }
+			no_phenomenon=0.632086
+			rain_light=0.159446
+			rain_heavy=0.208469
+			snow=0.000000
+			blizzard=0.000000
+			arctic_water=0.000
+			mud=0.057638
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.3 29.3 }
+			temperature={ 20.00 32.00 }
+			no_phenomenon=0.632086
+			rain_light=0.156376
+			rain_heavy=0.211539
+			snow=0.000000
+			blizzard=0.000000
+			arctic_water=0.000
+			mud=0.057945
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.4 30.4 }
+			temperature={ 21.00 33.00 }
+			no_phenomenon=0.632086
+			rain_light=0.153306
+			rain_heavy=0.214609
+			snow=0.000000
+			blizzard=0.000000
+			arctic_water=0.000
+			mud=0.058252
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.5 29.5 }
+			temperature={ 21.00 33.00 }
+			no_phenomenon=0.632086
+			rain_light=0.150236
+			rain_heavy=0.217679
+			snow=0.000000
+			blizzard=0.000000
+			arctic_water=0.000
+			mud=0.058559
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.6 30.6 }
+			temperature={ 22.00 34.00 }
+			no_phenomenon=0.632086
+			rain_light=0.147166
+			rain_heavy=0.220749
+			snow=0.000000
+			blizzard=0.000000
+			arctic_water=0.000
+			mud=0.058866
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.7 30.7 }
+			temperature={ 21.00 33.00 }
+			no_phenomenon=0.632086
+			rain_light=0.150236
+			rain_heavy=0.217679
+			snow=0.000000
+			blizzard=0.000000
+			arctic_water=0.000
+			mud=0.058559
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.8 29.8 }
+			temperature={ 21.00 33.00 }
+			no_phenomenon=0.632086
+			rain_light=0.153306
+			rain_heavy=0.214609
+			snow=0.000000
+			blizzard=0.000000
+			arctic_water=0.000
+			mud=0.058252
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.9 30.9 }
+			temperature={ 20.00 32.00 }
+			no_phenomenon=0.632086
+			rain_light=0.156376
+			rain_heavy=0.211539
+			snow=0.000000
+			blizzard=0.000000
+			arctic_water=0.000
+			mud=0.057945
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.10 29.10 }
+			temperature={ 20.00 32.00 }
+			no_phenomenon=0.632086
+			rain_light=0.159446
+			rain_heavy=0.208469
+			snow=0.000000
+			blizzard=0.000000
+			arctic_water=0.000
+			mud=0.057638
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.11 30.11 }
+			temperature={ 19.00 31.00 }
+			no_phenomenon=0.632086
+			rain_light=0.162516
+			rain_heavy=0.205399
+			snow=0.000000
+			blizzard=0.000000
+			arctic_water=0.000
+			mud=0.057331
+			sandstorm=0.000000
+			min_snow_level=0.000
+		}
+		
+	}
+}

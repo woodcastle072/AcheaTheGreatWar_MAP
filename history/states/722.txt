@@ -1,0 +1,42 @@
+
+state={
+	id=722
+	name="STATE_722"
+	manpower = 2038076
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5947 1}
+		victory_points = { 5952 1}
+		
+		owner = HIJ
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			5947 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HIJ
+	}
+
+	provinces={
+		5946 5947 5948 5949 5950 5951 5952 
+	}
+	local_supplies=0.0 
+}

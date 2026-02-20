@@ -1,0 +1,30 @@
+air_wings = {
+		1942 = { 								
+		small_plane_cas_airframe_0 = { owner = "REA" amount = 50 version_name = "Mapirio Mk 2" }
+medium_plane_airframe_0 = { owner = "REA" amount = 50 version_name = "Mapirio Mk 2" }
+
+	}
+	1979 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "REA" amount = 50 version_name = "Sillintre Mk 0" }
+
+	}
+	1990 = { 								
+		small_plane_cas_airframe_0 = { owner = "REA" amount = 50 version_name = "Mapirio Mk 2" }
+
+	}
+	2000 = { 								
+		small_plane_airframe_0 = { owner = "REA" amount = 50 version_name = "Sillintre Mk 1" }
+
+	}
+	1642 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "REA" amount = 50 version_name = "Sillintre Mk 0" }
+
+	}
+	1454 = { 								
+		small_plane_airframe_0 = { owner = "REA" amount = 50 version_name = "Sillintre Mk 1" }
+medium_plane_airframe_0 = { owner = "REA" amount = 50 version_name = "Mapirio Mk 2" }
+
+	}
+
+
+}

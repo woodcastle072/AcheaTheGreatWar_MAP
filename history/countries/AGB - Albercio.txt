@@ -1,0 +1,392 @@
+capital = 161
+
+oob = "AGB_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "AGB_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "AGB_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	support_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	gw_artillery= 1
+	infantry_weapons1= 1
+	armored_car1= 1
+	tech_engineers= 1
+	interwar_antiair= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "AGB_1936_air_bba"
+		set_technology = {
+			
+		}
+
+	else = {
+		set_air_oob = "AGB_1936_air_legacy"
+		set_technology = {
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	early_battlecruiser = 1
+	early_battleship = 1
+	early_carrier = 1
+	early_destroyer = 1
+	early_submarine = 1
+	
+	}
+	set_naval_oob = "AGB_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Geceket Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Kade Class"
+			type = battle_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Bahar Class"
+			type = battleship_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Sesilda Class"
+			type = carrier_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_engine_upgrade = 1
+				ship_deckspace_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Ates Class"
+			type = submarine_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	basic_depth_charges = 1
+	basic_heavy_battery = 1
+	basic_heavy_shell = 1
+	basic_naval_mines = 1
+	early_ship_hull_carrier = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	early_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	improved_sonar = 1
+	mtg_transport = 1
+	smoke_generator = 1
+	sonar = 1
+	submarine_mine_laying = 1
+	
+	}
+	set_naval_oob = "AGB_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Geceket Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = empty
+				mid_1_custom_slot = ship_depth_charge_1
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Kade Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_heavy_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Bahar Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_heavy_battery_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Sesilda Class"
+			type = ship_hull_carrier_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = empty
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_engine_slot = carrier_ship_engine_1
+				fixed_ship_radar_slot = empty
+				fixed_ship_secondaries_slot = ship_secondaries_1
+				front_1_custom_slot = empty
+				mid_1_custom_slot = ship_armor_carrier_deck
+			}
+		}
+		create_equipment_variant = {
+			name = "Ates Class"
+			type = ship_hull_submarine_1
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_1
+				fixed_ship_torpedo_slot = ship_torpedo_sub_1
+				rear_1_custom_slot = ship_torpedo_sub_1
+			}
+		}
+
+	}
+
+
+recruit_character = AGB_Serem_Sesilda
+recruit_character = AGB_Musuf_Ates
+recruit_character = AGB_Yilmaz_Geceket
+recruit_character = AGB_Emir_Dogru
+recruit_character = AGB_Yalha_Doguk
+recruit_character = AGB_Orhatugrulen_Ormanlikaye
+recruit_character = AGB_Orhat_Doguk
+recruit_character = AGB_Ahmet_Sesilda
+recruit_character = AGB_Serkan_Geceket
+recruit_character = AGB_Onuratugruk_Sesilda
+recruit_character = AGB_Kaan_Doguk
+recruit_character = AGB_Mehmet_Ormanlikaye
+recruit_character = AGB_Iskendem_Ormanlikaye
+recruit_character = AGB_Musul_Kade
+recruit_character = AGB_Yustafe_Geceket
+recruit_character = AGB_Mehmet_Geceket
+recruit_character = AGB_Sinan_Ates
+recruit_character = AGB_Murat_Kade
+recruit_character = AGB_Kadir_Kade
+recruit_character = AGB_Onurat_Bahar
+recruit_character = AGB_Bekir_Belda
+recruit_character = AGB_Yusul_Uzar
+recruit_character = AGB_Musuf_Doguk
+recruit_character = AGB_Orha_Belda
+recruit_character = AGB_Iskendem_Sesilda
+recruit_character = AGB_Efer_Geceket
+recruit_character = AGB_Hakanesulend_Belda
+recruit_character = AGB_Kaan_Belda
+recruit_character = AGB_Halcinan_Uzar
+recruit_character = AGB_Musul_Sesilda
+recruit_character = AGB_Yilmalil_Kade
+recruit_character = AGB_Adem_Uzar
+recruit_character = AGB_Salcinan_Sesilda
+recruit_character = AGB_Halhatugrun_Kade
+recruit_character = AGB_Salcinan_Uzar
+recruit_character = AGB_Emir_Belda
+recruit_character = AGB_Arif_Uzar
+recruit_character = AGB_Salil_Geceket
+recruit_character = AGB_Taylanerem_Ormanlikaye
+recruit_character = AGB_Ener_Dogru
+recruit_character = AGB_Zaferem_Sesilda
+recruit_character = AGB_Onura_Geceket
+recruit_character = AGB_Iskerem_Bahar
+recruit_character = AGB_Yusuf_Ormanlikaye
+recruit_character = AGB_Kaan_Ormanlikaye
+recruit_character = AGB_Resul_Uzar
+recruit_character = AGB_Eneremazan_Dogru
+recruit_character = AGB_Salim_Ormanlikaye
+recruit_character = AGB_Talih_Sesilda
+recruit_character = AGB_Mehmet_Belda
+recruit_character = AGB_Taylanerem_Uzar
+recruit_character = AGB_Iskent_Belda
+recruit_character = AGB_Mehmet_Ates
+recruit_character = AGB_Salil_Uzar
+recruit_character = AGB_Savas_Kade
+recruit_character = AGB_Tunc_Ates
+recruit_character = AGB_Cemazanesul_Uzar
+recruit_character = AGB_Onurat_Belda
+recruit_character = AGB_Orha_Uzar
+recruit_character = AGB_Iskerhan_Belda
+recruit_character = AGB_Talih_Belda
+recruit_character = AGB_Salcinan_Geceket
+recruit_character = AGB_Yustafe_Ates
+recruit_character = AGB_Hakanesulend_Bahar
+recruit_character = AGB_Onura_Dogru
+recruit_character = AGB_Ilker_Doguk
+recruit_character = AGB_Salim_Geceket
+recruit_character = AGB_Savas_Bahar
+recruit_character = AGB_Yilmaz_Uzar
+recruit_character = AGB_Farunc_Kade
+recruit_character = AGB_Zaferem_Doguk
+recruit_character = AGB_Ahmet_Uzar
+recruit_character = AGB_Kadir_Ates
+recruit_character = AGB_Ahmet_Geceket
+recruit_character = AGB_Bekir_Dogru
+recruit_character = AGB_Iskendem_Belda
+recruit_character = AGB_Iskerhan_Uzar
+recruit_character = AGB_Farunc_Geceket
+recruit_character = AGB_Iskerhan_Doguk
+recruit_character = AGB_Taylanerem_Geceket
+recruit_character = AGB_Ertuhan_Ormanlikaye
+recruit_character = AGB_Orha_Geceket
+recruit_character = AGB_Cemazanesul_Belda
+recruit_character = AGB_Cemaz_Uzar
+recruit_character = AGB_Selih_Ates
+recruit_character = AGB_Ilker_Sesilda
+recruit_character = AGB_Tunc_Doguk
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 5
+set_convoys = 2080
+set_stability = 3
+set_war_support = 26
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1926.8.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 10
+	fascism = 6
+	communism = 34
+	neutrality = 50
+}
+
+
+create_faction_from_template = faction_template_anti_fascist
+add_to_faction = AGB
+

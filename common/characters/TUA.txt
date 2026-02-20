@@ -1,0 +1,880 @@
+characters = {
+	TUA_Matefanko_Vecnostvo={
+		name="Matefanko Vecnostvo"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TUA_Jarosh_Hrad={
+		name="Jarosh Hrad"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUA_Jarosh_Hrad
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	TUA_Lubomas_Muzik={
+		name="Lubomas Muzik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUA_Lubomas_Muzik
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	TUA_Bogdanisla_Muzik={
+		name="Bogdanisla Muzik"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUA_Bogdanisla_Muzik
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	TUA_Kazimeon_Galj={
+		name="Kazimeon Galj"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUA_Kazimeon_Galj
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	TUA_Janko_Gravdar={
+		name="Janko Gravdar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUA_Janko_Gravdar
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	TUA_Ivan_Gravdar={
+		name="Ivan Gravdar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUA_Ivan_Gravdar
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	TUA_Bran_Muda={
+		name="Bran Muda"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUA_Bran_Muda
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	TUA_Dmir_Muzik={
+		name="Dmir Muzik"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUA_Dmir_Muzik
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	TUA_Mirila_Muzik={
+		name="Mirila Muzik"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUA_Mirila_Muzik
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	TUA_Olek_Hrad={
+		name="Olek Hrad"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUA_Olek_Hrad
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	TUA_Vikitar_Otak={
+		name="Vikitar Otak"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TUA_Vikitar_Otak
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	TUA_Branovanovan_Srefekt={
+		name="Branovanovan Srefekt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TUA_Branovanovan_Srefekt
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	TUA_Bogdan_Srefekt={
+		name="Bogdan Srefekt"
+
+		advisor={
+			slot = air_chief
+			idea_token = TUA_Bogdan_Srefekt
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	TUA_Boragomir_Srefekt={
+		name="Boragomir Srefekt"
+
+		advisor={
+			slot = air_chief
+			idea_token = TUA_Boragomir_Srefekt
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	TUA_Sergei_Hrad={
+		name="Sergei Hrad"
+
+		advisor={
+			slot = high_command
+			idea_token = TUA_Sergei_Hrad
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	TUA_Jarosh_Gravdar={
+		name="Jarosh Gravdar"
+
+		advisor={
+			slot = high_command
+			idea_token = TUA_Jarosh_Gravdar
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	TUA_Zdek_Vecnostvo={
+		name="Zdek Vecnostvo"
+
+		advisor={
+			slot = high_command
+			idea_token = TUA_Zdek_Vecnostvo
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	TUA_Dragomas_Muzik={
+		name="Dragomas Muzik"
+
+		advisor={
+			slot = high_command
+			idea_token = TUA_Dragomas_Muzik
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	TUA_Sergei_Otak={
+		name="Sergei Otak"
+
+		advisor={
+			slot = high_command
+			idea_token = TUA_Sergei_Otak
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	TUA_Dmiril_Gravdar={
+		name="Dmiril Gravdar"
+
+		advisor={
+			slot = high_command
+			idea_token = TUA_Dmiril_Gravdar
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	TUA_Zoran_Izvo={
+		name="Zoran Izvo"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { generallissimo  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TUA_Zoran_Vecnostvo={
+		name="Zoran Vecnostvo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUA_Zoran_Vecnostvo
+				traits = {	warmonger 	}
+		}
+
+	}
+	TUA_Zdek_Otak={
+		name="Zdek Otak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUA_Zdek_Otak
+				traits = {	autokrator 	}
+		}
+
+	}
+	TUA_Matefan_Bogina={
+		name="Matefan Bogina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUA_Matefan_Bogina
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	TUA_Dusz_Vecnostvo={
+		name="Dusz Vecnostvo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUA_Dusz_Vecnostvo
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	TUA_Velimitar_Vecnostvo={
+		name="Velimitar Vecnostvo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUA_Velimitar_Vecnostvo
+				traits = {	warmonger 	}
+		}
+
+	}
+	TUA_Olek_Izvo={
+		name="Olek Izvo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUA_Olek_Izvo
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	TUA_Bohdan_Muzik={
+		name="Bohdan Muzik"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUA_Bohdan_Muzik
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	TUA_Dusan_Izvo={
+		name="Dusan Izvo"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUA_Dusan_Izvo
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	TUA_Radek_Izvo={
+		name="Radek Izvo"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUA_Radek_Izvo
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	TUA_Janko_Vecnostvo={
+		name="Janko Vecnostvo"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUA_Janko_Vecnostvo
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	TUA_Slado_Bogina={
+		name="Slado Bogina"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TUA_Slado_Bogina
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	TUA_Yuris_Hrad={
+		name="Yuris Hrad"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TUA_Yuris_Hrad
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	TUA_Stefan_Izvo={
+		name="Stefan Izvo"
+
+		advisor={
+			slot = air_chief
+			idea_token = TUA_Stefan_Izvo
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	TUA_Bran_Otak={
+		name="Bran Otak"
+
+		advisor={
+			slot = air_chief
+			idea_token = TUA_Bran_Otak
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	TUA_Sladenek_Muzik={
+		name="Sladenek Muzik"
+
+		advisor={
+			slot = high_command
+			idea_token = TUA_Sladenek_Muzik
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	TUA_Vlavko_Bogina={
+		name="Vlavko Bogina"
+
+		advisor={
+			slot = high_command
+			idea_token = TUA_Vlavko_Bogina
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	TUA_Zoran_Srefekt={
+		name="Zoran Srefekt"
+
+		advisor={
+			slot = high_command
+			idea_token = TUA_Zoran_Srefekt
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	TUA_Radovan_Vecnostvo={
+		name="Radovan Vecnostvo"
+
+		advisor={
+			slot = high_command
+			idea_token = TUA_Radovan_Vecnostvo
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	TUA_Kazimeon_Bogina={
+		name="Kazimeon Bogina"
+
+		advisor={
+			slot = high_command
+			idea_token = TUA_Kazimeon_Bogina
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	TUA_Boran_Gravdar={
+		name="Boran Gravdar"
+
+		advisor={
+			slot = high_command
+			idea_token = TUA_Boran_Gravdar
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	TUA_Luboslav_Otak={
+		name="Luboslav Otak"
+
+		
+		country_leader={
+			ideology=leninism
+			traits = { mastermind_code_cracker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TUA_Janko_Bogina={
+		name="Janko Bogina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUA_Janko_Bogina
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	TUA_Luboslan_Srefekt={
+		name="Luboslan Srefekt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUA_Luboslan_Srefekt
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	TUA_Radenek_Gravdar={
+		name="Radenek Gravdar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUA_Radenek_Gravdar
+				traits = {	political_dancer 	}
+		}
+
+	}
+	TUA_Juri_Otak={
+		name="Juri Otak"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUA_Juri_Otak
+				traits = {	political_dancer 	}
+		}
+
+	}
+	TUA_Slav_Muda={
+		name="Slav Muda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUA_Slav_Muda
+				traits = {	polemarch 	}
+		}
+
+	}
+	TUA_Vikitar_Izvo={
+		name="Vikitar Izvo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUA_Vikitar_Izvo
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	TUA_Draj_Vecnostvo={
+		name="Draj Vecnostvo"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUA_Draj_Vecnostvo
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	TUA_Juri_Galj={
+		name="Juri Galj"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUA_Juri_Galj
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	TUA_Aleg_Muda={
+		name="Aleg Muda"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUA_Aleg_Muda
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	TUA_Zdeneksei_Vecnostvo={
+		name="Zdeneksei Vecnostvo"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUA_Zdeneksei_Vecnostvo
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	TUA_Vladek_Galj={
+		name="Vladek Galj"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TUA_Vladek_Galj
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	TUA_Lubos_Galj={
+		name="Lubos Galj"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TUA_Lubos_Galj
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	TUA_Bogdanisla_Hrad={
+		name="Bogdanisla Hrad"
+
+		advisor={
+			slot = air_chief
+			idea_token = TUA_Bogdanisla_Hrad
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	TUA_Jurislav_Gravdar={
+		name="Jurislav Gravdar"
+
+		advisor={
+			slot = air_chief
+			idea_token = TUA_Jurislav_Gravdar
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	TUA_Matefan_Vecnostvo={
+		name="Matefan Vecnostvo"
+
+		advisor={
+			slot = high_command
+			idea_token = TUA_Matefan_Vecnostvo
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	TUA_Kazimeon_Hrad={
+		name="Kazimeon Hrad"
+
+		advisor={
+			slot = high_command
+			idea_token = TUA_Kazimeon_Hrad
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	TUA_Marosh_Hrad={
+		name="Marosh Hrad"
+
+		advisor={
+			slot = high_command
+			idea_token = TUA_Marosh_Hrad
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	TUA_Aleg_Vecnostvo={
+		name="Aleg Vecnostvo"
+
+		advisor={
+			slot = high_command
+			idea_token = TUA_Aleg_Vecnostvo
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	TUA_Boraj_Muzik={
+		name="Boraj Muzik"
+
+		advisor={
+			slot = high_command
+			idea_token = TUA_Boraj_Muzik
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	TUA_Dmir_Izvo={
+		name="Dmir Izvo"
+
+		advisor={
+			slot = high_command
+			idea_token = TUA_Dmir_Izvo
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	TUA_Dmiril_Bogina={
+		name="Dmiril Bogina"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { the_banker  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TUA_Bogdanisla_Srefekt={
+		name="Bogdanisla Srefekt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUA_Bogdanisla_Srefekt
+				traits = {	first_lady 	}
+		}
+
+	}
+	TUA_Jurislav_Bogina={
+		name="Jurislav Bogina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUA_Jurislav_Bogina
+				traits = {	rearmer 	}
+		}
+
+	}
+	TUA_Velimir_Gravdar={
+		name="Velimir Gravdar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUA_Velimir_Gravdar
+				traits = {	the_banker 	}
+		}
+
+	}
+	TUA_Niko_Muda={
+		name="Niko Muda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUA_Niko_Muda
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	TUA_Dusz_Bogina={
+		name="Dusz Bogina"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUA_Dusz_Bogina
+				traits = {	infirm 	}
+		}
+
+	}
+	TUA_Slav_Vecnostvo={
+		name="Slav Vecnostvo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TUA_Slav_Vecnostvo
+				traits = {	rearmer 	}
+		}
+
+	}
+	TUA_Lubosh_Galj={
+		name="Lubosh Galj"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUA_Lubosh_Galj
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	TUA_Stan_Muda={
+		name="Stan Muda"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUA_Stan_Muda
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	TUA_Starko_Vecnostvo={
+		name="Starko Vecnostvo"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUA_Starko_Vecnostvo
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	TUA_Dragomir_Gravdar={
+		name="Dragomir Gravdar"
+
+		advisor={
+			slot = army_chief
+			idea_token = TUA_Dragomir_Gravdar
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	TUA_Sladenek_Srefekt={
+		name="Sladenek Srefekt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TUA_Sladenek_Srefekt
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	TUA_Niktoranov_Bogina={
+		name="Niktoranov Bogina"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TUA_Niktoranov_Bogina
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	TUA_Luboslav_Muzik={
+		name="Luboslav Muzik"
+
+		advisor={
+			slot = air_chief
+			idea_token = TUA_Luboslav_Muzik
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	TUA_Simir_Izvo={
+		name="Simir Izvo"
+
+		advisor={
+			slot = air_chief
+			idea_token = TUA_Simir_Izvo
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	TUA_Luboslav_Muda={
+		name="Luboslav Muda"
+
+		advisor={
+			slot = high_command
+			idea_token = TUA_Luboslav_Muda
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	TUA_Dmir_Gravdar={
+		name="Dmir Gravdar"
+
+		advisor={
+			slot = high_command
+			idea_token = TUA_Dmir_Gravdar
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	TUA_Slado_Gravdar={
+		name="Slado Gravdar"
+
+		advisor={
+			slot = high_command
+			idea_token = TUA_Slado_Gravdar
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	TUA_Matefan_Muda={
+		name="Matefan Muda"
+
+		advisor={
+			slot = high_command
+			idea_token = TUA_Matefan_Muda
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	TUA_Zdek_Srefekt={
+		name="Zdek Srefekt"
+
+		advisor={
+			slot = high_command
+			idea_token = TUA_Zdek_Srefekt
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	TUA_Slado_Srefekt={
+		name="Slado Srefekt"
+
+		advisor={
+			slot = high_command
+			idea_token = TUA_Slado_Srefekt
+				traits = {	navy_submarine_2 	}
+		}
+
+	}
+	TUA_Oleg_Hrad={
+		name="Oleg Hrad"
+
+		advisor={
+			slot = theorist
+			idea_token = TUA_Oleg_Hrad
+				traits = {	military_theorist 	}
+		}
+
+	}
+	TUA_Matej_Srefekt={
+		name="Matej Srefekt"
+
+		advisor={
+			slot = theorist
+			idea_token = TUA_Matej_Srefekt
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	TUA_Yuris_Bogina={
+		name="Yuris Bogina"
+
+		advisor={
+			slot = theorist
+			idea_token = TUA_Yuris_Bogina
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

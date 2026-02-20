@@ -1,0 +1,42 @@
+
+state={
+	id=105
+	name="STATE_105"
+	manpower = 4309559
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 913 2}
+		victory_points = { 915 2}
+		victory_points = { 916 2}
+		victory_points = { 919 2}
+		victory_points = { 924 2}
+		
+		owner = AGB
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AGB
+	}
+
+	provinces={
+		911 912 913 914 915 916 917 918 919 920 921 922 923 924 925 
+	}
+	local_supplies=0.0 
+}

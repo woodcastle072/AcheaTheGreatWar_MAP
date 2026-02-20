@@ -1,0 +1,43 @@
+
+state={
+	id=469
+	name="STATE_469"
+	manpower = 3957404
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3897 5}
+		victory_points = { 3899 2}
+		victory_points = { 3904 4}
+		
+		owner = DAN
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			3897 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = DAN
+	}
+
+	provinces={
+		3897 3898 3899 3900 3901 3902 3903 3904 3905 3906 
+	}
+	local_supplies=0.0 
+}

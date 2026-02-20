@@ -1,0 +1,40 @@
+
+state={
+	id=50
+	name="STATE_50"
+	manpower = 3436408
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=3
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 417 3}
+		victory_points = { 418 2}
+		victory_points = { 421 3}
+		
+		owner = AGB
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = AGB
+	}
+
+	provinces={
+		417 418 419 420 421 422 423 424 425 
+	}
+	local_supplies=0.0 
+}

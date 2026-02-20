@@ -1,0 +1,41 @@
+
+state={
+	id=1219
+	name="STATE_1219"
+	manpower = 568728
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10437 1}
+		
+		owner = REA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			10437 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = REA
+	}
+
+	provinces={
+		10437 
+	}
+	local_supplies=0.0 
+}

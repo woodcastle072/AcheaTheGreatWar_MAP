@@ -1,0 +1,880 @@
+characters = {
+	AGB_Serem_Sesilda={
+		name="Serem Sesilda"
+
+		
+		country_leader={
+			ideology=centrism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AGB_Musuf_Ates={
+		name="Musuf Ates"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGB_Musuf_Ates
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	AGB_Yilmaz_Geceket={
+		name="Yilmaz Geceket"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGB_Yilmaz_Geceket
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	AGB_Emir_Dogru={
+		name="Emir Dogru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGB_Emir_Dogru
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	AGB_Yalha_Doguk={
+		name="Yalha Doguk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGB_Yalha_Doguk
+				traits = {	headstrong 	}
+		}
+
+	}
+	AGB_Orhatugrulen_Ormanlikaye={
+		name="Orhatugrulen Ormanlikaye"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGB_Orhatugrulen_Ormanlikaye
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	AGB_Orhat_Doguk={
+		name="Orhat Doguk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGB_Orhat_Doguk
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	AGB_Ahmet_Sesilda={
+		name="Ahmet Sesilda"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGB_Ahmet_Sesilda
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	AGB_Serkan_Geceket={
+		name="Serkan Geceket"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGB_Serkan_Geceket
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	AGB_Onuratugruk_Sesilda={
+		name="Onuratugruk Sesilda"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGB_Onuratugruk_Sesilda
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	AGB_Kaan_Doguk={
+		name="Kaan Doguk"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGB_Kaan_Doguk
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	AGB_Mehmet_Ormanlikaye={
+		name="Mehmet Ormanlikaye"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AGB_Mehmet_Ormanlikaye
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	AGB_Iskendem_Ormanlikaye={
+		name="Iskendem Ormanlikaye"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AGB_Iskendem_Ormanlikaye
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	AGB_Musul_Kade={
+		name="Musul Kade"
+
+		advisor={
+			slot = air_chief
+			idea_token = AGB_Musul_Kade
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	AGB_Yustafe_Geceket={
+		name="Yustafe Geceket"
+
+		advisor={
+			slot = air_chief
+			idea_token = AGB_Yustafe_Geceket
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	AGB_Mehmet_Geceket={
+		name="Mehmet Geceket"
+
+		advisor={
+			slot = high_command
+			idea_token = AGB_Mehmet_Geceket
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	AGB_Sinan_Ates={
+		name="Sinan Ates"
+
+		advisor={
+			slot = high_command
+			idea_token = AGB_Sinan_Ates
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	AGB_Murat_Kade={
+		name="Murat Kade"
+
+		advisor={
+			slot = high_command
+			idea_token = AGB_Murat_Kade
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	AGB_Kadir_Kade={
+		name="Kadir Kade"
+
+		advisor={
+			slot = high_command
+			idea_token = AGB_Kadir_Kade
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	AGB_Onurat_Bahar={
+		name="Onurat Bahar"
+
+		advisor={
+			slot = high_command
+			idea_token = AGB_Onurat_Bahar
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	AGB_Bekir_Belda={
+		name="Bekir Belda"
+
+		advisor={
+			slot = high_command
+			idea_token = AGB_Bekir_Belda
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	AGB_Yusul_Uzar={
+		name="Yusul Uzar"
+
+		
+		country_leader={
+			ideology=fascism_ideology
+			traits = { archon_basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AGB_Musuf_Doguk={
+		name="Musuf Doguk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGB_Musuf_Doguk
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	AGB_Orha_Belda={
+		name="Orha Belda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGB_Orha_Belda
+				traits = {	polemarch 	}
+		}
+
+	}
+	AGB_Iskendem_Sesilda={
+		name="Iskendem Sesilda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGB_Iskendem_Sesilda
+				traits = {	warmonger 	}
+		}
+
+	}
+	AGB_Efer_Geceket={
+		name="Efer Geceket"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGB_Efer_Geceket
+				traits = {	warmonger 	}
+		}
+
+	}
+	AGB_Hakanesulend_Belda={
+		name="Hakanesulend Belda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGB_Hakanesulend_Belda
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	AGB_Kaan_Belda={
+		name="Kaan Belda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGB_Kaan_Belda
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	AGB_Halcinan_Uzar={
+		name="Halcinan Uzar"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGB_Halcinan_Uzar
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	AGB_Musul_Sesilda={
+		name="Musul Sesilda"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGB_Musul_Sesilda
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	AGB_Yilmalil_Kade={
+		name="Yilmalil Kade"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGB_Yilmalil_Kade
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	AGB_Adem_Uzar={
+		name="Adem Uzar"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGB_Adem_Uzar
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	AGB_Salcinan_Sesilda={
+		name="Salcinan Sesilda"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AGB_Salcinan_Sesilda
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	AGB_Halhatugrun_Kade={
+		name="Halhatugrun Kade"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AGB_Halhatugrun_Kade
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	AGB_Salcinan_Uzar={
+		name="Salcinan Uzar"
+
+		advisor={
+			slot = air_chief
+			idea_token = AGB_Salcinan_Uzar
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	AGB_Emir_Belda={
+		name="Emir Belda"
+
+		advisor={
+			slot = air_chief
+			idea_token = AGB_Emir_Belda
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	AGB_Arif_Uzar={
+		name="Arif Uzar"
+
+		advisor={
+			slot = high_command
+			idea_token = AGB_Arif_Uzar
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	AGB_Salil_Geceket={
+		name="Salil Geceket"
+
+		advisor={
+			slot = high_command
+			idea_token = AGB_Salil_Geceket
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	AGB_Taylanerem_Ormanlikaye={
+		name="Taylanerem Ormanlikaye"
+
+		advisor={
+			slot = high_command
+			idea_token = AGB_Taylanerem_Ormanlikaye
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	AGB_Ener_Dogru={
+		name="Ener Dogru"
+
+		advisor={
+			slot = high_command
+			idea_token = AGB_Ener_Dogru
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	AGB_Zaferem_Sesilda={
+		name="Zaferem Sesilda"
+
+		advisor={
+			slot = high_command
+			idea_token = AGB_Zaferem_Sesilda
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	AGB_Onura_Geceket={
+		name="Onura Geceket"
+
+		advisor={
+			slot = high_command
+			idea_token = AGB_Onura_Geceket
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	AGB_Iskerem_Bahar={
+		name="Iskerem Bahar"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { political_dancer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AGB_Yusuf_Ormanlikaye={
+		name="Yusuf Ormanlikaye"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGB_Yusuf_Ormanlikaye
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	AGB_Kaan_Ormanlikaye={
+		name="Kaan Ormanlikaye"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGB_Kaan_Ormanlikaye
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	AGB_Resul_Uzar={
+		name="Resul Uzar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGB_Resul_Uzar
+				traits = {	polemarch 	}
+		}
+
+	}
+	AGB_Eneremazan_Dogru={
+		name="Eneremazan Dogru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGB_Eneremazan_Dogru
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	AGB_Salim_Ormanlikaye={
+		name="Salim Ormanlikaye"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGB_Salim_Ormanlikaye
+				traits = {	infirm 	}
+		}
+
+	}
+	AGB_Talih_Sesilda={
+		name="Talih Sesilda"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGB_Talih_Sesilda
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	AGB_Mehmet_Belda={
+		name="Mehmet Belda"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGB_Mehmet_Belda
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	AGB_Taylanerem_Uzar={
+		name="Taylanerem Uzar"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGB_Taylanerem_Uzar
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	AGB_Iskent_Belda={
+		name="Iskent Belda"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGB_Iskent_Belda
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	AGB_Mehmet_Ates={
+		name="Mehmet Ates"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGB_Mehmet_Ates
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	AGB_Salil_Uzar={
+		name="Salil Uzar"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AGB_Salil_Uzar
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	AGB_Savas_Kade={
+		name="Savas Kade"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AGB_Savas_Kade
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	AGB_Tunc_Ates={
+		name="Tunc Ates"
+
+		advisor={
+			slot = air_chief
+			idea_token = AGB_Tunc_Ates
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	AGB_Cemazanesul_Uzar={
+		name="Cemazanesul Uzar"
+
+		advisor={
+			slot = air_chief
+			idea_token = AGB_Cemazanesul_Uzar
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	AGB_Onurat_Belda={
+		name="Onurat Belda"
+
+		advisor={
+			slot = high_command
+			idea_token = AGB_Onurat_Belda
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	AGB_Orha_Uzar={
+		name="Orha Uzar"
+
+		advisor={
+			slot = high_command
+			idea_token = AGB_Orha_Uzar
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	AGB_Iskerhan_Belda={
+		name="Iskerhan Belda"
+
+		advisor={
+			slot = high_command
+			idea_token = AGB_Iskerhan_Belda
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	AGB_Talih_Belda={
+		name="Talih Belda"
+
+		advisor={
+			slot = high_command
+			idea_token = AGB_Talih_Belda
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	AGB_Salcinan_Geceket={
+		name="Salcinan Geceket"
+
+		advisor={
+			slot = high_command
+			idea_token = AGB_Salcinan_Geceket
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	AGB_Yustafe_Ates={
+		name="Yustafe Ates"
+
+		advisor={
+			slot = high_command
+			idea_token = AGB_Yustafe_Ates
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	AGB_Hakanesulend_Bahar={
+		name="Hakanesulend Bahar"
+
+		
+		country_leader={
+			ideology=conservatism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	AGB_Onura_Dogru={
+		name="Onura Dogru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGB_Onura_Dogru
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	AGB_Ilker_Doguk={
+		name="Ilker Doguk"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGB_Ilker_Doguk
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	AGB_Salim_Geceket={
+		name="Salim Geceket"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGB_Salim_Geceket
+				traits = {	rearmer 	}
+		}
+
+	}
+	AGB_Savas_Bahar={
+		name="Savas Bahar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGB_Savas_Bahar
+				traits = {	rearmer 	}
+		}
+
+	}
+	AGB_Yilmaz_Uzar={
+		name="Yilmaz Uzar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGB_Yilmaz_Uzar
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	AGB_Farunc_Kade={
+		name="Farunc Kade"
+
+		advisor={
+			slot = political_advisor
+			idea_token = AGB_Farunc_Kade
+				traits = {	rearmer 	}
+		}
+
+	}
+	AGB_Zaferem_Doguk={
+		name="Zaferem Doguk"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGB_Zaferem_Doguk
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	AGB_Ahmet_Uzar={
+		name="Ahmet Uzar"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGB_Ahmet_Uzar
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	AGB_Kadir_Ates={
+		name="Kadir Ates"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGB_Kadir_Ates
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	AGB_Ahmet_Geceket={
+		name="Ahmet Geceket"
+
+		advisor={
+			slot = army_chief
+			idea_token = AGB_Ahmet_Geceket
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	AGB_Bekir_Dogru={
+		name="Bekir Dogru"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AGB_Bekir_Dogru
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	AGB_Iskendem_Belda={
+		name="Iskendem Belda"
+
+		advisor={
+			slot = navy_chief
+			idea_token = AGB_Iskendem_Belda
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	AGB_Iskerhan_Uzar={
+		name="Iskerhan Uzar"
+
+		advisor={
+			slot = air_chief
+			idea_token = AGB_Iskerhan_Uzar
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	AGB_Farunc_Geceket={
+		name="Farunc Geceket"
+
+		advisor={
+			slot = air_chief
+			idea_token = AGB_Farunc_Geceket
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	AGB_Iskerhan_Doguk={
+		name="Iskerhan Doguk"
+
+		advisor={
+			slot = high_command
+			idea_token = AGB_Iskerhan_Doguk
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	AGB_Taylanerem_Geceket={
+		name="Taylanerem Geceket"
+
+		advisor={
+			slot = high_command
+			idea_token = AGB_Taylanerem_Geceket
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	AGB_Ertuhan_Ormanlikaye={
+		name="Ertuhan Ormanlikaye"
+
+		advisor={
+			slot = high_command
+			idea_token = AGB_Ertuhan_Ormanlikaye
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	AGB_Orha_Geceket={
+		name="Orha Geceket"
+
+		advisor={
+			slot = high_command
+			idea_token = AGB_Orha_Geceket
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	AGB_Cemazanesul_Belda={
+		name="Cemazanesul Belda"
+
+		advisor={
+			slot = high_command
+			idea_token = AGB_Cemazanesul_Belda
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	AGB_Cemaz_Uzar={
+		name="Cemaz Uzar"
+
+		advisor={
+			slot = high_command
+			idea_token = AGB_Cemaz_Uzar
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	AGB_Selih_Ates={
+		name="Selih Ates"
+
+		advisor={
+			slot = theorist
+			idea_token = AGB_Selih_Ates
+				traits = {	military_theorist 	}
+		}
+
+	}
+	AGB_Ilker_Sesilda={
+		name="Ilker Sesilda"
+
+		advisor={
+			slot = theorist
+			idea_token = AGB_Ilker_Sesilda
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	AGB_Tunc_Doguk={
+		name="Tunc Doguk"
+
+		advisor={
+			slot = theorist
+			idea_token = AGB_Tunc_Doguk
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

@@ -1,0 +1,107 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Hijar Fleet"			
+		naval_base = 11215
+		task_force = {
+			name = "Hijar Fleet"
+			location = 11215
+			
+						ship = { name = "Yang" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Yang 2" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = HIJ version_name = "Dong Class" } }	}
+			ship = { name = "Guan" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Dong Class" } }	}
+			ship = { name = "Ling" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Dong Class" } }	}
+			ship = { name = "Yang 3" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Dong Class" } }	}
+			ship = { name = "Yang 4" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Dong Class" } }	}
+			ship = { name = "Sheng" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Huan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Ling 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Huan 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Yang 5" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Huan 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Sheng 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Sheng 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Guan 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Ling 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Huan 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Yang 6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Sheng 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Sheng 5" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Yang 7" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Yang 8" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Sheng 6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Sheng 7" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Dong" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Guan 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Dong 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Yang 9" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Huan 5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Sheng 8" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Sheng 9" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Ling 4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Huan 6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Huan 7" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Ling 5" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Guan 4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Guan 5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Guan 6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Dong 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Huan 8" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Huan 9" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Dong 4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Yang 10" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Sheng 10" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Sheng 11" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Dong 5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Guan 7" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Ling 6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Guan 8" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Ling 7" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Yang 11" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Huan 10" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Huan 11" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Ling 8" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Sheng 12" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Dong 6" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Ling 9" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Dong 7" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Huan 12" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Yang 12" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Guan 9" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Ling 10" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Guan 10" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Ling 11" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Dong 8" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Sheng 13" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Sheng 14" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Guan 11" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Ling 12" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Guan 12" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Dong 9" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Sheng 15" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Huan 13" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Dong 10" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Guan 13" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Huan 14" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Guan 14" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Yang 13" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+			ship = { name = "Sheng 16" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Sheng 17" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HIJ version_name = "Ling Class" } }	}
+			ship = { name = "Huan 15" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HIJ version_name = "Huan Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

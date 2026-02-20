@@ -1,0 +1,40 @@
+
+state={
+	id=840
+	name="STATE_840"
+	manpower = 103785
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=11
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TUA
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			7927 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = TUA
+	}
+
+	provinces={
+		7919 7920 7921 7922 7923 7924 7925 7926 7927 7928 7929 
+	}
+	local_supplies=0.0 
+}

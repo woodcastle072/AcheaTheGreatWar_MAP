@@ -1,0 +1,162 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Hafilm Fleet"			
+		naval_base = 11214
+		task_force = {
+			name = "Hafilm Fleet"
+			location = 11214
+			
+						ship = { name = "Khamaadi" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = HAF version_name = "Haykh Class" } }	}
+			ship = { name = "Durub" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Khamaadi 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Mustabr" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Durub 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Durub 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Durub 4" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Khaja" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Khaja 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Mustabr 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Khaja 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Mustabr 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Haykh" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Haykh 2" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Khaja 4" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Durub 5" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Khaja 5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Khamaadi 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Haykh 3" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Khamaadi 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Mustabr 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Haykh 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Khamaadi 5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Khaja 6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Durub 6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Durub 7" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Mustabr 5" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Khaja 7" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Durub 8" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Khaja 8" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Haykh 5" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Durub 9" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Durub 10" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Mustabr 6" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Mustabr 7" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Haykh 6" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Durub 11" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Mustabr 8" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Durub 12" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Khamaadi 6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Khaja 9" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Mustabr 9" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Khamaadi 7" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Mustabr 10" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Khamaadi 8" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Khamaadi 9" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Mustabr 11" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Khamaadi 10" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Khamaadi 11" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Mustabr 12" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Haykh 7" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Mustabr 13" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Durub 13" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Haykh 8" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Khamaadi 12" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Haykh 9" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Khaja 10" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Haykh 10" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Haykh 11" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Khaja 11" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Mustabr 14" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Durub 14" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Haykh 12" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Durub 15" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Khamaadi 13" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Khamaadi 14" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Durub 16" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Mustabr 15" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Mustabr 16" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Durub 17" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Mustabr 17" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Haykh 13" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Haykh 14" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Mustabr 18" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Khamaadi 15" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Khaja 12" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Durub 18" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Khaja 13" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Khamaadi 16" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Durub 19" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Khamaadi 17" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Haykh 15" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Khamaadi 18" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Haykh 16" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Khaja 14" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Durub 20" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Mustabr 19" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Khamaadi 19" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Durub 21" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Khaja 15" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Mustabr 20" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Durub 22" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Haykh 17" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Khamaadi 20" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Haykh 18" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Khamaadi 21" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Durub 23" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Khaja 16" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Haykh 19" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Mustabr 21" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Haykh 20" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Khamaadi 22" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Durub 24" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Durub 25" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Mustabr 22" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Durub 26" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Mustabr 23" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Durub 27" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Durub 28" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Haykh 21" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Durub 29" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Mustabr 24" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Mustabr 25" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Khamaadi 23" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Mustabr 26" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Mustabr 27" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Durub 30" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Khaja 17" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Haykh 22" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Durub 31" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Khaja 18" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Khaja 19" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Khamaadi 24" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Mustabr 28" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Durub 32" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Khamaadi 25" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Khamaadi 26" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Haykh 23" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Khamaadi 27" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Haykh 24" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Khaja 20" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Mustabr 29" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Mustabr 30" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Mustabr 31" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = HAF version_name = "Khaja Class" } }	}
+			ship = { name = "Durub 33" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+			ship = { name = "Khamaadi 28" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HAF version_name = "Durub Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

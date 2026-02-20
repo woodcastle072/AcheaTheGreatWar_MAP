@@ -1,0 +1,42 @@
+
+state={
+	id=371
+	name="STATE_371"
+	manpower = 2431997
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3055 1}
+		victory_points = { 3058 3}
+		
+		owner = DOH
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			3058 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = DOH
+	}
+
+	provinces={
+		3051 3052 3053 3054 3055 3056 3057 3058 3059 
+	}
+	local_supplies=0.0 
+}

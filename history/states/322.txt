@@ -1,0 +1,42 @@
+
+state={
+	id=322
+	name="STATE_322"
+	manpower = 3398793
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=-2147483648
+		steel=5
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2611 6}
+		victory_points = { 2615 4}
+		
+		owner = DOH
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			2610 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = DOH
+	}
+
+	provinces={
+		2607 2608 2609 2610 2611 2612 2613 2614 2615 
+	}
+	local_supplies=0.0 
+}

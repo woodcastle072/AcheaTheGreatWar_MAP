@@ -1,0 +1,880 @@
+characters = {
+	DAN_Parham_Sarha={
+		name="Parham Sarha"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DAN_Hossan_Namzaas={
+		name="Hossan Namzaas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Hossan_Namzaas
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	DAN_Shahim_Nest={
+		name="Shahim Nest"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Shahim_Nest
+				traits = {	humble 	}
+		}
+
+	}
+	DAN_Parhamal_Sarha={
+		name="Parhamal Sarha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Parhamal_Sarha
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	DAN_Shahrahima_Nest={
+		name="Shahrahima Nest"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Shahrahima_Nest
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	DAN_Babak_Bahtan={
+		name="Babak Bahtan"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Babak_Bahtan
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	DAN_Farhamid_Nest={
+		name="Farhamid Nest"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Farhamid_Nest
+				traits = {	humble 	}
+		}
+
+	}
+	DAN_Hassan_Sorgar={
+		name="Hassan Sorgar"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Hassan_Sorgar
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	DAN_Parhad_Hunarfaq={
+		name="Parhad Hunarfaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Parhad_Hunarfaq
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	DAN_Reza_Sarha={
+		name="Reza Sarha"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Reza_Sarha
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	DAN_Ahmad_Bahtan={
+		name="Ahmad Bahtan"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Ahmad_Bahtan
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	DAN_Shahrahima_Bahtan={
+		name="Shahrahima Bahtan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAN_Shahrahima_Bahtan
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	DAN_Ebrahrahima_Namzaas={
+		name="Ebrahrahima Namzaas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAN_Ebrahrahima_Namzaas
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	DAN_Shahrahima_Sarha={
+		name="Shahrahima Sarha"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAN_Shahrahima_Sarha
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	DAN_Shahrahima_Dand={
+		name="Shahrahima Dand"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAN_Shahrahima_Dand
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	DAN_Behdi_Sorgar={
+		name="Behdi Sorgar"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Behdi_Sorgar
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	DAN_Farhahram_Rahvehrand={
+		name="Farhahram Rahvehrand"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Farhahram_Rahvehrand
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	DAN_Raman_Dand={
+		name="Raman Dand"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Raman_Dand
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	DAN_Mehdi_Rahvehrand={
+		name="Mehdi Rahvehrand"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Mehdi_Rahvehrand
+				traits = {	navy_anti_submarine_2 	}
+		}
+
+	}
+	DAN_Farham_Hunarfaq={
+		name="Farham Hunarfaq"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Farham_Hunarfaq
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	DAN_Hassan_Dand={
+		name="Hassan Dand"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Hassan_Dand
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	DAN_Parhahrahim_Dand={
+		name="Parhahrahim Dand"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { autocratic_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DAN_Mostafa_Atas={
+		name="Mostafa Atas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Mostafa_Atas
+				traits = {	basileus 	}
+		}
+
+	}
+	DAN_Ebrahrahima_Rahvehrand={
+		name="Ebrahrahima Rahvehrand"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Ebrahrahima_Rahvehrand
+				traits = {	autokrator 	}
+		}
+
+	}
+	DAN_Parhahim_Hunarfaq={
+		name="Parhahim Hunarfaq"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Parhahim_Hunarfaq
+				traits = {	basileus 	}
+		}
+
+	}
+	DAN_Shad_Nest={
+		name="Shad Nest"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Shad_Nest
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	DAN_Omin_Dand={
+		name="Omin Dand"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Omin_Dand
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	DAN_Navid_Atas={
+		name="Navid Atas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Navid_Atas
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	DAN_Parhaman_Dand={
+		name="Parhaman Dand"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Parhaman_Dand
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	DAN_Shahrahrahra_Ranin={
+		name="Shahrahrahra Ranin"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Shahrahrahra_Ranin
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	DAN_Mehza_Sorgar={
+		name="Mehza Sorgar"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Mehza_Sorgar
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	DAN_Hassein_Dand={
+		name="Hassein Dand"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Hassein_Dand
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	DAN_Omid_Ranin={
+		name="Omid Ranin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAN_Omid_Ranin
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	DAN_Hossan_Bahtan={
+		name="Hossan Bahtan"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAN_Hossan_Bahtan
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	DAN_Ebrahim_Hunarfaq={
+		name="Ebrahim Hunarfaq"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAN_Ebrahim_Hunarfaq
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	DAN_Parhahrahim_Ranin={
+		name="Parhahrahim Ranin"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAN_Parhahrahim_Ranin
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	DAN_Shahrahrahra_Hunarfaq={
+		name="Shahrahrahra Hunarfaq"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Shahrahrahra_Hunarfaq
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	DAN_Behza_Atas={
+		name="Behza Atas"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Behza_Atas
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	DAN_Armal_Namzaas={
+		name="Armal Namzaas"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Armal_Namzaas
+				traits = {	air_naval_strike_1 	}
+		}
+
+	}
+	DAN_Navid_Bahtan={
+		name="Navid Bahtan"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Navid_Bahtan
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	DAN_Peyma_Atas={
+		name="Peyma Atas"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Peyma_Atas
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	DAN_Amid_Sarha={
+		name="Amid Sarha"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Amid_Sarha
+				traits = {	army_infantry_1 	}
+		}
+
+	}
+	DAN_Rezad_Bahtan={
+		name="Rezad Bahtan"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { infirm  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DAN_Shahrahrahra_Rahvehrand={
+		name="Shahrahrahra Rahvehrand"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Shahrahrahra_Rahvehrand
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	DAN_Saeed_Nest={
+		name="Saeed Nest"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Saeed_Nest
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	DAN_Mostafa_Namzaas={
+		name="Mostafa Namzaas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Mostafa_Namzaas
+				traits = {	political_dancer 	}
+		}
+
+	}
+	DAN_Peyma_Namzaas={
+		name="Peyma Namzaas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Peyma_Namzaas
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	DAN_Ahmal_Rahvehrand={
+		name="Ahmal Rahvehrand"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Ahmal_Rahvehrand
+				traits = {	polemarch 	}
+		}
+
+	}
+	DAN_Parhaman_Ranin={
+		name="Parhaman Ranin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Parhaman_Ranin
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	DAN_Omid_Rahvehrand={
+		name="Omid Rahvehrand"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Omid_Rahvehrand
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	DAN_Farhamid_Hunarfaq={
+		name="Farhamid Hunarfaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Farhamid_Hunarfaq
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	DAN_Parhahrahim_Hunarfaq={
+		name="Parhahrahim Hunarfaq"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Parhahrahim_Hunarfaq
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	DAN_Mossein_Sarha={
+		name="Mossein Sarha"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Mossein_Sarha
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	DAN_Kaveh_Nest={
+		name="Kaveh Nest"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAN_Kaveh_Nest
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	DAN_Ahmad_Hunarfaq={
+		name="Ahmad Hunarfaq"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAN_Ahmad_Hunarfaq
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	DAN_Shahim_Hunarfaq={
+		name="Shahim Hunarfaq"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAN_Shahim_Hunarfaq
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	DAN_Milad_Dand={
+		name="Milad Dand"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAN_Milad_Dand
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	DAN_Ahmal_Hunarfaq={
+		name="Ahmal Hunarfaq"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Ahmal_Hunarfaq
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	DAN_Mostafa_Sorgar={
+		name="Mostafa Sorgar"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Mostafa_Sorgar
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	DAN_Farhad_Hunarfaq={
+		name="Farhad Hunarfaq"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Farhad_Hunarfaq
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	DAN_Shahrahrahra_Dand={
+		name="Shahrahrahra Dand"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Shahrahrahra_Dand
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	DAN_Shahrahrahra_Sorgar={
+		name="Shahrahrahra Sorgar"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Shahrahrahra_Sorgar
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	DAN_Amir_Dand={
+		name="Amir Dand"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Amir_Dand
+				traits = {	army_artillery_2 	}
+		}
+
+	}
+	DAN_Behza_Sarha={
+		name="Behza Sarha"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { conservative_grandee  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	DAN_Amir_Nest={
+		name="Amir Nest"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Amir_Nest
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	DAN_Hossan_Atas={
+		name="Hossan Atas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Hossan_Atas
+				traits = {	infirm 	}
+		}
+
+	}
+	DAN_Ebrahim_Nest={
+		name="Ebrahim Nest"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Ebrahim_Nest
+				traits = {	rearmer 	}
+		}
+
+	}
+	DAN_Hassan_Namzaas={
+		name="Hassan Namzaas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Hassan_Namzaas
+				traits = {	the_banker 	}
+		}
+
+	}
+	DAN_Behdi_Sarha={
+		name="Behdi Sarha"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Behdi_Sarha
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	DAN_Mehdi_Namzaas={
+		name="Mehdi Namzaas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = DAN_Mehdi_Namzaas
+				traits = {	infirm 	}
+		}
+
+	}
+	DAN_Shad_Dand={
+		name="Shad Dand"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Shad_Dand
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	DAN_Hostafa_Atas={
+		name="Hostafa Atas"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Hostafa_Atas
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	DAN_Parhad_Sarha={
+		name="Parhad Sarha"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Parhad_Sarha
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	DAN_Parhad_Ranin={
+		name="Parhad Ranin"
+
+		advisor={
+			slot = army_chief
+			idea_token = DAN_Parhad_Ranin
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	DAN_Arman_Ranin={
+		name="Arman Ranin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAN_Arman_Ranin
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	DAN_Ebrahim_Dand={
+		name="Ebrahim Dand"
+
+		advisor={
+			slot = navy_chief
+			idea_token = DAN_Ebrahim_Dand
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	DAN_Mossan_Atas={
+		name="Mossan Atas"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAN_Mossan_Atas
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	DAN_Shad_Hunarfaq={
+		name="Shad Hunarfaq"
+
+		advisor={
+			slot = air_chief
+			idea_token = DAN_Shad_Hunarfaq
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	DAN_Behdi_Namzaas={
+		name="Behdi Namzaas"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Behdi_Namzaas
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	DAN_Shad_Bahtan={
+		name="Shad Bahtan"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Shad_Bahtan
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	DAN_Farham_Dand={
+		name="Farham Dand"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Farham_Dand
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	DAN_Armal_Atas={
+		name="Armal Atas"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Armal_Atas
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	DAN_Navehdi_Ranin={
+		name="Navehdi Ranin"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Navehdi_Ranin
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	DAN_Kavehdi_Rahvehrand={
+		name="Kavehdi Rahvehrand"
+
+		advisor={
+			slot = high_command
+			idea_token = DAN_Kavehdi_Rahvehrand
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	DAN_Hossan_Sarha={
+		name="Hossan Sarha"
+
+		advisor={
+			slot = theorist
+			idea_token = DAN_Hossan_Sarha
+				traits = {	military_theorist 	}
+		}
+
+	}
+	DAN_Ebramir_Hunarfaq={
+		name="Ebramir Hunarfaq"
+
+		advisor={
+			slot = theorist
+			idea_token = DAN_Ebramir_Hunarfaq
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	DAN_Omid_Atas={
+		name="Omid Atas"
+
+		advisor={
+			slot = theorist
+			idea_token = DAN_Omid_Atas
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

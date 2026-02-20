@@ -1,0 +1,43 @@
+
+state={
+	id=453
+	name="STATE_453"
+	manpower = 4614245
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3712 8}
+		victory_points = { 3719 2}
+		victory_points = { 3724 3}
+		
+		owner = DOH
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 2
+			
+			3712 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = DOH
+	}
+
+	provinces={
+		3712 3713 3714 3715 3716 3717 3718 3719 3720 3721 3722 3723 3724 
+	}
+	local_supplies=0.0 
+}

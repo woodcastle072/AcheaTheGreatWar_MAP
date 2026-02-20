@@ -1,0 +1,126 @@
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 0 y = 2 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+			infantry = {  x = 0 y = 0 }
+			infantry = {  x = 0 y = 1 }
+			infantry = {  x = 1 y = 0 }
+			infantry = {  x = 1 y = 1 }
+			infantry = {  x = 2 y = 0 }
+
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Cavalry Division"
+
+	regiments = {
+			cavalry = {  x = 0 y = 0 }
+			cavalry = {  x = 0 y = 1 }
+			cavalry = {  x = 0 y = 2 }
+			cavalry = {  x = 0 y = 3 }
+			cavalry = {  x = 1 y = 0 }
+			cavalry = {  x = 1 y = 1 }
+			cavalry = {  x = 1 y = 2 }
+			cavalry = {  x = 1 y = 3 }
+
+	}
+	
+	support = {
+
+	}
+}
+
+
+units = {
+	division= {
+		name = "0st 'Hitzioa' Militia Division"
+		location = 11208
+		division_template = "Militia Division"
+		start_experience_factor = 0.920457
+		start_equipment_factor = 0.998787
+	}
+	division= {
+		name = "1nd 'Fonn' Militia Division"
+		location = 10792
+		division_template = "Militia Division"
+		start_experience_factor = 0.581831
+		start_equipment_factor = 0.924451
+	}
+	division= {
+		name = "2rd 'Sillintre' Militia Division"
+		location = 10300
+		division_template = "Militia Division"
+		start_experience_factor = 0.767920
+		start_equipment_factor = 0.926472
+	}
+	division= {
+		name = "3th 'Verna' Militia Division"
+		location = 10255
+		division_template = "Militia Division"
+		start_experience_factor = 0.276199
+		start_equipment_factor = 0.985393
+	}
+	division= {
+		name = "0st 'Come' Infantry Division"
+		location = 10842
+		division_template = "Infantry Division"
+		start_experience_factor = 0.590699
+		start_equipment_factor = 0.927088
+	}
+	division= {
+		name = "1nd 'Labiria' Infantry Division"
+		location = 11008
+		division_template = "Infantry Division"
+		start_experience_factor = 0.277686
+		start_equipment_factor = 0.849098
+	}
+	division= {
+		name = "2rd 'Lano' Infantry Division"
+		location = 11148
+		division_template = "Infantry Division"
+		start_experience_factor = 0.004470
+		start_equipment_factor = 0.894644
+	}
+	division= {
+		name = "3th 'Colliera' Infantry Division"
+		location = 10299
+		division_template = "Infantry Division"
+		start_experience_factor = 0.973514
+		start_equipment_factor = 0.885533
+	}
+	division= {
+		name = "0st 'Sanguelo' Cavalry Division"
+		location = 10942
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.188198
+		start_equipment_factor = 0.838390
+	}
+	division= {
+		name = "1nd 'Incubo' Cavalry Division"
+		location = 10725
+		division_template = "Cavalry Division"
+		start_experience_factor = 0.611298
+		start_equipment_factor = 0.955989
+	}
+
+}

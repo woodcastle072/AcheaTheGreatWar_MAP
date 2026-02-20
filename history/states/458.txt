@@ -1,0 +1,43 @@
+
+state={
+	id=458
+	name="STATE_458"
+	manpower = 3162456
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3829 2}
+		victory_points = { 3831 3}
+		victory_points = { 3834 2}
+		
+		owner = HAF
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			3832 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HAF
+	}
+
+	provinces={
+		3824 3825 3826 3827 3828 3829 3830 3831 3832 3833 3834 
+	}
+	local_supplies=0.0 
+}

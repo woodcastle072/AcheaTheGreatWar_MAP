@@ -1,0 +1,41 @@
+
+state={
+	id=185
+	name="STATE_185"
+	manpower = 469767
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1561 1}
+		
+		owner = YAN
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			1561 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = YAN
+	}
+
+	provinces={
+		1561 
+	}
+	local_supplies=0.0 
+}

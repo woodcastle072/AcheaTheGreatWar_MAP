@@ -1,0 +1,37 @@
+
+state={
+	id=398
+	name="STATE_398"
+	manpower = 1476497
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=10
+		coal=0
+	}
+
+	history={
+		
+		owner = KOE
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = KOE
+	}
+
+	provinces={
+		3241 3242 3243 3244 3245 3246 3247 3248 3249 3250 3251 3252 
+	}
+	local_supplies=0.0 
+}

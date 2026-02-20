@@ -1,0 +1,43 @@
+
+state={
+	id=419
+	name="STATE_419"
+	manpower = 1895388
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=-2147483648
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3471 3}
+		victory_points = { 3472 1}
+		victory_points = { 3473 1}
+		
+		owner = DAN
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			3473 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = DAN
+	}
+
+	provinces={
+		3471 3472 3473 3474 
+	}
+	local_supplies=0.0 
+}

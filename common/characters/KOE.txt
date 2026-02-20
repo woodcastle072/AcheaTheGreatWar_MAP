@@ -1,0 +1,880 @@
+characters = {
+	KOE_Stenritz_Treus={
+		name="Stenritz Treus"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { socialite_connections  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KOE_Heinrich_Kuesandt={
+		name="Heinrich Kuesandt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOE_Heinrich_Kuesandt
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	KOE_Eritz_Prind={
+		name="Eritz Prind"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOE_Eritz_Prind
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	KOE_Fran_Wacht={
+		name="Fran Wacht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOE_Fran_Wacht
+				traits = {	humble 	}
+		}
+
+	}
+	KOE_Hend_Spruf={
+		name="Hend Spruf"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOE_Hend_Spruf
+				traits = {	humble 	}
+		}
+
+	}
+	KOE_Rolf_Brucht={
+		name="Rolf Brucht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOE_Rolf_Brucht
+				traits = {	headstrong 	}
+		}
+
+	}
+	KOE_Svend_Prind={
+		name="Svend Prind"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOE_Svend_Prind
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	KOE_Jend_Prind={
+		name="Jend Prind"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOE_Jend_Prind
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	KOE_Emillem_Geit={
+		name="Emillem Geit"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOE_Emillem_Geit
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	KOE_Stenritz_Geit={
+		name="Stenritz Geit"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOE_Stenritz_Geit
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	KOE_Bers_Prind={
+		name="Bers Prind"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOE_Bers_Prind
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	KOE_Sigurd_Treus={
+		name="Sigurd Treus"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KOE_Sigurd_Treus
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	KOE_Johars_Lied={
+		name="Johars Lied"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KOE_Johars_Lied
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	KOE_Thiaspard_Lied={
+		name="Thiaspard Lied"
+
+		advisor={
+			slot = air_chief
+			idea_token = KOE_Thiaspard_Lied
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	KOE_Harald_Prind={
+		name="Harald Prind"
+
+		advisor={
+			slot = air_chief
+			idea_token = KOE_Harald_Prind
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	KOE_Hakon_Prind={
+		name="Hakon Prind"
+
+		advisor={
+			slot = high_command
+			idea_token = KOE_Hakon_Prind
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	KOE_Svenritz_Wacht={
+		name="Svenritz Wacht"
+
+		advisor={
+			slot = high_command
+			idea_token = KOE_Svenritz_Wacht
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	KOE_Leinholfred_Lied={
+		name="Leinholfred Lied"
+
+		advisor={
+			slot = high_command
+			idea_token = KOE_Leinholfred_Lied
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	KOE_Emilhelmut_Wacht={
+		name="Emilhelmut Wacht"
+
+		advisor={
+			slot = high_command
+			idea_token = KOE_Emilhelmut_Wacht
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	KOE_Leinholfred_Koen={
+		name="Leinholfred Koen"
+
+		advisor={
+			slot = high_command
+			idea_token = KOE_Leinholfred_Koen
+				traits = {	air_bomber_interception_2 	}
+		}
+
+	}
+	KOE_Oskard_Geit={
+		name="Oskard Geit"
+
+		advisor={
+			slot = high_command
+			idea_token = KOE_Oskard_Geit
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	KOE_Sorg_Wacht={
+		name="Sorg Wacht"
+
+		
+		country_leader={
+			ideology=nazism
+			traits = { archon_basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KOE_Rudolfren_Grab={
+		name="Rudolfren Grab"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOE_Rudolfren_Grab
+				traits = {	warmonger 	}
+		}
+
+	}
+	KOE_Nielm_Prind={
+		name="Nielm Prind"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOE_Nielm_Prind
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	KOE_Eritz_Koen={
+		name="Eritz Koen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOE_Eritz_Koen
+				traits = {	polemarch 	}
+		}
+
+	}
+	KOE_Georenrich_Geit={
+		name="Georenrich Geit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOE_Georenrich_Geit
+				traits = {	warmonger 	}
+		}
+
+	}
+	KOE_Otthijs_Prind={
+		name="Otthijs Prind"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOE_Otthijs_Prind
+				traits = {	warmonger 	}
+		}
+
+	}
+	KOE_Rudold_Geit={
+		name="Rudold Geit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOE_Rudold_Geit
+				traits = {	generallissimo 	}
+		}
+
+	}
+	KOE_Rich_Lied={
+		name="Rich Lied"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOE_Rich_Lied
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	KOE_Alfren_Geit={
+		name="Alfren Geit"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOE_Alfren_Geit
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	KOE_Johars_Koen={
+		name="Johars Koen"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOE_Johars_Koen
+				traits = {	army_chief_organizational_1 	}
+		}
+
+	}
+	KOE_Oskar_Wacht={
+		name="Oskar Wacht"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOE_Oskar_Wacht
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	KOE_Matthijs_Kuesandt={
+		name="Matthijs Kuesandt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KOE_Matthijs_Kuesandt
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	KOE_Jenderen_Grab={
+		name="Jenderen Grab"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KOE_Jenderen_Grab
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	KOE_Bjorn_Grab={
+		name="Bjorn Grab"
+
+		advisor={
+			slot = air_chief
+			idea_token = KOE_Bjorn_Grab
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	KOE_Rolf_Kuesandt={
+		name="Rolf Kuesandt"
+
+		advisor={
+			slot = air_chief
+			idea_token = KOE_Rolf_Kuesandt
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	KOE_Harl_Prind={
+		name="Harl Prind"
+
+		advisor={
+			slot = high_command
+			idea_token = KOE_Harl_Prind
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	KOE_Sorn_Treus={
+		name="Sorn Treus"
+
+		advisor={
+			slot = high_command
+			idea_token = KOE_Sorn_Treus
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	KOE_Sorne_Wacht={
+		name="Sorne Wacht"
+
+		advisor={
+			slot = high_command
+			idea_token = KOE_Sorne_Wacht
+				traits = {	navy_screen_1 	}
+		}
+
+	}
+	KOE_Rudold_Wacht={
+		name="Rudold Wacht"
+
+		advisor={
+			slot = high_command
+			idea_token = KOE_Rudold_Wacht
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	KOE_Sorne_Geit={
+		name="Sorne Geit"
+
+		advisor={
+			slot = high_command
+			idea_token = KOE_Sorne_Geit
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	KOE_Jenrik_Wacht={
+		name="Jenrik Wacht"
+
+		advisor={
+			slot = high_command
+			idea_token = KOE_Jenrik_Wacht
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	KOE_Ulrik_Treus={
+		name="Ulrik Treus"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KOE_Nielm_Treus={
+		name="Nielm Treus"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOE_Nielm_Treus
+				traits = {	political_dancer 	}
+		}
+
+	}
+	KOE_Reinholf_Brucht={
+		name="Reinholf Brucht"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOE_Reinholf_Brucht
+				traits = {	infirm 	}
+		}
+
+	}
+	KOE_Ulrik_Kuesandt={
+		name="Ulrik Kuesandt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOE_Ulrik_Kuesandt
+				traits = {	infirm 	}
+		}
+
+	}
+	KOE_Arne_Lied={
+		name="Arne Lied"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOE_Arne_Lied
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	KOE_Eritz_Spruf={
+		name="Eritz Spruf"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOE_Eritz_Spruf
+				traits = {	political_dancer 	}
+		}
+
+	}
+	KOE_Niels_Prind={
+		name="Niels Prind"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOE_Niels_Prind
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	KOE_Erichan_Prind={
+		name="Erichan Prind"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOE_Erichan_Prind
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	KOE_Eritz_Treus={
+		name="Eritz Treus"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOE_Eritz_Treus
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	KOE_Harl_Brucht={
+		name="Harl Brucht"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOE_Harl_Brucht
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	KOE_Erichan_Grab={
+		name="Erichan Grab"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOE_Erichan_Grab
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	KOE_Ulrik_Wacht={
+		name="Ulrik Wacht"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KOE_Ulrik_Wacht
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	KOE_Oskar_Grab={
+		name="Oskar Grab"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KOE_Oskar_Grab
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	KOE_Frans_Brucht={
+		name="Frans Brucht"
+
+		advisor={
+			slot = air_chief
+			idea_token = KOE_Frans_Brucht
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	KOE_Erichar_Koen={
+		name="Erichar Koen"
+
+		advisor={
+			slot = air_chief
+			idea_token = KOE_Erichar_Koen
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	KOE_Andermanz_Geit={
+		name="Andermanz Geit"
+
+		advisor={
+			slot = high_command
+			idea_token = KOE_Andermanz_Geit
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	KOE_Hakon_Kuesandt={
+		name="Hakon Kuesandt"
+
+		advisor={
+			slot = high_command
+			idea_token = KOE_Hakon_Kuesandt
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	KOE_Dirk_Lied={
+		name="Dirk Lied"
+
+		advisor={
+			slot = high_command
+			idea_token = KOE_Dirk_Lied
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	KOE_Hered_Koen={
+		name="Hered Koen"
+
+		advisor={
+			slot = high_command
+			idea_token = KOE_Hered_Koen
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	KOE_Svenritz_Koen={
+		name="Svenritz Koen"
+
+		advisor={
+			slot = high_command
+			idea_token = KOE_Svenritz_Koen
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	KOE_Jend_Treus={
+		name="Jend Treus"
+
+		advisor={
+			slot = high_command
+			idea_token = KOE_Jend_Treus
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	KOE_Nielm_Grab={
+		name="Nielm Grab"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	KOE_Rolf_Spruf={
+		name="Rolf Spruf"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOE_Rolf_Spruf
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	KOE_Matthijs_Koen={
+		name="Matthijs Koen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOE_Matthijs_Koen
+				traits = {	infirm 	}
+		}
+
+	}
+	KOE_Stenritz_Spruf={
+		name="Stenritz Spruf"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOE_Stenritz_Spruf
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	KOE_Ulrik_Geit={
+		name="Ulrik Geit"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOE_Ulrik_Geit
+				traits = {	infirm 	}
+		}
+
+	}
+	KOE_Georg_Kuesandt={
+		name="Georg Kuesandt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOE_Georg_Kuesandt
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	KOE_Geored_Koen={
+		name="Geored Koen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = KOE_Geored_Koen
+				traits = {	the_banker 	}
+		}
+
+	}
+	KOE_Rudolfred_Treus={
+		name="Rudolfred Treus"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOE_Rudolfred_Treus
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	KOE_Magnus_Kuesandt={
+		name="Magnus Kuesandt"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOE_Magnus_Kuesandt
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	KOE_Sorg_Lied={
+		name="Sorg Lied"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOE_Sorg_Lied
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	KOE_Reinholf_Lied={
+		name="Reinholf Lied"
+
+		advisor={
+			slot = army_chief
+			idea_token = KOE_Reinholf_Lied
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	KOE_Sigurd_Brucht={
+		name="Sigurd Brucht"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KOE_Sigurd_Brucht
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	KOE_Dirk_Grab={
+		name="Dirk Grab"
+
+		advisor={
+			slot = navy_chief
+			idea_token = KOE_Dirk_Grab
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	KOE_Emil_Prind={
+		name="Emil Prind"
+
+		advisor={
+			slot = air_chief
+			idea_token = KOE_Emil_Prind
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	KOE_Oskarl_Wacht={
+		name="Oskarl Wacht"
+
+		advisor={
+			slot = air_chief
+			idea_token = KOE_Oskarl_Wacht
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	KOE_Rudold_Spruf={
+		name="Rudold Spruf"
+
+		advisor={
+			slot = high_command
+			idea_token = KOE_Rudold_Spruf
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	KOE_Frans_Kuesandt={
+		name="Frans Kuesandt"
+
+		advisor={
+			slot = high_command
+			idea_token = KOE_Frans_Kuesandt
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	KOE_Hels_Spruf={
+		name="Hels Spruf"
+
+		advisor={
+			slot = high_command
+			idea_token = KOE_Hels_Spruf
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	KOE_Volfrenrich_Brucht={
+		name="Volfrenrich Brucht"
+
+		advisor={
+			slot = high_command
+			idea_token = KOE_Volfrenrich_Brucht
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	KOE_Oskar_Geit={
+		name="Oskar Geit"
+
+		advisor={
+			slot = high_command
+			idea_token = KOE_Oskar_Geit
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	KOE_Reinholf_Prind={
+		name="Reinholf Prind"
+
+		advisor={
+			slot = high_command
+			idea_token = KOE_Reinholf_Prind
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	KOE_Jend_Grab={
+		name="Jend Grab"
+
+		advisor={
+			slot = theorist
+			idea_token = KOE_Jend_Grab
+				traits = {	military_theorist 	}
+		}
+
+	}
+	KOE_Heinrik_Grab={
+		name="Heinrik Grab"
+
+		advisor={
+			slot = theorist
+			idea_token = KOE_Heinrik_Grab
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	KOE_Sven_Kuesandt={
+		name="Sven Kuesandt"
+
+		advisor={
+			slot = theorist
+			idea_token = KOE_Sven_Kuesandt
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

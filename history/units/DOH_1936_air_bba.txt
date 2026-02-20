@@ -1,0 +1,40 @@
+air_wings = {
+		410 = { 								
+		small_plane_airframe_0 = { owner = "DOH" amount = 50 version_name = "Khayr Mk 0" }
+
+	}
+	1160 = { 								
+		large_plane_airframe_0 = { owner = "DOH" amount = 50 version_name = "Hijr Mk 2" }
+
+	}
+	1812 = { 								
+		small_plane_airframe_0 = { owner = "DOH" amount = 50 version_name = "Khayr Mk 0" }
+
+	}
+	522 = { 								
+		medium_plane_airframe_0 = { owner = "DOH" amount = 50 version_name = "Asat Mk 2" }
+
+	}
+	1238 = { 								
+		medium_plane_airframe_0 = { owner = "DOH" amount = 50 version_name = "Asat Mk 2" }
+
+	}
+	1250 = { 								
+		large_plane_airframe_0 = { owner = "DOH" amount = 50 version_name = "Hijr Mk 2" }
+
+	}
+	1361 = { 								
+		small_plane_cas_airframe_0 = { owner = "DOH" amount = 50 version_name = "Khayr Mk 1" }
+
+	}
+	1405 = { 								
+		small_plane_cas_airframe_0 = { owner = "DOH" amount = 50 version_name = "Khayr Mk 1" }
+
+	}
+	1464 = { 								
+		small_plane_cas_airframe_0 = { owner = "DOH" amount = 50 version_name = "Khayr Mk 1" }
+
+	}
+
+
+}
